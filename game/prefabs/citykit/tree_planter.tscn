@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_xy7eg"]
+
+[node name="tree_planter" type="Node3D" unique_id=2112732777]
+script = ExtResource("1_xy7eg")
+Kit = "citykit"
+Kind = "tree_planter"

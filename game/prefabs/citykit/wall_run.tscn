@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_jm5aa"]
+
+[node name="wall_run" type="Node3D" unique_id=2105238486]
+script = ExtResource("1_jm5aa")
+Kit = "citykit"
+Kind = "wall_run"

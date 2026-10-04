@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_l27a0"]
+
+[node name="stables" type="Node3D" unique_id=1449968593]
+script = ExtResource("1_l27a0")
+Kit = "citykit"
+Kind = "stables"

@@ -1,0 +1,109 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+
+config_version=5
+
+[application]
+
+config/name="worldbuilder"
+run/main_scene="res://scenes/world.tscn"
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/size/mode=2
+; Native resolution (user, 2026-09-30: "upscale the resolution to 1080 or 2k, my monitor is
+; 2K and laptop is 1080"): the window opens maximised and the 3D renders at the window's own
+; size (canvas_items); 1280x720 is only the UI's design size. It was mode "viewport": every
+; frame rendered at 720p and stretched, which doubled every pixel of noise on a 2K screen.
+; The camera still composes for a 720-tall frame (CameraRig.NominalHeightPx), so framing is
+; unchanged; a sprite texel is 1.5 px at 1080 and 2 px at 1440 instead of 1.
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="worldbuilder"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/terrain_3d/plugin.cfg")
+
+[physics]
+
+; Physics ticks at 60 Hz but the panel refreshes at 120-230; without
+; interpolation the player is drawn in the same place on half the frames.
+common/physics_interpolation=true
+
+[rendering]
+
+renderer/rendering_method="forward_plus"
+anti_aliasing/quality/msaa_3d=0
+; FSR 2 (World.Rescale sets the scale per window height): temporal AA and upscaling in one;
+; MSAA off because FSR 2 cannot run with it (2026-09-30)
+scaling_3d/mode=2
+scaling_3d/scale=0.67
+; cheaper depth of field and glow at native resolution: box bokeh, lowest quality (FSR 2's
+; temporal pass smooths it), linear glow upscale. DoF cost 2.3 ms, glow 2.2 at 1440p
+camera/depth_of_field/depth_of_field_bokeh_shape=0
+camera/depth_of_field/depth_of_field_bokeh_quality=0
+environment/glow/upscale_mode=0
+; No screen-space AA on top of a pixel-art sprite: FXAA smears the 1 px outline
+; that makes the character the highest-contrast object in the frame.
+anti_aliasing/quality/screen_space_aa=0
+; 8x. It was 0, and with nearest filtering the ground -- seen at a grazing 8 deg --
+; fell to a mip that smeared the far road into horizontal streaks (2026-09-23).
+textures/default_filters/anisotropic_filtering_level=3
+
+[shader_globals]
+
+; Declared here, not only at runtime (Weather.Globals), so the editor can compile the
+; game's saved materials (the prefabs and baked scenes, implementation_plan Phase 0).
+; The start values match what Weather.Globals sets.
+player_pos={
+"type": "vec3",
+"value": Vector3(0, 0, 0)
+}
+player_speed={
+"type": "float",
+"value": 0.0
+}
+shock={
+"type": "vec4",
+"value": Vector4(0, 0, 0, 99)
+}
+prints={
+"type": "sampler2D",
+"value": ""
+}
+prints_rect={
+"type": "vec4",
+"value": Vector4(0, 0, 48, 0.001953125)
+}
+snow_depth={
+"type": "float",
+"value": 0.55
+}
+wetness={
+"type": "float",
+"value": 0.0
+}
+city_wet={
+"type": "float",
+"value": 0.0
+}
+wind={
+"type": "float",
+"value": 1.0
+}
+lamp_gain={
+"type": "float",
+"value": 1.0
+}
+window_lit={
+"type": "float",
+"value": 1.0
+}

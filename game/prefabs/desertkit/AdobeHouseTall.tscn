@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_kscbs"]
+
+[node name="AdobeHouseTall" type="Node3D" unique_id=602407342]
+script = ExtResource("1_kscbs")
+Kit = "desertkit"
+Kind = "AdobeHouseTall"

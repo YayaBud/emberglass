@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_bifh6"]
+
+[node name="willow" type="Node3D" unique_id=132263081]
+script = ExtResource("1_bifh6")
+Kit = "foliage"
+Kind = "willow"

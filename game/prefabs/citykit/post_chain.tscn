@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_sbebl"]
+
+[node name="post_chain" type="Node3D" unique_id=700135606]
+script = ExtResource("1_sbebl")
+Kit = "citykit"
+Kind = "post_chain"

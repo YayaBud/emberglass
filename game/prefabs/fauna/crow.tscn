@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_klpmu"]
+
+[node name="crow" type="Node3D" unique_id=335672912]
+script = ExtResource("1_klpmu")
+Kit = "fauna"
+Kind = "crow"

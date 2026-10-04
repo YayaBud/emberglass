@@ -1,0 +1,500 @@
+{
+ "texels_per_m": 52.0,
+ "surfaces": {
+  "brick": {
+   "px": [
+    520,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.8462
+   ]
+  },
+  "cobble": {
+   "px": [
+    520,
+    520
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    10.0
+   ]
+  },
+  "fieldstone": {
+   "px": [
+    528,
+    528
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.1538,
+    10.1538
+   ]
+  },
+  "plaster": {
+   "px": [
+    512,
+    504
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.6923
+   ]
+  },
+  "planks": {
+   "px": [
+    504,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.6923,
+    9.8462
+   ]
+  },
+  "timber": {
+   "px": [
+    128,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    2.4615,
+    9.8462
+   ]
+  },
+  "shingle": {
+   "px": [
+    512,
+    504
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.6923
+   ]
+  },
+  "slate": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "fishscale": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "thatch": {
+   "px": [
+    512,
+    510
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8077
+   ]
+  },
+  "grass": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "dirt": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "moss": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "leaf_litter": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "bark": {
+   "px": [
+    256,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    4.9231,
+    9.8462
+   ]
+  },
+  "cobble_hd": {
+   "px": [
+    1040,
+    1040
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    10.0,
+    10.0
+   ]
+  },
+  "dirt_hd": {
+   "px": [
+    1024,
+    1024
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "grass_hd": {
+   "px": [
+    1024,
+    1024
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "sand_hd": {
+   "px": [
+    1024,
+    1024
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "cracked_hd": {
+   "px": [
+    1024,
+    1024
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "dune_rock_hd": {
+   "px": [
+    1024,
+    1024
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "sand": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "sandstone": {
+   "px": [
+    520,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.8462
+   ]
+  },
+  "adobe": {
+   "px": [
+    512,
+    504
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.6923
+   ]
+  },
+  "snow": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "snow_hd": {
+   "px": [
+    1024,
+    1024
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "snow_packed_hd": {
+   "px": [
+    1024,
+    1024
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "snowstone_hd": {
+   "px": [
+    1056,
+    1056
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    10.1538,
+    10.1538
+   ]
+  },
+  "ice_hd": {
+   "px": [
+    1024,
+    1024
+   ],
+   "texels_per_m": 104.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "ice": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "clay_tile": {
+   "px": [
+    504,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.6923,
+    9.8462
+   ]
+  },
+  "ashlar": {
+   "px": [
+    520,
+    504
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.6923
+   ]
+  },
+  "flagstone": {
+   "px": [
+    510,
+    520
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8077,
+    10.0
+   ]
+  },
+  "cloth_red": {
+   "px": [
+    520,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.8462
+   ]
+  },
+  "cloth_blue": {
+   "px": [
+    520,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.8462
+   ]
+  },
+  "cloth_cream": {
+   "px": [
+    520,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.8462
+   ]
+  },
+  "stained_glass": {
+   "px": [
+    260,
+    260
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    5.0,
+    5.0
+   ]
+  },
+  "crops": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "jungle_floor": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "paving_brick": {
+   "px": [
+    520,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.8462
+   ]
+  },
+  "setts": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "setts_lg": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "limestone": {
+   "px": [
+    520,
+    504
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.6923
+   ]
+  },
+  "slate_blue": {
+   "px": [
+    512,
+    512
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    9.8462,
+    9.8462
+   ]
+  },
+  "ashlar_big": {
+   "px": [
+    520,
+    504
+   ],
+   "texels_per_m": 52.0,
+   "metres": [
+    10.0,
+    9.6923
+   ]
+  }
+ }
+}

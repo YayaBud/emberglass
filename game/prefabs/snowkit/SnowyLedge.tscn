@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_ep5pp"]
+
+[node name="SnowyLedge" type="Node3D" unique_id=1233458639]
+script = ExtResource("1_ep5pp")
+Kit = "snowkit"
+Kind = "SnowyLedge"

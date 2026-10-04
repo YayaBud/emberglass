@@ -1,0 +1,41 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/World.cs" id="1_world"]
+[ext_resource type="PackedScene" path="res://world/layout.tscn" id="2_layout"]
+[ext_resource type="PackedScene" path="res://world/terrain.tscn" id="3_terrain"]
+[ext_resource type="PackedScene" path="res://world/village.tscn" id="4_village"]
+[ext_resource type="PackedScene" path="res://world/wildwood.tscn" id="5_wildwood"]
+[ext_resource type="PackedScene" path="res://world/watersite.tscn" id="6_watersite"]
+[ext_resource type="PackedScene" path="res://world/snowsite.tscn" id="7_snowsite"]
+[ext_resource type="PackedScene" path="res://world/desertsite.tscn" id="8_desertsite"]
+[ext_resource type="PackedScene" path="res://world/regions.tscn" id="9_regions"]
+[ext_resource type="PackedScene" path="res://world/city.tscn" id="10_city"]
+[ext_resource type="PackedScene" path="res://world/city_life.tscn" id="11_city_life"]
+[ext_resource type="PackedScene" path="res://world/village_life.tscn" id="12_village_life"]
+
+[node name="World" type="Node3D"]
+script = ExtResource("1_world")
+
+[node name="Layout" parent="." instance=ExtResource("2_layout")]
+
+[node name="Terrain" parent="." instance=ExtResource("3_terrain")]
+
+[node name="Sites" type="Node3D" parent="."]
+
+[node name="village" parent="Sites" instance=ExtResource("4_village")]
+
+[node name="wildwood" parent="Sites" instance=ExtResource("5_wildwood")]
+
+[node name="watersite" parent="Sites" instance=ExtResource("6_watersite")]
+
+[node name="snowsite" parent="Sites" instance=ExtResource("7_snowsite")]
+
+[node name="desertsite" parent="Sites" instance=ExtResource("8_desertsite")]
+
+[node name="regions" parent="Sites" instance=ExtResource("9_regions")]
+
+[node name="city" parent="Sites" instance=ExtResource("10_city")]
+
+[node name="city_life" parent="Sites" instance=ExtResource("11_city_life")]
+
+[node name="village_life" parent="Sites" instance=ExtResource("12_village_life")]

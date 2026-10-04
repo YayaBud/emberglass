@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_mqmpr"]
+
+[node name="stone_wall" type="Node3D" unique_id=127504782]
+script = ExtResource("1_mqmpr")
+Kit = "citykit"
+Kind = "stone_wall"

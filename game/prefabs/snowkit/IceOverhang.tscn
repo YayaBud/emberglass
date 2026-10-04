@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_rtt56"]
+
+[node name="IceOverhang" type="Node3D" unique_id=402099663]
+script = ExtResource("1_rtt56")
+Kit = "snowkit"
+Kind = "IceOverhang"

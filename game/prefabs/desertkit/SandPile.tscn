@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_h5lsw"]
+
+[node name="SandPile" type="Node3D" unique_id=994398726]
+script = ExtResource("1_h5lsw")
+Kit = "desertkit"
+Kind = "SandPile"

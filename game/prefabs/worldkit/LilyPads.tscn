@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_6o2kg"]
+
+[node name="LilyPads" type="Node3D" unique_id=2115197138]
+script = ExtResource("1_6o2kg")
+Kit = "worldkit"
+Kind = "LilyPads"

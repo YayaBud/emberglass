@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_ldqea"]
+
+[node name="vine_oak" type="Node3D" unique_id=952372627]
+script = ExtResource("1_ldqea")
+Kit = "foliage"
+Kind = "vine_oak"

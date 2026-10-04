@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_tha7k"]
+
+[node name="dock_platform" type="Node3D" unique_id=1314415789]
+script = ExtResource("1_tha7k")
+Kit = "citykit"
+Kind = "dock_platform"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_a72xq"]
+
+[node name="dog_black" type="Node3D" unique_id=480255759]
+script = ExtResource("1_a72xq")
+Kit = "fauna"
+Kind = "dog_black"

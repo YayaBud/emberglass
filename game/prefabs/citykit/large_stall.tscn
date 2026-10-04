@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_vp33s"]
+
+[node name="large_stall" type="Node3D" unique_id=1884096102]
+script = ExtResource("1_vp33s")
+Kit = "citykit"
+Kind = "large_stall"

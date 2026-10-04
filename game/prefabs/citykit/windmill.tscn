@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_fxrxr"]
+
+[node name="windmill" type="Node3D" unique_id=263593467]
+script = ExtResource("1_fxrxr")
+Kit = "citykit"
+Kind = "windmill"

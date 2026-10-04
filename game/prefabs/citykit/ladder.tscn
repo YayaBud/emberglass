@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_yivbe"]
+
+[node name="ladder" type="Node3D" unique_id=1822831138]
+script = ExtResource("1_yivbe")
+Kit = "citykit"
+Kind = "ladder"

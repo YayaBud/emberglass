@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_51luv"]
+
+[node name="market_stall_a" type="Node3D" unique_id=1073087528]
+script = ExtResource("1_51luv")
+Kit = "citykit"
+Kind = "market_stall_a"

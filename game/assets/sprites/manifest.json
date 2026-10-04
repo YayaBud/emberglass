@@ -1,0 +1,458 @@
+{
+ "canvas_px": 128,
+ "sprite_px": 96,
+ "bake_deg": 8.0,
+ "world_h": 1.85,
+ "facings": [
+  "s",
+  "sw",
+  "w",
+  "nw",
+  "n",
+  "ne",
+  "e",
+  "se"
+ ],
+ "palette": {
+  "steel": "#8c8179",
+  "cream": "#caaf91",
+  "green_mid": "#435c43",
+  "green_deep": "#223127",
+  "green_sleeve": "#324635",
+  "leather": "#553829",
+  "leather_dk": "#3a261c",
+  "crest": "#7c3930",
+  "gold": "#ac7948",
+  "steel_lit": "#afa197",
+  "skin": "#ce9f7a"
+ },
+ "strips": {
+  "idle_s": {
+   "file": "player_idle_s.png",
+   "frames": 5
+  },
+  "idle_sw": {
+   "file": "player_idle_sw.png",
+   "frames": 5
+  },
+  "idle_w": {
+   "file": "player_idle_w.png",
+   "frames": 5
+  },
+  "idle_nw": {
+   "file": "player_idle_nw.png",
+   "frames": 5
+  },
+  "idle_n": {
+   "file": "player_idle_n.png",
+   "frames": 5
+  },
+  "idle_ne": {
+   "file": "player_idle_ne.png",
+   "frames": 5
+  },
+  "idle_e": {
+   "file": "player_idle_e.png",
+   "frames": 5
+  },
+  "idle_se": {
+   "file": "player_idle_se.png",
+   "frames": 5
+  },
+  "walk_s": {
+   "file": "player_walk_s.png",
+   "frames": 9
+  },
+  "walk_sw": {
+   "file": "player_walk_sw.png",
+   "frames": 9
+  },
+  "walk_w": {
+   "file": "player_walk_w.png",
+   "frames": 9
+  },
+  "walk_nw": {
+   "file": "player_walk_nw.png",
+   "frames": 9
+  },
+  "walk_n": {
+   "file": "player_walk_n.png",
+   "frames": 9
+  },
+  "walk_ne": {
+   "file": "player_walk_ne.png",
+   "frames": 9
+  },
+  "walk_e": {
+   "file": "player_walk_e.png",
+   "frames": 9
+  },
+  "walk_se": {
+   "file": "player_walk_se.png",
+   "frames": 9
+  },
+  "run_s": {
+   "file": "player_run_s.png",
+   "frames": 9
+  },
+  "run_sw": {
+   "file": "player_run_sw.png",
+   "frames": 9
+  },
+  "run_w": {
+   "file": "player_run_w.png",
+   "frames": 9
+  },
+  "run_nw": {
+   "file": "player_run_nw.png",
+   "frames": 9
+  },
+  "run_n": {
+   "file": "player_run_n.png",
+   "frames": 9
+  },
+  "run_ne": {
+   "file": "player_run_ne.png",
+   "frames": 9
+  },
+  "run_e": {
+   "file": "player_run_e.png",
+   "frames": 9
+  },
+  "run_se": {
+   "file": "player_run_se.png",
+   "frames": 9
+  },
+  "jump_rise_s": {
+   "file": "player_jump_rise_s.png",
+   "frames": 3
+  },
+  "jump_rise_sw": {
+   "file": "player_jump_rise_sw.png",
+   "frames": 3
+  },
+  "jump_rise_w": {
+   "file": "player_jump_rise_w.png",
+   "frames": 3
+  },
+  "jump_rise_nw": {
+   "file": "player_jump_rise_nw.png",
+   "frames": 3
+  },
+  "jump_rise_n": {
+   "file": "player_jump_rise_n.png",
+   "frames": 3
+  },
+  "jump_rise_ne": {
+   "file": "player_jump_rise_ne.png",
+   "frames": 3
+  },
+  "jump_rise_e": {
+   "file": "player_jump_rise_e.png",
+   "frames": 3
+  },
+  "jump_rise_se": {
+   "file": "player_jump_rise_se.png",
+   "frames": 3
+  },
+  "fall_s": {
+   "file": "player_fall_s.png",
+   "frames": 2
+  },
+  "fall_sw": {
+   "file": "player_fall_sw.png",
+   "frames": 2
+  },
+  "fall_w": {
+   "file": "player_fall_w.png",
+   "frames": 2
+  },
+  "fall_nw": {
+   "file": "player_fall_nw.png",
+   "frames": 2
+  },
+  "fall_n": {
+   "file": "player_fall_n.png",
+   "frames": 2
+  },
+  "fall_ne": {
+   "file": "player_fall_ne.png",
+   "frames": 2
+  },
+  "fall_e": {
+   "file": "player_fall_e.png",
+   "frames": 2
+  },
+  "fall_se": {
+   "file": "player_fall_se.png",
+   "frames": 2
+  },
+  "land_s": {
+   "file": "player_land_s.png",
+   "frames": 3
+  },
+  "land_sw": {
+   "file": "player_land_sw.png",
+   "frames": 3
+  },
+  "land_w": {
+   "file": "player_land_w.png",
+   "frames": 3
+  },
+  "land_nw": {
+   "file": "player_land_nw.png",
+   "frames": 3
+  },
+  "land_n": {
+   "file": "player_land_n.png",
+   "frames": 3
+  },
+  "land_ne": {
+   "file": "player_land_ne.png",
+   "frames": 3
+  },
+  "land_e": {
+   "file": "player_land_e.png",
+   "frames": 3
+  },
+  "land_se": {
+   "file": "player_land_se.png",
+   "frames": 3
+  },
+  "dash_s": {
+   "file": "player_dash_s.png",
+   "frames": 4
+  },
+  "dash_sw": {
+   "file": "player_dash_sw.png",
+   "frames": 4
+  },
+  "dash_w": {
+   "file": "player_dash_w.png",
+   "frames": 4
+  },
+  "dash_nw": {
+   "file": "player_dash_nw.png",
+   "frames": 4
+  },
+  "dash_n": {
+   "file": "player_dash_n.png",
+   "frames": 4
+  },
+  "dash_ne": {
+   "file": "player_dash_ne.png",
+   "frames": 4
+  },
+  "dash_e": {
+   "file": "player_dash_e.png",
+   "frames": 4
+  },
+  "dash_se": {
+   "file": "player_dash_se.png",
+   "frames": 4
+  },
+  "air_dash_s": {
+   "file": "player_air_dash_s.png",
+   "frames": 3
+  },
+  "air_dash_sw": {
+   "file": "player_air_dash_sw.png",
+   "frames": 3
+  },
+  "air_dash_w": {
+   "file": "player_air_dash_w.png",
+   "frames": 3
+  },
+  "air_dash_nw": {
+   "file": "player_air_dash_nw.png",
+   "frames": 3
+  },
+  "air_dash_n": {
+   "file": "player_air_dash_n.png",
+   "frames": 3
+  },
+  "air_dash_ne": {
+   "file": "player_air_dash_ne.png",
+   "frames": 3
+  },
+  "air_dash_e": {
+   "file": "player_air_dash_e.png",
+   "frames": 3
+  },
+  "air_dash_se": {
+   "file": "player_air_dash_se.png",
+   "frames": 3
+  },
+  "dive_s": {
+   "file": "player_dive_s.png",
+   "frames": 3
+  },
+  "dive_sw": {
+   "file": "player_dive_sw.png",
+   "frames": 3
+  },
+  "dive_w": {
+   "file": "player_dive_w.png",
+   "frames": 3
+  },
+  "dive_nw": {
+   "file": "player_dive_nw.png",
+   "frames": 3
+  },
+  "dive_n": {
+   "file": "player_dive_n.png",
+   "frames": 3
+  },
+  "dive_ne": {
+   "file": "player_dive_ne.png",
+   "frames": 3
+  },
+  "dive_e": {
+   "file": "player_dive_e.png",
+   "frames": 3
+  },
+  "dive_se": {
+   "file": "player_dive_se.png",
+   "frames": 3
+  },
+  "attack_1_s": {
+   "file": "player_attack_1_s.png",
+   "frames": 5
+  },
+  "attack_1_sw": {
+   "file": "player_attack_1_sw.png",
+   "frames": 5
+  },
+  "attack_1_w": {
+   "file": "player_attack_1_w.png",
+   "frames": 5
+  },
+  "attack_1_nw": {
+   "file": "player_attack_1_nw.png",
+   "frames": 5
+  },
+  "attack_1_n": {
+   "file": "player_attack_1_n.png",
+   "frames": 5
+  },
+  "attack_1_ne": {
+   "file": "player_attack_1_ne.png",
+   "frames": 5
+  },
+  "attack_1_e": {
+   "file": "player_attack_1_e.png",
+   "frames": 5
+  },
+  "attack_1_se": {
+   "file": "player_attack_1_se.png",
+   "frames": 5
+  },
+  "attack_2_s": {
+   "file": "player_attack_2_s.png",
+   "frames": 5
+  },
+  "attack_2_sw": {
+   "file": "player_attack_2_sw.png",
+   "frames": 5
+  },
+  "attack_2_w": {
+   "file": "player_attack_2_w.png",
+   "frames": 5
+  },
+  "attack_2_nw": {
+   "file": "player_attack_2_nw.png",
+   "frames": 5
+  },
+  "attack_2_n": {
+   "file": "player_attack_2_n.png",
+   "frames": 5
+  },
+  "attack_2_ne": {
+   "file": "player_attack_2_ne.png",
+   "frames": 5
+  },
+  "attack_2_e": {
+   "file": "player_attack_2_e.png",
+   "frames": 5
+  },
+  "attack_2_se": {
+   "file": "player_attack_2_se.png",
+   "frames": 5
+  },
+  "attack_3_s": {
+   "file": "player_attack_3_s.png",
+   "frames": 7
+  },
+  "attack_3_sw": {
+   "file": "player_attack_3_sw.png",
+   "frames": 7
+  },
+  "attack_3_w": {
+   "file": "player_attack_3_w.png",
+   "frames": 7
+  },
+  "attack_3_nw": {
+   "file": "player_attack_3_nw.png",
+   "frames": 7
+  },
+  "attack_3_n": {
+   "file": "player_attack_3_n.png",
+   "frames": 7
+  },
+  "attack_3_ne": {
+   "file": "player_attack_3_ne.png",
+   "frames": 7
+  },
+  "attack_3_e": {
+   "file": "player_attack_3_e.png",
+   "frames": 7
+  },
+  "attack_3_se": {
+   "file": "player_attack_3_se.png",
+   "frames": 7
+  },
+  "hurt_s": {
+   "file": "player_hurt_s.png",
+   "frames": 3
+  },
+  "hurt_sw": {
+   "file": "player_hurt_sw.png",
+   "frames": 3
+  },
+  "hurt_w": {
+   "file": "player_hurt_w.png",
+   "frames": 3
+  },
+  "hurt_nw": {
+   "file": "player_hurt_nw.png",
+   "frames": 3
+  },
+  "hurt_n": {
+   "file": "player_hurt_n.png",
+   "frames": 3
+  },
+  "hurt_ne": {
+   "file": "player_hurt_ne.png",
+   "frames": 3
+  },
+  "hurt_e": {
+   "file": "player_hurt_e.png",
+   "frames": 3
+  },
+  "hurt_se": {
+   "file": "player_hurt_se.png",
+   "frames": 3
+  }
+ },
+ "foot_px": 16,
+ "foot_by_facing": {
+  "s": 16,
+  "sw": 16,
+  "w": 16,
+  "nw": 16,
+  "n": 17,
+  "ne": 16,
+  "e": 16,
+  "se": 16
+ }
+}

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_a4m72"]
+
+[node name="rope_coil" type="Node3D" unique_id=1568838246]
+script = ExtResource("1_a4m72")
+Kit = "citykit"
+Kind = "rope_coil"

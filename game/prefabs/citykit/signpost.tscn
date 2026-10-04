@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_yjewo"]
+
+[node name="signpost" type="Node3D" unique_id=2068428100]
+script = ExtResource("1_yjewo")
+Kit = "citykit"
+Kind = "signpost"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_aqydf"]
+
+[node name="hare" type="Node3D" unique_id=229457832]
+script = ExtResource("1_aqydf")
+Kit = "fauna"
+Kind = "hare"

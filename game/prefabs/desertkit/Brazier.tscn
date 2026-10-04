@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_ph64q"]
+
+[node name="Brazier" type="Node3D" unique_id=275176375]
+script = ExtResource("1_ph64q")
+Kit = "desertkit"
+Kind = "Brazier"

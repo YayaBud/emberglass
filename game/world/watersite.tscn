@@ -1,0 +1,2563 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://prefabs/foliage/reed.tscn" id="1_4s4p1"]
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="2_0f145"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/pine.tscn" id="3_ifbt2"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/bush.tscn" id="4_aap6f"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/vine_oak.tscn" id="5_nrijd"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/oak.tscn" id="6_7sm4k"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/birch.tscn" id="7_nvcup"]
+[ext_resource type="PackedScene" path="res://prefabs/village/street_lamp.tscn" id="8_2k886"]
+[ext_resource type="PackedScene" path="res://prefabs/ship/ship_cargo.tscn" id="9_nrijd"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/duck.tscn" id="10_7sm4k"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/koi.tscn" id="11_nvcup"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/doe.tscn" id="12_2k886"]
+
+[node name="watersite" type="Node3D" unique_id=1026235262]
+metadata/funnels = Array[String](["foliage", "herd", "spot", "village"])
+
+[node name="reed_0" type="Node3D" parent="." unique_id=399871440 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0844281, 0, 0, 0, 1.0844281, 0, 0, 0, 1.0844281, -106.16725, -1.568692, 35.78604)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_1" type="Node3D" parent="." unique_id=120816537 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.94497377, 0, 0, 0, 0.94497377, 0, 0, 0, 0.94497377, -62.612774, -1.8893371, 19.425045)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_2" type="Node3D" parent="." unique_id=2121666997 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0811783, 0, 0, 0, 1.0811783, 0, 0, 0, 1.0811783, -65.85904, -1.7104357, 15.504581)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_3" type="Node3D" parent="." unique_id=1781104717 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1632054, 0, 0, 0, 1.1632054, 0, 0, 0, 1.1632054, -102.61069, -1.7975875, 40.346252)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_4" type="Node3D" parent="." unique_id=1920784355 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.194615, 0, 0, 0, 1.194615, 0, 0, 0, 1.194615, -17.659054, -1.6076745, 33.255814)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_5" type="Node3D" parent="." unique_id=841732978 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1050502, 0, 0, 0, 1.1050502, 0, 0, 0, 1.1050502, -64.31092, -1.9242618, 21.062836)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_6" type="Node3D" parent="." unique_id=733162407 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.82992464, 0, 0, 0, 0.82992464, 0, 0, 0, 0.82992464, -102.93003, -1.8060092, 32.774567)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_7" type="Node3D" parent="." unique_id=1252597985 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1998948, 0, 0, 0, 1.1998948, 0, 0, 0, 1.1998948, -22.659409, -1.8834859, 35.35546)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_8" type="Node3D" parent="." unique_id=1975138174 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2402557, 0, 0, 0, 1.2402557, 0, 0, 0, 1.2402557, -44.16346, -1.7907933, 16.069027)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_9" type="Node3D" parent="." unique_id=1988305436 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1627936, 0, 0, 0, 1.1627936, 0, 0, 0, 1.1627936, -84.60828, -1.737583, 14.516228)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_10" type="Node3D" parent="." unique_id=1865911690 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2662241, 0, 0, 0, 1.2662241, 0, 0, 0, 1.2662241, -34.56207, -1.8966808, 21.98846)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_11" type="Node3D" parent="." unique_id=1262300022 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2745451, 0, 0, 0, 1.2745451, 0, 0, 0, 1.2745451, -101.17343, -1.6761945, 60.80104)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_12" type="Node3D" parent="." unique_id=3465394 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1204488, 0, 0, 0, 1.1204488, 0, 0, 0, 1.1204488, -34.547935, -1.8912475, 21.490417)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_13" type="Node3D" parent="." unique_id=141965088 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2228826, 0, 0, 0, 1.2228826, 0, 0, 0, 1.2228826, -99.68414, -1.7995057, 61.004726)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_14" type="Node3D" parent="." unique_id=1261482494 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1068584, 0, 0, 0, 1.1068584, 0, 0, 0, 1.1068584, -88.66876, -1.8873963, 84.74535)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_15" type="Node3D" parent="." unique_id=974492551 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8912614, 0, 0, 0, 0.8912614, 0, 0, 0, 0.8912614, -64.95378, -1.5747138, 13.797482)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_16" type="Node3D" parent="." unique_id=87565138 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1812835, 0, 0, 0, 1.1812835, 0, 0, 0, 1.1812835, -45.972824, -1.8601445, 17.398388)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_17" type="Node3D" parent="." unique_id=907976438 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1411363, 0, 0, 0, 1.1411363, 0, 0, 0, 1.1411363, -87.31781, -1.8124666, 88.70525)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_18" type="Node3D" parent="." unique_id=1142656304 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8998635, 0, 0, 0, 0.8998635, 0, 0, 0, 0.8998635, -26.196861, -1.9203641, 33.95482)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_19" type="Node3D" parent="." unique_id=1498610339 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0297767, 0, 0, 0, 1.0297767, 0, 0, 0, 1.0297767, -71.3204, -1.7029957, 14.801205)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_20" type="Node3D" parent="." unique_id=694529132 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.95661414, 0, 0, 0, 0.95661414, 0, 0, 0, 0.95661414, -95.99646, -1.9189322, 61.60226)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_21" type="Node3D" parent="." unique_id=745496998 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9686733, 0, 0, 0, 0.9686733, 0, 0, 0, 0.9686733, -61.322334, -1.9004135, 20.065964)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_22" type="Node3D" parent="." unique_id=722434172 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9596367, 0, 0, 0, 0.9596367, 0, 0, 0, 0.9596367, -65.849754, -1.7504869, 16.036598)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_23" type="Node3D" parent="." unique_id=1519017120 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9192143, 0, 0, 0, 0.9192143, 0, 0, 0, 0.9192143, -100.75908, -1.5785717, 74.91641)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_24" type="Node3D" parent="." unique_id=552365470 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.280211, 0, 0, 0, 1.280211, 0, 0, 0, 1.280211, -98.29277, -1.9099433, 32.06534)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_25" type="Node3D" parent="." unique_id=1068821746 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.235718, 0, 0, 0, 1.235718, 0, 0, 0, 1.235718, -65.117645, -1.9198585, 20.960495)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_26" type="Node3D" parent="." unique_id=807788556 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1629161, 0, 0, 0, 1.1629161, 0, 0, 0, 1.1629161, -74.89248, -1.8924208, 18.547821)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_27" type="Node3D" parent="." unique_id=1385537919 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2098097, 0, 0, 0, 1.2098097, 0, 0, 0, 1.2098097, -100.57323, -1.7069308, 70.87951)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_28" type="Node3D" parent="." unique_id=93440141 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2035532, 0, 0, 0, 1.2035532, 0, 0, 0, 1.2035532, -91.13921, -1.8889694, 80.444176)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_29" type="Node3D" parent="." unique_id=1616289221 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.238827, 0, 0, 0, 1.238827, 0, 0, 0, 1.238827, -101.84723, -1.8597178, 33.145836)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_30" type="Node3D" parent="." unique_id=2012465704 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1775308, 0, 0, 0, 1.1775308, 0, 0, 0, 1.1775308, -94.27095, -1.9151521, 72.80516)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_31" type="Node3D" parent="." unique_id=1050106773 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1907226, 0, 0, 0, 1.1907226, 0, 0, 0, 1.1907226, -64.0301, -1.8562255, 17.791248)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_32" type="Node3D" parent="." unique_id=2042734144 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.84215575, 0, 0, 0, 0.84215575, 0, 0, 0, 0.84215575, -90.31419, -1.8839726, 83.080414)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_33" type="Node3D" parent="." unique_id=938475381 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0281637, 0, 0, 0, 1.0281637, 0, 0, 0, 1.0281637, -37.71371, -1.9104464, 21.285576)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_34" type="Node3D" parent="." unique_id=587791493 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.932261, 0, 0, 0, 0.932261, 0, 0, 0, 0.932261, -78.38974, -1.6265199, 12.753166)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_35" type="Node3D" parent="." unique_id=1248915661 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.093698, 0, 0, 0, 1.093698, 0, 0, 0, 1.093698, -57.959904, -1.649611, 14.257202)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_36" type="Node3D" parent="." unique_id=644553452 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9953387, 0, 0, 0, 0.9953387, 0, 0, 0, 0.9953387, -101.050606, -1.6570154, 55.182583)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_37" type="Node3D" parent="." unique_id=834900908 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0799077, 0, 0, 0, 1.0799077, 0, 0, 0, 1.0799077, -100.71156, -1.8884487, 36.32121)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_38" type="Node3D" parent="." unique_id=1757462866 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.80926436, 0, 0, 0, 0.80926436, 0, 0, 0, 0.80926436, -100.85635, -1.7978458, 26.82252)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_39" type="Node3D" parent="." unique_id=1342082074 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0642686, 0, 0, 0, 1.0642686, 0, 0, 0, 1.0642686, -53.30661, -1.8455794, 17.203068)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_40" type="Node3D" parent="." unique_id=925701936 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2153183, 0, 0, 0, 1.2153183, 0, 0, 0, 1.2153183, -30.62188, -1.7925998, 19.470123)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_41" type="Node3D" parent="." unique_id=2059553629 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2779034, 0, 0, 0, 1.2779034, 0, 0, 0, 1.2779034, -101.88855, -1.5831616, 71.721985)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_42" type="Node3D" parent="." unique_id=435253474 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1777896, 0, 0, 0, 1.1777896, 0, 0, 0, 1.1777896, -69.988525, -1.5969346, 13.725117)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_43" type="Node3D" parent="." unique_id=273146193 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.85902095, 0, 0, 0, 0.85902095, 0, 0, 0, 0.85902095, -24.215782, -1.8986223, 36.426014)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_44" type="Node3D" parent="." unique_id=2078612551 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2520946, 0, 0, 0, 1.2520946, 0, 0, 0, 1.2520946, -68.60777, -1.6566882, 14.643562)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_45" type="Node3D" parent="." unique_id=2121073905 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9821921, 0, 0, 0, 0.9821921, 0, 0, 0, 0.9821921, -24.445045, -1.8901758, 33.896446)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_46" type="Node3D" parent="." unique_id=1306745426 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2417393, 0, 0, 0, 1.2417393, 0, 0, 0, 1.2417393, -98.83296, -1.8334767, 57.336)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_47" type="Node3D" parent="." unique_id=303075796 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9467284, 0, 0, 0, 0.9467284, 0, 0, 0, 0.9467284, -54.836716, -1.8860008, 18.456059)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_48" type="Node3D" parent="." unique_id=761158002 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0952909, 0, 0, 0, 1.0952909, 0, 0, 0, 1.0952909, -91.46539, -1.8235698, 84.14538)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_49" type="Node3D" parent="." unique_id=1095780196 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2077156, 0, 0, 0, 1.2077156, 0, 0, 0, 1.2077156, -44.948685, -1.8967574, 19.629433)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_50" type="Node3D" parent="." unique_id=2144389130 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.085437, 0, 0, 0, 1.085437, 0, 0, 0, 1.085437, -91.5703, -1.8890483, 21.477886)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_51" type="Node3D" parent="." unique_id=1447159784 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.039127, 0, 0, 0, 1.039127, 0, 0, 0, 1.039127, -87.25709, -1.8865099, 18.602684)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_52" type="Node3D" parent="." unique_id=42607665 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0338366, 0, 0, 0, 1.0338366, 0, 0, 0, 1.0338366, -99.97346, -1.7502426, 56.87172)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_53" type="Node3D" parent="." unique_id=1677806627 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1719534, 0, 0, 0, 1.1719534, 0, 0, 0, 1.1719534, -22.502708, -1.7095189, 26.873806)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_54" type="Node3D" parent="." unique_id=1776191931 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.141887, 0, 0, 0, 1.141887, 0, 0, 0, 1.141887, -83.136116, -1.5867935, 12.246193)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_55" type="Node3D" parent="." unique_id=705195476 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0356008, 0, 0, 0, 1.0356008, 0, 0, 0, 1.0356008, -92.784134, -1.9071219, 24.019245)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_56" type="Node3D" parent="." unique_id=976428549 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1851318, 0, 0, 0, 1.1851318, 0, 0, 0, 1.1851318, -101.480286, -1.6575136, 69.31655)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_57" type="Node3D" parent="." unique_id=1022920320 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1600481, 0, 0, 0, 1.1600481, 0, 0, 0, 1.1600481, -97.550125, -1.6299678, 18.403252)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_58" type="Node3D" parent="." unique_id=844628530 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2815607, 0, 0, 0, 1.2815607, 0, 0, 0, 1.2815607, -101.58966, -1.8699538, 38.8882)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_59" type="Node3D" parent="." unique_id=1177591814 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.291961, 0, 0, 0, 1.291961, 0, 0, 0, 1.291961, -33.753075, -1.8863163, 20.744793)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_60" type="Node3D" parent="." unique_id=1629627101 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1431518, 0, 0, 0, 1.1431518, 0, 0, 0, 1.1431518, -98.89563, -1.8898809, 30.439215)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_61" type="Node3D" parent="." unique_id=1821416679 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8347607, 0, 0, 0, 0.8347607, 0, 0, 0, 0.8347607, -86.11782, -1.822094, 89.35296)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_62" type="Node3D" parent="." unique_id=1681897815 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.95922685, 0, 0, 0, 0.95922685, 0, 0, 0, 0.95922685, -92.45916, -1.8395723, 82.04193)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_63" type="Node3D" parent="." unique_id=1849424926 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1159056, 0, 0, 0, 1.1159056, 0, 0, 0, 1.1159056, -94.716736, -1.8208, 79.10365)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_64" type="Node3D" parent="." unique_id=2047670681 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0071208, 0, 0, 0, 1.0071208, 0, 0, 0, 1.0071208, -35.58006, -1.7783607, 16.840794)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_65" type="Node3D" parent="." unique_id=426031231 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1314592, 0, 0, 0, 1.1314592, 0, 0, 0, 1.1314592, -99.63499, -1.7129914, 73.40199)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_66" type="Node3D" parent="." unique_id=576414414 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2363727, 0, 0, 0, 1.2363727, 0, 0, 0, 1.2363727, -88.934364, -1.8871346, 84.49379)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_67" type="Node3D" parent="." unique_id=1541820774 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2544296, 0, 0, 0, 1.2544296, 0, 0, 0, 1.2544296, -57.947914, -1.8046794, 16.36979)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_68" type="Node3D" parent="." unique_id=1113435957 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2109228, 0, 0, 0, 1.2109228, 0, 0, 0, 1.2109228, -32.0423, -1.8220367, 19.231075)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_69" type="Node3D" parent="." unique_id=49464754 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8711964, 0, 0, 0, 0.8711964, 0, 0, 0, 0.8711964, -21.765274, -1.8224624, 32.357864)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_70" type="Node3D" parent="." unique_id=372079290 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9690582, 0, 0, 0, 0.9690582, 0, 0, 0, 0.9690582, -97.54363, -1.8877919, 60.298233)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_71" type="Node3D" parent="." unique_id=1211527610 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0291547, 0, 0, 0, 1.0291547, 0, 0, 0, 1.0291547, -97.216965, -1.8901792, 66.80289)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_72" type="Node3D" parent="." unique_id=1793680531 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.97528946, 0, 0, 0, 0.97528946, 0, 0, 0, 0.97528946, -89.71517, -1.8885536, 20.202957)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_73" type="Node3D" parent="." unique_id=1664426521 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0744398, 0, 0, 0, 1.0744398, 0, 0, 0, 1.0744398, -71.187775, -1.7035769, 14.833118)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_74" type="Node3D" parent="." unique_id=1259005942 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9605018, 0, 0, 0, 0.9605018, 0, 0, 0, 0.9605018, -98.31029, -1.8166183, 72.812195)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_75" type="Node3D" parent="." unique_id=137000143 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9643673, 0, 0, 0, 0.9643673, 0, 0, 0, 0.9643673, -35.642933, -1.8844912, 19.666481)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_76" type="Node3D" parent="." unique_id=1406573372 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1815177, 0, 0, 0, 1.1815177, 0, 0, 0, 1.1815177, -98.012764, -1.8661383, 70.714066)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_77" type="Node3D" parent="." unique_id=92754001 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.99485284, 0, 0, 0, 0.99485284, 0, 0, 0, 0.99485284, -96.194626, -1.9006419, 57.64326)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_78" type="Node3D" parent="." unique_id=677063839 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.87395924, 0, 0, 0, 0.87395924, 0, 0, 0, 0.87395924, -34.933277, -1.7571057, 16.660793)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_79" type="Node3D" parent="." unique_id=809553956 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0447093, 0, 0, 0, 1.0447093, 0, 0, 0, 1.0447093, -95.69295, -1.9251461, 59.88748)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_80" type="Node3D" parent="." unique_id=1264595452 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8380627, 0, 0, 0, 0.8380627, 0, 0, 0, 0.8380627, -88.97424, -1.87863, 85.19695)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_81" type="Node3D" parent="." unique_id=785325600 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9049996, 0, 0, 0, 0.9049996, 0, 0, 0, 0.9049996, -83.94244, -1.716475, 92.41116)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_82" type="Node3D" parent="." unique_id=148975322 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0987175, 0, 0, 0, 1.0987175, 0, 0, 0, 1.0987175, -41.998642, -1.7955862, 16.186844)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_83" type="Node3D" parent="." unique_id=1084883819 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0432408, 0, 0, 0, 1.0432408, 0, 0, 0, 1.0432408, -76.026535, -1.8626558, 16.532326)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_84" type="Node3D" parent="." unique_id=191209666 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0977806, 0, 0, 0, 1.0977806, 0, 0, 0, 1.0977806, -94.07698, -1.7817227, 81.24695)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_85" type="Node3D" parent="." unique_id=1507632128 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.876917, 0, 0, 0, 0.876917, 0, 0, 0, 0.876917, -83.55332, -1.6668503, 13.371105)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_86" type="Node3D" parent="." unique_id=221359099 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.96766096, 0, 0, 0, 0.96766096, 0, 0, 0, 0.96766096, -37.551422, -1.6061094, 13.92675)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_87" type="Node3D" parent="." unique_id=1226937189 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2035507, 0, 0, 0, 1.2035507, 0, 0, 0, 1.2035507, -97.835686, -1.8804224, 54.13594)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_88" type="Node3D" parent="." unique_id=590265421 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.05154, 0, 0, 0, 1.05154, 0, 0, 0, 1.05154, -100.72803, -1.788425, 26.252851)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_89" type="Node3D" parent="." unique_id=1702638096 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0994332, 0, 0, 0, 1.0994332, 0, 0, 0, 1.0994332, -63.48402, -1.8798891, 18.480629)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_90" type="Node3D" parent="." unique_id=283201916 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0363772, 0, 0, 0, 1.0363772, 0, 0, 0, 1.0363772, -87.64988, -1.8655235, 87.03606)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_91" type="Node3D" parent="." unique_id=826538685 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1414794, 0, 0, 0, 1.1414794, 0, 0, 0, 1.1414794, -50.3806, -1.9003718, 19.936241)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_92" type="Node3D" parent="." unique_id=1433119719 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2202177, 0, 0, 0, 1.2202177, 0, 0, 0, 1.2202177, -100.55083, -1.7212017, 59.68244)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_93" type="Node3D" parent="." unique_id=1313342104 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8041367, 0, 0, 0, 0.8041367, 0, 0, 0, 0.8041367, -74.52752, -1.880795, 17.331123)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_94" type="Node3D" parent="." unique_id=2106073112 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2312828, 0, 0, 0, 1.2312828, 0, 0, 0, 1.2312828, -23.073853, -1.8866482, 34.957283)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_95" type="Node3D" parent="." unique_id=713121679 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.96133304, 0, 0, 0, 0.96133304, 0, 0, 0, 0.96133304, -102.086426, -1.6305823, 50.343067)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_96" type="Node3D" parent="." unique_id=819233142 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.058195, 0, 0, 0, 1.058195, 0, 0, 0, 1.058195, -86.731, -1.8893342, 19.187977)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_97" type="Node3D" parent="." unique_id=1552903458 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.90961534, 0, 0, 0, 0.90961534, 0, 0, 0, 0.90961534, -31.903154, -1.87683, 21.24982)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_98" type="Node3D" parent="." unique_id=2146467227 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1425378, 0, 0, 0, 1.1425378, 0, 0, 0, 1.1425378, -24.284828, -1.6646879, 23.006668)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_99" type="Node3D" parent="." unique_id=191507935 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2085462, 0, 0, 0, 1.2085462, 0, 0, 0, 1.2085462, -97.57976, -1.8866353, 53.59329)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_100" type="Node3D" parent="." unique_id=1706719839 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9704367, 0, 0, 0, 0.9704367, 0, 0, 0, 0.9704367, -102.37421, -1.5653774, 60.340317)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_101" type="Node3D" parent="." unique_id=90685559 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9110108, 0, 0, 0, 0.9110108, 0, 0, 0, 0.9110108, -99.991066, -1.5661564, 76.791916)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_102" type="Node3D" parent="." unique_id=115033656 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0569676, 0, 0, 0, 1.0569676, 0, 0, 0, 1.0569676, -98.199615, -1.8627695, 55.91062)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_103" type="Node3D" parent="." unique_id=1671948352 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2887623, 0, 0, 0, 1.2887623, 0, 0, 0, 1.2887623, -64.47386, -1.8824182, 18.650745)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_104" type="Node3D" parent="." unique_id=603426748 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2684662, 0, 0, 0, 1.2684662, 0, 0, 0, 1.2684662, -34.898064, -1.9195199, 22.971882)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_105" type="Node3D" parent="." unique_id=2011279627 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.85077035, 0, 0, 0, 0.85077035, 0, 0, 0, 0.85077035, -26.584076, -1.8831339, 27.854)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_106" type="Node3D" parent="." unique_id=1139880671 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.95986223, 0, 0, 0, 0.95986223, 0, 0, 0, 0.95986223, -100.67621, -1.8884151, 38.08471)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_107" type="Node3D" parent="." unique_id=528820369 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1776633, 0, 0, 0, 1.1776633, 0, 0, 0, 1.1776633, -63.796272, -1.7146505, 15.516361)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_108" type="Node3D" parent="." unique_id=1995414399 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2924374, 0, 0, 0, 1.2924374, 0, 0, 0, 1.2924374, -99.06885, -1.8795462, 27.969677)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_109" type="Node3D" parent="." unique_id=878955257 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9621849, 0, 0, 0, 0.9621849, 0, 0, 0, 0.9621849, -74.22974, -1.8676361, 16.919262)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_110" type="Node3D" parent="." unique_id=1951618320 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0597214, 0, 0, 0, 1.0597214, 0, 0, 0, 1.0597214, -81.489075, -1.6877481, 93.85428)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_111" type="Node3D" parent="." unique_id=1587680985 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1642778, 0, 0, 0, 1.1642778, 0, 0, 0, 1.1642778, -25.15329, -1.9255285, 37.008446)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_112" type="Node3D" parent="." unique_id=763163329 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.036365, 0, 0, 0, 1.036365, 0, 0, 0, 1.036365, -101.39429, -1.6538082, 70.13637)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_113" type="Node3D" parent="." unique_id=163624857 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8444848, 0, 0, 0, 0.8444848, 0, 0, 0, 0.8444848, -88.207634, -1.8994014, 20.627483)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_114" type="Node3D" parent="." unique_id=319726681 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8941747, 0, 0, 0, 0.8941747, 0, 0, 0, 0.8941747, -81.83441, -1.6890802, 13.527943)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_115" type="Node3D" parent="." unique_id=810321962 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1349044, 0, 0, 0, 1.1349044, 0, 0, 0, 1.1349044, -81.587555, -1.9075661, 19.301224)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_116" type="Node3D" parent="." unique_id=614053758 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.99118894, 0, 0, 0, 0.99118894, 0, 0, 0, 0.99118894, -100.88057, -1.7249599, 64.47882)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_117" type="Node3D" parent="." unique_id=303498558 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.99892914, 0, 0, 0, 0.99892914, 0, 0, 0, 0.99892914, -84.15871, -1.6199044, 93.65886)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_118" type="Node3D" parent="." unique_id=1004214541 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0295796, 0, 0, 0, 1.0295796, 0, 0, 0, 1.0295796, -85.01094, -1.8880506, 87.6835)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_119" type="Node3D" parent="." unique_id=1868064908 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9762477, 0, 0, 0, 0.9762477, 0, 0, 0, 0.9762477, -77.27236, -1.784964, 14.95039)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_120" type="Node3D" parent="." unique_id=1651573751 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.849465, 0, 0, 0, 0.849465, 0, 0, 0, 0.849465, -90.76083, -1.8684185, 83.47663)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_121" type="Node3D" parent="." unique_id=572209614 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0352126, 0, 0, 0, 1.0352126, 0, 0, 0, 1.0352126, -35.587044, -1.683532, 15.360077)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_122" type="Node3D" parent="." unique_id=525100323 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1146253, 0, 0, 0, 1.1146253, 0, 0, 0, 1.1146253, -53.13217, -1.9032757, 20.103077)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_123" type="Node3D" parent="." unique_id=576786017 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8849879, 0, 0, 0, 0.8849879, 0, 0, 0, 0.8849879, -85.521255, -1.8891742, 18.840218)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_124" type="Node3D" parent="." unique_id=90801616 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8801465, 0, 0, 0, 0.8801465, 0, 0, 0, 0.8801465, -96.969246, -1.6724486, 79.33306)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_125" type="Node3D" parent="." unique_id=1646201682 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8817061, 0, 0, 0, 0.8817061, 0, 0, 0, 0.8817061, -52.742474, -1.8490909, 17.30568)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_126" type="Node3D" parent="." unique_id=1371366737 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.86122745, 0, 0, 0, 0.86122745, 0, 0, 0, 0.86122745, -91.070656, -1.8883996, 20.838158)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_127" type="Node3D" parent="." unique_id=1136729324 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.97308886, 0, 0, 0, 0.97308886, 0, 0, 0, 0.97308886, -97.81122, -1.8878227, 65.69606)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_128" type="Node3D" parent="." unique_id=871198868 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.97576797, 0, 0, 0, 0.97576797, 0, 0, 0, 0.97576797, -35.607567, -1.7779624, 16.826561)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_129" type="Node3D" parent="." unique_id=1240031390 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0071855, 0, 0, 0, 1.0071855, 0, 0, 0, 1.0071855, -83.02467, -1.8819475, 89.436874)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_130" type="Node3D" parent="." unique_id=1363422118 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.99914503, 0, 0, 0, 0.99914503, 0, 0, 0, 0.99914503, -54.765434, -1.9036484, 20.044579)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_131" type="Node3D" parent="." unique_id=738929409 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9394213, 0, 0, 0, 0.9394213, 0, 0, 0, 0.9394213, -96.8477, -1.8895023, 69.56085)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_132" type="Node3D" parent="." unique_id=1126696003 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2001688, 0, 0, 0, 1.2001688, 0, 0, 0, 1.2001688, -103.510574, -1.7820972, 36.258705)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_133" type="Node3D" parent="." unique_id=963757435 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2628956, 0, 0, 0, 1.2628956, 0, 0, 0, 1.2628956, -97.00925, -1.8892894, 53.817966)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_134" type="Node3D" parent="." unique_id=1899715555 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9478735, 0, 0, 0, 0.9478735, 0, 0, 0, 0.9478735, -103.38158, -1.6808054, 42.907265)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_135" type="Node3D" parent="." unique_id=1434272410 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.85352737, 0, 0, 0, 0.85352737, 0, 0, 0, 0.85352737, -88.828384, -1.8886483, 83.97217)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_136" type="Node3D" parent="." unique_id=675764054 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1423657, 0, 0, 0, 1.1423657, 0, 0, 0, 1.1423657, -43.619713, -1.8368003, 16.869038)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_137" type="Node3D" parent="." unique_id=1887428894 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1930182, 0, 0, 0, 1.1930182, 0, 0, 0, 1.1930182, -101.01097, -1.7296137, 50.175674)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_138" type="Node3D" parent="." unique_id=376989611 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2316921, 0, 0, 0, 1.2316921, 0, 0, 0, 1.2316921, -56.393192, -1.9162273, 20.413746)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_139" type="Node3D" parent="." unique_id=777490318 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0018587, 0, 0, 0, 1.0018587, 0, 0, 0, 1.0018587, -42.134827, -1.9081497, 20.292717)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_140" type="Node3D" parent="." unique_id=185031378 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.83337986, 0, 0, 0, 0.83337986, 0, 0, 0, 0.83337986, -91.85409, -1.7405244, 85.73659)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_141" type="Node3D" parent="." unique_id=1518169824 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2843626, 0, 0, 0, 1.2843626, 0, 0, 0, 1.2843626, -70.41514, -1.8579745, 17.371246)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_142" type="Node3D" parent="." unique_id=621649870 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1290631, 0, 0, 0, 1.1290631, 0, 0, 0, 1.1290631, -101.84935, -1.769148, 44.823986)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_143" type="Node3D" parent="." unique_id=171608140 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.89444077, 0, 0, 0, 0.89444077, 0, 0, 0, 0.89444077, -60.983593, -1.8968065, 19.86515)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_144" type="Node3D" parent="." unique_id=670031006 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1780416, 0, 0, 0, 1.1780416, 0, 0, 0, 1.1780416, -32.014244, -1.6609844, 16.165558)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_145" type="Node3D" parent="." unique_id=1198110525 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2832532, 0, 0, 0, 1.2832532, 0, 0, 0, 1.2832532, -82.7296, -1.8862661, 89.28659)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_146" type="Node3D" parent="." unique_id=57008056 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2496722, 0, 0, 0, 1.2496722, 0, 0, 0, 1.2496722, -38.01597, -1.8880697, 19.362328)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_147" type="Node3D" parent="." unique_id=1704476008 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0795319, 0, 0, 0, 1.0795319, 0, 0, 0, 1.0795319, -62.125515, -1.7509626, 15.875301)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_148" type="Node3D" parent="." unique_id=819053202 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1818955, 0, 0, 0, 1.1818955, 0, 0, 0, 1.1818955, -53.11399, -1.6592938, 14.423317)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_149" type="Node3D" parent="." unique_id=1971744942 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2275059, 0, 0, 0, 1.2275059, 0, 0, 0, 1.2275059, -90.79519, -1.8739088, 19.335873)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_150" type="Node3D" parent="." unique_id=1578637984 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2262352, 0, 0, 0, 1.2262352, 0, 0, 0, 1.2262352, -82.810196, -1.6442726, 12.99416)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_151" type="Node3D" parent="." unique_id=1439368123 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1080865, 0, 0, 0, 1.1080865, 0, 0, 0, 1.1080865, -66.83145, -1.8054999, 16.810024)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_152" type="Node3D" parent="." unique_id=897682787 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0300472, 0, 0, 0, 1.0300472, 0, 0, 0, 1.0300472, -95.487434, -1.7502033, 79.837395)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_153" type="Node3D" parent="." unique_id=2054095803 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1356363, 0, 0, 0, 1.1356363, 0, 0, 0, 1.1356363, -89.65748, -1.8379796, 86.01757)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_154" type="Node3D" parent="." unique_id=1981933771 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1688629, 0, 0, 0, 1.1688629, 0, 0, 0, 1.1688629, -30.811657, -1.9179347, 26.688055)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_155" type="Node3D" parent="." unique_id=505056148 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.2343295, 0, 0, 0, 1.2343295, 0, 0, 0, 1.2343295, -76.30213, -1.8088384, 15.426537)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_156" type="Node3D" parent="." unique_id=815809589 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.88370764, 0, 0, 0, 0.88370764, 0, 0, 0, 0.88370764, -99.013794, -1.85977, 50.653774)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_157" type="Node3D" parent="." unique_id=2077785792 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1792576, 0, 0, 0, 1.1792576, 0, 0, 0, 1.1792576, -62.06568, -1.8660077, 17.898094)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_158" type="Node3D" parent="." unique_id=1556486913 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8558931, 0, 0, 0, 0.8558931, 0, 0, 0, 0.8558931, -47.76464, -1.6267984, 14.013802)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_159" type="Node3D" parent="." unique_id=1037136215 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8858297, 0, 0, 0, 0.8858297, 0, 0, 0, 0.8858297, -62.073593, -1.8819451, 18.464848)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_160" type="Node3D" parent="." unique_id=1240332340 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1805387, 0, 0, 0, 1.1805387, 0, 0, 0, 1.1805387, -25.370113, -1.8854232, 30.071266)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_161" type="Node3D" parent="." unique_id=1169886201 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0106195, 0, 0, 0, 1.0106195, 0, 0, 0, 1.0106195, -82.53834, -1.8082694, 15.379902)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_162" type="Node3D" parent="." unique_id=624205696 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9028422, 0, 0, 0, 0.9028422, 0, 0, 0, 0.9028422, -36.13013, -1.810424, 17.28175)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_163" type="Node3D" parent="." unique_id=1110314177 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.80495155, 0, 0, 0, 0.80495155, 0, 0, 0, 0.80495155, -98.24648, -1.888299, 49.022793)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_164" type="Node3D" parent="." unique_id=1000610275 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.85120386, 0, 0, 0, 0.85120386, 0, 0, 0, 0.85120386, -84.750175, -1.7071972, 14.09417)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_165" type="Node3D" parent="." unique_id=789645157 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0938189, 0, 0, 0, 1.0938189, 0, 0, 0, 1.0938189, -101.40559, -1.6305697, 54.53254)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_166" type="Node3D" parent="." unique_id=409008634 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0849185, 0, 0, 0, 1.0849185, 0, 0, 0, 1.0849185, -84.21449, -1.862952, 89.52194)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_167" type="Node3D" parent="." unique_id=1123991792 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.294959, 0, 0, 0, 1.294959, 0, 0, 0, 1.294959, -102.92105, -1.6475757, 25.64497)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_168" type="Node3D" parent="." unique_id=2038424484 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9947446, 0, 0, 0, 0.9947446, 0, 0, 0, 0.9947446, -19.98312, -1.765854, 33.999443)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_169" type="Node3D" parent="." unique_id=80486583 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0498067, 0, 0, 0, 1.0498067, 0, 0, 0, 1.0498067, -97.69644, -1.8932462, 28.885931)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_170" type="Node3D" parent="." unique_id=1235863140 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0156108, 0, 0, 0, 1.0156108, 0, 0, 0, 1.0156108, -25.779747, -1.8979032, 32.66738)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_171" type="Node3D" parent="." unique_id=1022613976 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0728638, 0, 0, 0, 1.0728638, 0, 0, 0, 1.0728638, -28.639137, -1.8858975, 25.372328)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_172" type="Node3D" parent="." unique_id=457442035 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1732862, 0, 0, 0, 1.1732862, 0, 0, 0, 1.1732862, -96.72082, -1.7368963, 19.872925)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_173" type="Node3D" parent="." unique_id=973423571 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1522098, 0, 0, 0, 1.1522098, 0, 0, 0, 1.1522098, -68.23528, -1.5646741, 13.534412)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_174" type="Node3D" parent="." unique_id=1042245601 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.92398036, 0, 0, 0, 0.92398036, 0, 0, 0, 0.92398036, -42.93952, -1.9185169, 20.555988)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_175" type="Node3D" parent="." unique_id=1412461349 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.1166334, 0, 0, 0, 1.1166334, 0, 0, 0, 1.1166334, -99.637314, -1.8003691, 69.319496)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_176" type="Node3D" parent="." unique_id=267968647 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.8774657, 0, 0, 0, 0.8774657, 0, 0, 0, 0.8774657, -100.65019, -1.7200397, 60.57323)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_177" type="Node3D" parent="." unique_id=464078753 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0485903, 0, 0, 0, 1.0485903, 0, 0, 0, 1.0485903, -44.10509, -1.8036422, 16.273045)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_178" type="Node3D" parent="." unique_id=1762668235 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0551448, 0, 0, 0, 1.0551448, 0, 0, 0, 1.0551448, -24.350658, -1.902664, 36.719727)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_179" type="Node3D" parent="." unique_id=1996954954 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.135593, 0, 0, 0, 1.135593, 0, 0, 0, 1.135593, -59.493473, -1.776514, 16.020798)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_180" type="Node3D" parent="." unique_id=1907329605 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.98730904, 0, 0, 0, 0.98730904, 0, 0, 0, 0.98730904, -84.605354, -1.8812382, 88.56664)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_181" type="Node3D" parent="." unique_id=1038329293 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(0.9284241, 0, 0, 0, 0.9284241, 0, 0, 0, 0.9284241, -27.467724, -1.9000139, 30.072058)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="reed_182" type="Node3D" parent="." unique_id=103150203 instance=ExtResource("1_4s4p1")]
+transform = Transform3D(1.0782309, 0, 0, 0, 1.0782309, 0, 0, 0, 1.0782309, -17.548187, -1.5942932, 32.91764)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "reed"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="pine_183" type="Node3D" parent="." unique_id=1803704505 instance=ExtResource("3_ifbt2")]
+transform = Transform3D(0.8749169, 0, 0, 0, 0.8749169, 0, 0, 0, 0.8749169, -82.34778, 0.27181336, -30.072914)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "pine"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="bush_184" type="Node3D" parent="." unique_id=1218648510 instance=ExtResource("4_aap6f")]
+transform = Transform3D(1.1666178, 0, 0, 0, 1.1666178, 0, 0, 0, 1.1666178, -72.65843, -0.7975566, 0.26517105)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "bush"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="bush_185" type="Node3D" parent="." unique_id=141065192 instance=ExtResource("4_aap6f")]
+transform = Transform3D(1.2367405, 0, 0, 0, 1.2367405, 0, 0, 0, 1.2367405, -84.58083, 0.105271846, -20.35205)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "bush"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="bush_186" type="Node3D" parent="." unique_id=1823728589 instance=ExtResource("4_aap6f")]
+transform = Transform3D(0.89140296, 0, 0, 0, 0.89140296, 0, 0, 0, 0.89140296, -83.4495, 0.077795476, -27.394302)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "bush"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="vine_oak_187" type="Node3D" parent="." unique_id=1209617173 instance=ExtResource("5_nrijd")]
+transform = Transform3D(1.0790555, 0, 0, 0, 1.0790555, 0, 0, 0, 1.0790555, -43.063095, -0.72036815, -6.662819)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "vine_oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="vine_oak_188" type="Node3D" parent="." unique_id=110363660 instance=ExtResource("5_nrijd")]
+transform = Transform3D(1.0878792, 0, 0, 0, 1.0878792, 0, 0, 0, 1.0878792, -122.20943, 1.3004761, 4.1382294)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "vine_oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="vine_oak_189" type="Node3D" parent="." unique_id=816549418 instance=ExtResource("5_nrijd")]
+transform = Transform3D(0.9050456, 0, 0, 0, 0.9050456, 0, 0, 0, 0.9050456, -142.26964, 6.0000052, 61.957333)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "vine_oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_190" type="Node3D" parent="." unique_id=402093056 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(0.9415594, 0, 0, 0, 0.9415594, 0, 0, 0, 0.9415594, -121.48784, 2.7485526, 63.094894)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="vine_oak_191" type="Node3D" parent="." unique_id=1776766618 instance=ExtResource("5_nrijd")]
+transform = Transform3D(0.97782254, 0, 0, 0, 0.97782254, 0, 0, 0, 0.97782254, -145.82014, 3.937786, 25.408787)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "vine_oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="bush_192" type="Node3D" parent="." unique_id=908166361 instance=ExtResource("4_aap6f")]
+transform = Transform3D(0.99214953, 0, 0, 0, 0.99214953, 0, 0, 0, 0.99214953, -133.58618, 1.1131015, -3.2820702)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "bush"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="pine_193" type="Node3D" parent="." unique_id=129008340 instance=ExtResource("3_ifbt2")]
+transform = Transform3D(1.106025, 0, 0, 0, 1.106025, 0, 0, 0, 1.106025, -124.393394, 2.230564, 44.61664)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "pine"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="vine_oak_194" type="Node3D" parent="." unique_id=1596856222 instance=ExtResource("5_nrijd")]
+transform = Transform3D(1.0018791, 0, 0, 0, 1.0018791, 0, 0, 0, 1.0018791, -117.11699, 0.9820564, -9.399414)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "vine_oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="pine_195" type="Node3D" parent="." unique_id=581936229 instance=ExtResource("3_ifbt2")]
+transform = Transform3D(1.0784692, 0, 0, 0, 1.0784692, 0, 0, 0, 1.0784692, -93.58403, 0.5212567, -19.375076)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "pine"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="bush_196" type="Node3D" parent="." unique_id=1564031045 instance=ExtResource("4_aap6f")]
+transform = Transform3D(0.9817971, 0, 0, 0, 0.9817971, 0, 0, 0, 0.9817971, -32.15039, -1.1351813, 0.85515976)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "bush"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="bush_197" type="Node3D" parent="." unique_id=1050974977 instance=ExtResource("4_aap6f")]
+transform = Transform3D(1.1577152, 0, 0, 0, 1.1577152, 0, 0, 0, 1.1577152, -54.558846, -1.3050983, -6.1853523)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "bush"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="bush_198" type="Node3D" parent="." unique_id=1078219735 instance=ExtResource("4_aap6f")]
+transform = Transform3D(1.1710035, 0, 0, 0, 1.1710035, 0, 0, 0, 1.1710035, -132.22855, 3.7590811, 69.36167)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "bush"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="oak_199" type="Node3D" parent="." unique_id=702993361 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(1.0833132, 0, 0, 0, 1.0833132, 0, 0, 0, 1.0833132, -51.178642, -1.0869666, -0.8054657)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_200" type="Node3D" parent="." unique_id=1295955926 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(1.1542263, 0, 0, 0, 1.1542263, 0, 0, 0, 1.1542263, -38.53537, -1.0111185, -4.2990456)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="vine_oak_201" type="Node3D" parent="." unique_id=869249241 instance=ExtResource("5_nrijd")]
+transform = Transform3D(0.9793241, 0, 0, 0, 0.9793241, 0, 0, 0, 0.9793241, -36.505615, -0.5823867, -22.020866)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "vine_oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_202" type="Node3D" parent="." unique_id=1346284940 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(1.0109854, 0, 0, 0, 1.0109854, 0, 0, 0, 1.0109854, -134.08118, 2.258842, 25.528175)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_203" type="Node3D" parent="." unique_id=1739665968 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(1.1475579, 0, 0, 0, 1.1475579, 0, 0, 0, 1.1475579, -131.09253, 8.560006, 102.9095)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_204" type="Node3D" parent="." unique_id=1850413566 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(0.95713466, 0, 0, 0, 0.95713466, 0, 0, 0, 0.95713466, -147.79129, 3.292111, 12.224529)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_205" type="Node3D" parent="." unique_id=1438341768 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(1.1839852, 0, 0, 0, 1.1839852, 0, 0, 0, 1.1839852, -127.32293, 3.3376935, 64.01124)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="pine_206" type="Node3D" parent="." unique_id=374589291 instance=ExtResource("3_ifbt2")]
+transform = Transform3D(0.9011089, 0, 0, 0, 0.9011089, 0, 0, 0, 0.9011089, -122.316216, 3.3340046, 67.57984)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "pine"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_207" type="Node3D" parent="." unique_id=2005102691 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(1.2469972, 0, 0, 0, 1.2469972, 0, 0, 0, 1.2469972, -60.171436, -1.5124048, -5.8248253)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="birch_208" type="Node3D" parent="." unique_id=592009698 instance=ExtResource("7_nvcup")]
+transform = Transform3D(1.0496202, 0, 0, 0, 1.0496202, 0, 0, 0, 1.0496202, -130.64868, 1.3708339, 3.5747223)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "birch"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="bush_209" type="Node3D" parent="." unique_id=761878340 instance=ExtResource("4_aap6f")]
+transform = Transform3D(1.1736468, 0, 0, 0, 1.1736468, 0, 0, 0, 1.1736468, -38.56221, -0.97881174, -5.5848923)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "bush"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = false
+metadata/snow = 0.0
+
+[node name="vine_oak_210" type="Node3D" parent="." unique_id=1818540346 instance=ExtResource("5_nrijd")]
+transform = Transform3D(1.1003958, 0, 0, 0, 1.1003958, 0, 0, 0, 1.1003958, -16.075298, -0.5930391, -20.27594)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "vine_oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="pine_211" type="Node3D" parent="." unique_id=220045670 instance=ExtResource("3_ifbt2")]
+transform = Transform3D(0.9362458, 0, 0, 0, 0.9362458, 0, 0, 0, 0.9362458, -131.16876, 1.6468551, 22.92244)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "pine"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_212" type="Node3D" parent="." unique_id=1359536783 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(0.9709607, 0, 0, 0, 0.9709607, 0, 0, 0, 0.9709607, -123.660904, 0.8495366, -19.665886)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="oak_213" type="Node3D" parent="." unique_id=766473154 instance=ExtResource("6_7sm4k")]
+transform = Transform3D(0.93224525, 0, 0, 0, 0.93224525, 0, 0, 0, 0.93224525, -119.529594, 3.9871352, 90.70781)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="vine_oak_214" type="Node3D" parent="." unique_id=1845582933 instance=ExtResource("5_nrijd")]
+transform = Transform3D(1.0686688, 0, 0, 0, 1.0686688, 0, 0, 0, 1.0686688, -142.32166, 4.493172, 39.462288)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "vine_oak"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="pine_215" type="Node3D" parent="." unique_id=1145967509 instance=ExtResource("3_ifbt2")]
+transform = Transform3D(0.8573573, 0, 0, 0, 0.8573573, 0, 0, 0, 0.8573573, -74.17804, 0.05834891, -30.911484)
+script = ExtResource("2_0f145")
+Kit = "foliage"
+Kind = "pine"
+metadata/f = "foliage"
+metadata/ctx = 0
+metadata/dy = 0.0
+metadata/shadow = true
+metadata/snow = 0.0
+
+[node name="street_lamp_216" type="Node3D" parent="." unique_id=590223143 instance=ExtResource("8_2k886")]
+transform = Transform3D(-0.2095291, 0, 0.9778024, 0, 1, 0, -0.9778024, 0, -0.2095291, -67.06058, -1.6065617, 8.042759)
+script = ExtResource("2_0f145")
+Kit = "village"
+Kind = "street_lamp"
+metadata/f = "village"
+metadata/ctx = 0
+metadata/dy = -0.22537613
+
+[node name="street_lamp_217" type="Node3D" parent="." unique_id=1569944776 instance=ExtResource("8_2k886")]
+transform = Transform3D(-0.2095291, 0, 0.9778024, 0, 1, 0, -0.9778024, 0, -0.2095291, -35.915607, -1.0560532, 7.5374537)
+script = ExtResource("2_0f145")
+Kit = "village"
+Kind = "street_lamp"
+metadata/f = "village"
+metadata/ctx = 1
+metadata/dy = -0.2947961
+
+[node name="street_lamp_218" type="Node3D" parent="." unique_id=1656537581 instance=ExtResource("8_2k886")]
+transform = Transform3D(-0.2095291, 0, 0.9778024, 0, 1, 0, -0.9778024, 0, -0.2095291, -111.79993, -1.1021997, 28.647388)
+script = ExtResource("2_0f145")
+Kit = "village"
+Kind = "street_lamp"
+metadata/f = "village"
+metadata/ctx = 2
+metadata/dy = -1.7966275
+
+[node name="boat_219" type="Marker3D" parent="." unique_id=2125034326]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -42.034866, -2.4562144, 78.17513)
+metadata/f = "spot"
+metadata/ctx = 0
+metadata/kind = "boat"
+
+[node name="ship_cargo_220" type="Node3D" parent="." unique_id=1298888735 instance=ExtResource("9_nrijd")]
+transform = Transform3D(-0.0146012325, 0, 0.99989337, 0, 1, 0, -0.99989337, 0, -0.0146012325, -79.7496, -4.054427, 56.805244)
+script = ExtResource("2_0f145")
+Kit = "ship"
+Kind = "ship_cargo"
+metadata/f = "spot"
+metadata/ctx = 0
+metadata/kind = "ship_cargo"
+
+[node name="duck_221" type="Node3D" parent="." unique_id=429417816 instance=ExtResource("10_7sm4k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -64.38703, -3.9239526, 37.521606)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "duck"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="duck_222" type="Node3D" parent="." unique_id=1903062777 instance=ExtResource("10_7sm4k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -62.72476, -4.032961, 74.75225)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "duck"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="duck_223" type="Node3D" parent="." unique_id=165384724 instance=ExtResource("10_7sm4k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -78.1716, -2.6229532, 80.88424)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "duck"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="duck_224" type="Node3D" parent="." unique_id=1249287309 instance=ExtResource("10_7sm4k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -70.34213, -3.8855472, 74.61518)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "duck"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="duck_225" type="Node3D" parent="." unique_id=480752592 instance=ExtResource("10_7sm4k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.009956, -3.3365173, 40.303085)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "duck"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="koi_226" type="Node3D" parent="." unique_id=245304864 instance=ExtResource("11_nvcup")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.682083, -2.7471826, 66.82547)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "koi"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="koi_227" type="Node3D" parent="." unique_id=457669180 instance=ExtResource("11_nvcup")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -43.86537, -3.4994345, 37.3043)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "koi"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="koi_228" type="Node3D" parent="." unique_id=525492098 instance=ExtResource("11_nvcup")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -66.914635, -3.869155, 75.9004)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "koi"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="koi_229" type="Node3D" parent="." unique_id=799827548 instance=ExtResource("11_nvcup")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.379326, -3.3332157, 60.782078)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "koi"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="koi_230" type="Node3D" parent="." unique_id=610978395 instance=ExtResource("11_nvcup")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55.073875, -2.520699, 83.24085)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "koi"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="koi_231" type="Node3D" parent="." unique_id=1519108251 instance=ExtResource("11_nvcup")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -54.374283, -2.843145, 29.733097)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "koi"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="koi_232" type="Node3D" parent="." unique_id=1524859458 instance=ExtResource("11_nvcup")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -58.307106, -2.656029, 28.309786)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "koi"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="koi_233" type="Node3D" parent="." unique_id=798219675 instance=ExtResource("11_nvcup")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -50.30217, -4.206274, 66.168365)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "koi"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="doe_234" type="Node3D" parent="." unique_id=103598974 instance=ExtResource("12_2k886")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -83.09314, -1.7666117, 14.750671)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "doe"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="doe_235" type="Node3D" parent="." unique_id=979235346 instance=ExtResource("12_2k886")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.6891, -1.7659879, 49.621365)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "doe"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="doe_236" type="Node3D" parent="." unique_id=997725890 instance=ExtResource("12_2k886")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.64759, -1.7633091, 15.688694)
+script = ExtResource("2_0f145")
+Kit = "fauna"
+Kind = "doe"
+metadata/f = "herd"
+metadata/ctx = 0

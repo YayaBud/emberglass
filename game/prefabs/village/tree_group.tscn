@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_mgegl"]
+
+[node name="tree_group" type="Node3D" unique_id=2060244112]
+script = ExtResource("1_mgegl")
+Kit = "village"
+Kind = "tree_group"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_gs7tf"]
+
+[node name="Cabin" type="Node3D" unique_id=887918269]
+script = ExtResource("1_gs7tf")
+Kit = "snowkit"
+Kind = "Cabin"

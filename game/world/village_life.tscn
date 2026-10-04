@@ -1,0 +1,246 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://prefabs/folk/farmer.tscn" id="1_hxbct"]
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="2_wjyxu"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/market_woman.tscn" id="3_53acd"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/child.tscn" id="4_jg5xo"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/old_man.tscn" id="5_p53sm"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/young_woman.tscn" id="6_hyc0t"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/monk.tscn" id="7_122xs"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/dog.tscn" id="8_62nrw"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/cat.tscn" id="9_ist3c"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/cat_black.tscn" id="10_r37cf"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/hen.tscn" id="11_8ebn8"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/hen_white.tscn" id="12_oyj7u"]
+
+[sub_resource type="Curve3D" id="Curve3D_0vv7r"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 5.6568, -0.5668843, 5.6568, 0, 0, 0, 0, 0, 0, 4.2426, -0.39702925, 4.2426, 0, 0, 0, 0, 0, 0, 2.8284, -0.24737018, 2.8284, 0, 0, 0, 0, 0, 0, 1.4142, -0.18969612, 1.4142, 0, 0, 0, 0, 0, 0, 0, -0.13219768, 0, 0, 0, 0, 0, 0, 0, -1.4142, -0.17790025, -1.4142, 0, 0, 0, 0, 0, 0, -2.8284, -0.23331109, -2.8284, 0, 0, 0, 0, 0, 0, -4.2426, -0.3787426, -4.2426, 0, 0, 0, 0, 0, 0, -5.6568, -0.5492598, -5.6568, 0, 0, 0, 0, 0, 0, -7.0709996, -0.6145432, -7.0709996, 0, 0, 0, 0, 0, 0, -8.4852, -0.563519, -8.4852, 0, 0, 0, 0, 0, 0, -9.8994, -0.5332397, -9.8994, 0, 0, 0, 0, 0, 0, -11.3136, -0.524766, -11.3136, 0, 0, 0, 0, 0, 0, -12.727799, -0.43689474, -12.727799, 0, 0, 0, 0, 0, 0, -14.141999, -0.40806353, -14.141999, 0, 0, 0, 0, 0, 0, -15.556199, -0.43023264, -15.556199, 0, 0, 0, 0, 0, 0, -16.9704, -0.5104282, -16.9704, 0, 0, 0, 0, 0, 0, -18.3846, -0.5591014, -18.3846, 0, 0, 0, 0, 0, 0, -19.7988, -0.561951, -19.7988, 0, 0, 0, 0, 0, 0, -21.213, -0.55545616, -21.213, 0, 0, 0, 0, 0, 0, -22.6272, -0.51403797, -22.6272, 0, 0, 0, 0, 0, 0, -24.041399, -0.44892672, -24.041399, 0, 0, 0, 0, 0, 0, -25.455599, -0.31053716, -25.455599, 0, 0, 0, 0, 0, 0, -26.869799, -0.34854966, -26.869799, 0, 0, 0, 0, 0, 0, -28.283998, -0.42785376, -28.283998, 0, 0, 0, 0, 0, 0, -29.698198, -0.42362273, -29.698198, 0, 0, 0, 0, 0, 0, -31.112398, -0.25100735, -31.112398, 0, 0, 0, 0, 0, 0, -32.5266, -0.15167877, -32.5266, 0, 0, 0, 0, 0, 0, -33.9408, -0.095413856, -33.9408, 0, 0, 0, 0, 0, 0, -35.355, 0.025012841, -35.355, 0, 0, 0, 0, 0, 0, -36.7692, 0.12495884, -36.7692, 0, 0, 0, 0, 0, 0, -38.1834, 0.2491619, -38.1834, 0, 0, 0, 0, 0, 0, -39.5976, 0.28625384, -39.5976, 0, 0, 0, 0, 0, 0, -41.0118, 0.24763498, -41.0118, 0, 0, 0, 0, 0, 0, -42.426, 0.36780733, -42.426, 0, 0, 0, 0, 0, 0, -43.8402, 0.37629467, -43.8402),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 36
+
+[node name="village_life" type="Node3D" unique_id=569161661]
+metadata/funnels = Array[String](["city", "folk", "herd", "route"])
+
+[node name="route_0" type="Path3D" parent="." unique_id=972938305]
+curve = SubResource("Curve3D_0vv7r")
+metadata/f = "route"
+metadata/half = 1.7
+
+[node name="farmer_1" type="Node3D" parent="route_0" unique_id=966773042 instance=ExtResource("1_hxbct")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6568, -0.5668843, 5.6568)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "farmer"
+metadata/f = "folk"
+metadata/role = "walker"
+metadata/i = 0
+
+[node name="farmer_2" type="Node3D" parent="route_0" unique_id=156114124 instance=ExtResource("1_hxbct")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6568, -0.5668843, 5.6568)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "farmer"
+metadata/f = "folk"
+metadata/role = "walker"
+metadata/i = 1
+
+[node name="market_woman_3" type="Node3D" parent="route_0" unique_id=943036210 instance=ExtResource("3_53acd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6568, -0.5668843, 5.6568)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "market_woman"
+metadata/f = "folk"
+metadata/role = "walker"
+metadata/i = 2
+
+[node name="child_4" type="Node3D" parent="route_0" unique_id=147879372 instance=ExtResource("4_jg5xo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6568, -0.5668843, 5.6568)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "child"
+metadata/f = "folk"
+metadata/role = "walker"
+metadata/i = 3
+
+[node name="child_5" type="Node3D" parent="route_0" unique_id=1482004564 instance=ExtResource("4_jg5xo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6568, -0.5668843, 5.6568)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "child"
+metadata/f = "folk"
+metadata/role = "walker"
+metadata/i = 4
+
+[node name="old_man_6" type="Node3D" parent="route_0" unique_id=1260726599 instance=ExtResource("5_p53sm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6568, -0.5668843, 5.6568)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "old_man"
+metadata/f = "folk"
+metadata/role = "walker"
+metadata/i = 5
+
+[node name="young_woman_7" type="Node3D" parent="route_0" unique_id=1480799834 instance=ExtResource("6_hyc0t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6568, -0.5668843, 5.6568)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "young_woman"
+metadata/f = "folk"
+metadata/role = "walker"
+metadata/i = 6
+
+[node name="monk_8" type="Node3D" parent="route_0" unique_id=1312217805 instance=ExtResource("7_122xs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6568, -0.5668843, 5.6568)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "monk"
+metadata/f = "folk"
+metadata/role = "walker"
+metadata/i = 7
+
+[node name="market_woman_9" type="Node3D" parent="." unique_id=607792531 instance=ExtResource("3_53acd")]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, -9.61656, -0.7157862, -4.5254397)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "market_woman"
+metadata/f = "folk"
+metadata/role = "stander"
+metadata/i = 8
+metadata/face = true
+metadata/act = ""
+metadata/snap = true
+metadata/dy = 0.0
+
+[node name="farmer_10" type="Node3D" parent="." unique_id=2101875158 instance=ExtResource("1_hxbct")]
+transform = Transform3D(-0.7071066, 0, 0.70710695, 0, 1, 0, -0.70710695, 0, -0.7071066, -18.80886, -0.6092013, -13.71774)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "farmer"
+metadata/f = "folk"
+metadata/role = "stander"
+metadata/i = 9
+metadata/face = true
+metadata/act = ""
+metadata/snap = true
+metadata/dy = 0.0
+
+[node name="old_man_11" type="Node3D" parent="." unique_id=390496474 instance=ExtResource("5_p53sm")]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, -28.21329, -0.34774303, -23.405008)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "old_man"
+metadata/f = "folk"
+metadata/role = "stander"
+metadata/i = 10
+metadata/face = true
+metadata/act = ""
+metadata/snap = true
+metadata/dy = 0.0
+
+[node name="young_woman_12" type="Node3D" parent="." unique_id=1806786212 instance=ExtResource("6_hyc0t")]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, -30.68814, -0.057914548, -35.77926)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "young_woman"
+metadata/f = "folk"
+metadata/role = "stander"
+metadata/i = 11
+metadata/face = true
+metadata/act = ""
+metadata/snap = true
+metadata/dy = 0.0
+
+[node name="child_13" type="Node3D" parent="." unique_id=1261488560 instance=ExtResource("4_jg5xo")]
+transform = Transform3D(0.7071065, 0, -0.70710707, 0, 1, 0, 0.70710707, 0, 0.7071065, -31.67808, -0.026351605, -36.203518)
+script = ExtResource("2_wjyxu")
+Kit = "folk"
+Kind = "child"
+metadata/f = "folk"
+metadata/role = "stander"
+metadata/i = 12
+metadata/face = true
+metadata/act = ""
+metadata/snap = true
+metadata/dy = 0.0
+
+[node name="dog_14" type="Node3D" parent="." unique_id=2132292798 instance=ExtResource("8_62nrw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5355, -0.3359715, -4.9497)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "dog"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="dog_15" type="Node3D" parent="." unique_id=1131431360 instance=ExtResource("8_62nrw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.344648, -0.44489786, -27.223349)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "dog"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="cat_16" type="Node3D" parent="." unique_id=1308208487 instance=ExtResource("9_ist3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.3136, -0.608203, -5.6568003)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "cat"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="cat_black_17" type="Node3D" parent="." unique_id=593379642 instance=ExtResource("10_r37cf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.5059, -0.59624374, -26.162699)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "cat_black"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="hen_18" type="Node3D" parent="." unique_id=1141434638 instance=ExtResource("11_8ebn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.25295, -0.8738374, -1.0606499)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "hen"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="hen_19" type="Node3D" parent="." unique_id=93114919 instance=ExtResource("11_8ebn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.0206995, -0.9439125, -2.1212997)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "hen"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="hen_20" type="Node3D" parent="." unique_id=679366601 instance=ExtResource("11_8ebn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -29.344648, -0.3760972, -20.15235)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "hen"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="hen_21" type="Node3D" parent="." unique_id=774103918 instance=ExtResource("11_8ebn8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.112398, -0.5159068, -21.213)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "hen"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="hen_white_22" type="Node3D" parent="." unique_id=560173396 instance=ExtResource("12_oyj7u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.66715, -0.9546811, -1.0606499)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "hen_white"
+metadata/f = "herd"
+metadata/ctx = 0
+
+[node name="hen_white_23" type="Node3D" parent="." unique_id=186766116 instance=ExtResource("12_oyj7u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.970978, -0.46373641, -19.94022)
+script = ExtResource("2_wjyxu")
+Kit = "fauna"
+Kind = "hen_white"
+metadata/f = "herd"
+metadata/ctx = 0

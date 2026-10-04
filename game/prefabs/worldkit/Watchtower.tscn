@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_1gu4n"]
+
+[node name="Watchtower" type="Node3D" unique_id=1923876584]
+script = ExtResource("1_1gu4n")
+Kit = "worldkit"
+Kind = "Watchtower"

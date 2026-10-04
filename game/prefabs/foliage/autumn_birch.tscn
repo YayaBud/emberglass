@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_kipxv"]
+
+[node name="autumn_birch" type="Node3D" unique_id=1543775346]
+script = ExtResource("1_kipxv")
+Kit = "foliage"
+Kind = "autumn_birch"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_aghif"]
+
+[node name="alley_house" type="Node3D" unique_id=1474306459]
+script = ExtResource("1_aghif")
+Kit = "citykit"
+Kind = "alley_house"

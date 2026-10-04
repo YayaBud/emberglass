@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_aped1"]
+
+[node name="hanging_lantern" type="Node3D" unique_id=1859278788]
+script = ExtResource("1_aped1")
+Kit = "citykit"
+Kind = "hanging_lantern"

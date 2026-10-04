@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_im53h"]
+
+[node name="monk" type="Node3D" unique_id=517917364]
+script = ExtResource("1_im53h")
+Kit = "folk"
+Kind = "monk"

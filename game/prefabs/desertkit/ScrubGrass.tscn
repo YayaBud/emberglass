@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_ngkcn"]
+
+[node name="ScrubGrass" type="Node3D" unique_id=703394459]
+script = ExtResource("1_ngkcn")
+Kit = "desertkit"
+Kind = "ScrubGrass"

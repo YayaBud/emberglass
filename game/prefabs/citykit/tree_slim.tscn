@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_81gwq"]
+
+[node name="tree_slim" type="Node3D" unique_id=367294216]
+script = ExtResource("1_81gwq")
+Kit = "citykit"
+Kind = "tree_slim"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_ybgxj"]
+
+[node name="flower_bed" type="Node3D" unique_id=629022562]
+script = ExtResource("1_ybgxj")
+Kit = "citykit"
+Kind = "flower_bed"

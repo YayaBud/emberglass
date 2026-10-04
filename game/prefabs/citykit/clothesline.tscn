@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_trv6c"]
+
+[node name="clothesline" type="Node3D" unique_id=1279959413]
+script = ExtResource("1_trv6c")
+Kit = "citykit"
+Kind = "clothesline"

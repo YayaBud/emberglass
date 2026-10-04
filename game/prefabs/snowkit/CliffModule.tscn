@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_he10p"]
+
+[node name="CliffModule" type="Node3D" unique_id=1134087688]
+script = ExtResource("1_he10p")
+Kit = "snowkit"
+Kind = "CliffModule"

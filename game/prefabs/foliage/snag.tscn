@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_k8x04"]
+
+[node name="snag" type="Node3D" unique_id=1928290915]
+script = ExtResource("1_k8x04")
+Kit = "foliage"
+Kind = "snag"

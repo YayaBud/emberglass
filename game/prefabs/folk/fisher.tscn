@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_8ky5d"]
+
+[node name="fisher" type="Node3D" unique_id=966575713]
+script = ExtResource("1_8ky5d")
+Kit = "folk"
+Kind = "fisher"

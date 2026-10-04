@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="WeatherSettings" format=3]
+
+[ext_resource type="Script" path="res://scripts/WeatherSettings.cs" id="1_efalm"]
+
+[resource]
+script = ExtResource("1_efalm")
+StartMinutes = 1140.0
+ClockRate = 1.0
+CloudCover = 0.35
+ShaftStrength = 0.12
+LampScale = 1.0

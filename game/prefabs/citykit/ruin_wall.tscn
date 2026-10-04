@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_5nypn"]
+
+[node name="ruin_wall" type="Node3D" unique_id=679954410]
+script = ExtResource("1_5nypn")
+Kit = "citykit"
+Kind = "ruin_wall"

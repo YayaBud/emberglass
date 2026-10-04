@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_pofkg"]
+
+[node name="hanging_lantern" type="Node3D" unique_id=1954055908]
+script = ExtResource("1_pofkg")
+Kit = "village"
+Kind = "hanging_lantern"

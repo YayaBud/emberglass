@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_1uxwo"]
+
+[node name="mooring_post" type="Node3D" unique_id=1864939729]
+script = ExtResource("1_1uxwo")
+Kit = "citykit"
+Kind = "mooring_post"

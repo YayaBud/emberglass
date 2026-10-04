@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_b03o3"]
+
+[node name="chest" type="Node3D" unique_id=963951957]
+script = ExtResource("1_b03o3")
+Kit = "citykit"
+Kind = "chest"

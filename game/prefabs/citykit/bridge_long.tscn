@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_uoodb"]
+
+[node name="bridge_long" type="Node3D" unique_id=620888252]
+script = ExtResource("1_uoodb")
+Kit = "citykit"
+Kind = "bridge_long"

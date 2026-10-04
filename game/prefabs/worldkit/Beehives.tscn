@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_r74im"]
+
+[node name="Beehives" type="Node3D" unique_id=574306783]
+script = ExtResource("1_r74im")
+Kit = "worldkit"
+Kind = "Beehives"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_45ocy"]
+
+[node name="tower_round" type="Node3D" unique_id=1787563594]
+script = ExtResource("1_45ocy")
+Kit = "citykit"
+Kind = "tower_round"

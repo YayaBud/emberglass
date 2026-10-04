@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_dobgr"]
+
+[node name="retaining_4" type="Node3D" unique_id=1086345378]
+script = ExtResource("1_dobgr")
+Kit = "citykit"
+Kind = "retaining_4"

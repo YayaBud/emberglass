@@ -1,0 +1,498 @@
+{
+ "texels_per_m": 52.0,
+ "animals": {
+  "crow": {
+   "cell_px": [
+    57,
+    67
+   ],
+   "metres": [
+    1.096,
+    1.288
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "peck",
+    "fly0",
+    "fly1"
+   ]
+  },
+  "squirrel": {
+   "cell_px": [
+    46,
+    52
+   ],
+   "metres": [
+    0.885,
+    1.0
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "hare": {
+   "cell_px": [
+    46,
+    52
+   ],
+   "metres": [
+    0.885,
+    1.0
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "boar": {
+   "cell_px": [
+    67,
+    41
+   ],
+   "metres": [
+    1.288,
+    0.788
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sniff"
+   ]
+  },
+  "heron": {
+   "cell_px": [
+    67,
+    101
+   ],
+   "metres": [
+    1.288,
+    1.942
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "fish",
+    "fly0",
+    "fly1"
+   ]
+  },
+  "frog": {
+   "cell_px": [
+    46,
+    26
+   ],
+   "metres": [
+    0.885,
+    0.5
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "doe": {
+   "cell_px": [
+    109,
+    98
+   ],
+   "metres": [
+    2.096,
+    1.885
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "graze"
+   ]
+  },
+  "stag": {
+   "cell_px": [
+    145,
+    124
+   ],
+   "metres": [
+    2.788,
+    2.385
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "graze"
+   ]
+  },
+  "fox": {
+   "cell_px": [
+    98,
+    46
+   ],
+   "metres": [
+    1.885,
+    0.885
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sniff"
+   ]
+  },
+  "rabbit": {
+   "cell_px": [
+    46,
+    52
+   ],
+   "metres": [
+    0.885,
+    1.0
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "robin": {
+   "cell_px": [
+    41,
+    52
+   ],
+   "metres": [
+    0.788,
+    1.0
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "peck",
+    "fly0",
+    "fly1"
+   ]
+  },
+  "duck": {
+   "cell_px": [
+    52,
+    46
+   ],
+   "metres": [
+    1.0,
+    0.885
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "dabble",
+    "fly0",
+    "fly1"
+   ]
+  },
+  "koi": {
+   "cell_px": [
+    52,
+    36
+   ],
+   "metres": [
+    1.0,
+    0.692
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "jump0",
+    "jump1",
+    "jump2"
+   ]
+  },
+  "pigeon": {
+   "cell_px": [
+    49,
+    62
+   ],
+   "metres": [
+    0.942,
+    1.192
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "peck",
+    "fly0",
+    "fly1"
+   ]
+  },
+  "gull": {
+   "cell_px": [
+    72,
+    91
+   ],
+   "metres": [
+    1.385,
+    1.75
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "peck",
+    "fly0",
+    "fly1"
+   ]
+  },
+  "dog": {
+   "cell_px": [
+    78,
+    52
+   ],
+   "metres": [
+    1.5,
+    1.0
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "dog_black": {
+   "cell_px": [
+    78,
+    52
+   ],
+   "metres": [
+    1.5,
+    1.0
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "cat": {
+   "cell_px": [
+    52,
+    41
+   ],
+   "metres": [
+    1.0,
+    0.788
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "cat_grey": {
+   "cell_px": [
+    52,
+    41
+   ],
+   "metres": [
+    1.0,
+    0.788
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "cat_black": {
+   "cell_px": [
+    52,
+    41
+   ],
+   "metres": [
+    1.0,
+    0.788
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sit"
+   ]
+  },
+  "hen": {
+   "cell_px": [
+    41,
+    44
+   ],
+   "metres": [
+    0.788,
+    0.846
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "peck",
+    "fly0",
+    "fly1"
+   ]
+  },
+  "hen_white": {
+   "cell_px": [
+    41,
+    44
+   ],
+   "metres": [
+    0.788,
+    0.846
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "peck",
+    "fly0",
+    "fly1"
+   ]
+  },
+  "goat": {
+   "cell_px": [
+    72,
+    67
+   ],
+   "metres": [
+    1.385,
+    1.288
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "graze"
+   ]
+  },
+  "sheep": {
+   "cell_px": [
+    67,
+    52
+   ],
+   "metres": [
+    1.288,
+    1.0
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "graze"
+   ]
+  },
+  "pig": {
+   "cell_px": [
+    67,
+    41
+   ],
+   "metres": [
+    1.288,
+    0.788
+   ],
+   "foot_px": 1,
+   "frames": [
+    "idle",
+    "walk0",
+    "walk1",
+    "walk2",
+    "walk3",
+    "sniff"
+   ]
+  }
+ }
+}

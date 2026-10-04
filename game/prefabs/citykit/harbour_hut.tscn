@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_aet5k"]
+
+[node name="harbour_hut" type="Node3D" unique_id=558622507]
+script = ExtResource("1_aet5k")
+Kit = "citykit"
+Kind = "harbour_hut"

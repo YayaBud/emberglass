@@ -1,0 +1,129 @@
+{
+ "tpm": 52.0,
+ "cell_px": [
+  72,
+  128
+ ],
+ "facings": [
+  "s",
+  "sw",
+  "w",
+  "nw",
+  "n",
+  "ne",
+  "e",
+  "se"
+ ],
+ "degs": [
+  8.0,
+  22.0
+ ],
+ "actions": {
+  "idle": {
+   "col": 0,
+   "frames": 4
+  },
+  "walk": {
+   "col": 4,
+   "frames": 8
+  },
+  "sit": {
+   "col": 12,
+   "frames": 2
+  },
+  "carry": {
+   "col": 14,
+   "frames": 8
+  },
+  "work": {
+   "col": 22,
+   "frames": 4
+  }
+ },
+ "variants": [
+  "farmer",
+  "merchant",
+  "guard",
+  "market_woman",
+  "noble_lady",
+  "old_man",
+  "child",
+  "blacksmith",
+  "monk",
+  "young_woman",
+  "fisher",
+  "dockhand"
+ ],
+ "files": {
+  "farmer": {
+   "8": "farmer_08.png",
+   "22": "farmer_22.png"
+  },
+  "merchant": {
+   "8": "merchant_08.png",
+   "22": "merchant_22.png"
+  },
+  "guard": {
+   "8": "guard_08.png",
+   "22": "guard_22.png"
+  },
+  "market_woman": {
+   "8": "market_woman_08.png",
+   "22": "market_woman_22.png"
+  },
+  "noble_lady": {
+   "8": "noble_lady_08.png",
+   "22": "noble_lady_22.png"
+  },
+  "old_man": {
+   "8": "old_man_08.png",
+   "22": "old_man_22.png"
+  },
+  "child": {
+   "8": "child_08.png",
+   "22": "child_22.png"
+  },
+  "blacksmith": {
+   "8": "blacksmith_08.png",
+   "22": "blacksmith_22.png"
+  },
+  "monk": {
+   "8": "monk_08.png",
+   "22": "monk_22.png"
+  },
+  "young_woman": {
+   "8": "young_woman_08.png",
+   "22": "young_woman_22.png"
+  },
+  "fisher": {
+   "8": "fisher_08.png",
+   "22": "fisher_22.png"
+  },
+  "dockhand": {
+   "8": "dockhand_08.png",
+   "22": "dockhand_22.png"
+  }
+ },
+ "foot_px": {
+  "8": {
+   "s": 9,
+   "sw": 8,
+   "w": 8,
+   "nw": 9,
+   "n": 9,
+   "ne": 9,
+   "e": 8,
+   "se": 8
+  },
+  "22": {
+   "s": 7,
+   "sw": 6,
+   "w": 7,
+   "nw": 7,
+   "n": 8,
+   "ne": 7,
+   "e": 7,
+   "se": 6
+  }
+ }
+}

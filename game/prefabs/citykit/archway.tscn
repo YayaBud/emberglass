@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_tpqx0"]
+
+[node name="archway" type="Node3D" unique_id=1557487679]
+script = ExtResource("1_tpqx0")
+Kit = "citykit"
+Kind = "archway"

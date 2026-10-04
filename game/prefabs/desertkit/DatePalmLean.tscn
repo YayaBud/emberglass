@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_bnqxq"]
+
+[node name="DatePalmLean" type="Node3D" unique_id=1029452961]
+script = ExtResource("1_bnqxq")
+Kit = "desertkit"
+Kind = "DatePalmLean"

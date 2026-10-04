@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_1bkaj"]
+
+[node name="grindstone" type="Node3D" unique_id=350863069]
+script = ExtResource("1_1bkaj")
+Kit = "citykit"
+Kind = "grindstone"

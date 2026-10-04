@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_mk6ul"]
+
+[node name="Boardwalk" type="Node3D" unique_id=263620546]
+script = ExtResource("1_mk6ul")
+Kit = "worldkit"
+Kind = "Boardwalk"

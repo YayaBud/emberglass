@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_wx74q"]
+
+[node name="pine" type="Node3D" unique_id=1623180937]
+script = ExtResource("1_wx74q")
+Kit = "foliage"
+Kind = "pine"

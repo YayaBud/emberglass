@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_inckj"]
+
+[node name="Pots" type="Node3D" unique_id=73911573]
+script = ExtResource("1_inckj")
+Kit = "desertkit"
+Kind = "Pots"

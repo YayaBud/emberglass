@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_ash8n"]
+
+[node name="Bones" type="Node3D" unique_id=845499386]
+script = ExtResource("1_ash8n")
+Kit = "desertkit"
+Kind = "Bones"

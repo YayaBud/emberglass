@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_1slfs"]
+
+[node name="stump" type="Node3D" unique_id=1618457375]
+script = ExtResource("1_1slfs")
+Kit = "citykit"
+Kind = "stump"

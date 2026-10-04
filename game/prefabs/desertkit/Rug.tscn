@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_uikf5"]
+
+[node name="Rug" type="Node3D" unique_id=867985678]
+script = ExtResource("1_uikf5")
+Kit = "desertkit"
+Kind = "Rug"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_f8uag"]
+
+[node name="river_house" type="Node3D" unique_id=1080120964]
+script = ExtResource("1_f8uag")
+Kit = "citykit"
+Kind = "river_house"

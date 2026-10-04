@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_b62iu"]
+
+[node name="market_woman" type="Node3D" unique_id=1914943933]
+script = ExtResource("1_b62iu")
+Kit = "folk"
+Kind = "market_woman"

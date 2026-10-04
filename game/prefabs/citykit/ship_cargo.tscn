@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_gc11b"]
+
+[node name="ship_cargo" type="Node3D" unique_id=673234939]
+script = ExtResource("1_gc11b")
+Kit = "citykit"
+Kind = "ship_cargo"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_gxnd1"]
+
+[node name="street_lamp" type="Node3D" unique_id=1610070895]
+script = ExtResource("1_gxnd1")
+Kit = "village"
+Kind = "street_lamp"

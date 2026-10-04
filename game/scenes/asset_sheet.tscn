@@ -1,0 +1,4674 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Fence.tscn" id="1_3h7ep"]
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="2_pvfqy"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Sapling.tscn" id="3_s24ea"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Lantern.tscn" id="4_qrgjo"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/FrozenGrass.tscn" id="5_qkt5y"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Bench.tscn" id="6_a5ra8"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Barrels.tscn" id="7_xrme0"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Signpost.tscn" id="8_u57vx"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/SnowShrub.tscn" id="9_dcmb0"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/BerriesBush.tscn" id="10_b3jdc"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Stump.tscn" id="11_loj0s"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/StoneWall.tscn" id="12_llsof"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/LogPile.tscn" id="13_xjbyl"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/SnowPile.tscn" id="14_g5jj4"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/PineYoung.tscn" id="15_hm110"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/SnowBush.tscn" id="16_jrhuk"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/RockSmall.tscn" id="17_irin2"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Stairs.tscn" id="18_huf8s"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/IceOverhang.tscn" id="19_y1r5q"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/CartCrates.tscn" id="20_id74k"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/RockLarge.tscn" id="21_g85k1"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/RockMedium.tscn" id="22_1opsq"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/DeadTree.tscn" id="23_8g35g"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/BrokenCart.tscn" id="24_u6nho"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/SnowyLedge.tscn" id="25_h06qb"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/CliffModule.tscn" id="26_r8kwp"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/PineSmall.tscn" id="27_pbb2h"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/RuinPillar.tscn" id="28_pr5h8"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/PineSparse.tscn" id="29_cakyy"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/RuinWall.tscn" id="30_51yiq"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/PineMedium.tscn" id="31_qknjp"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/RuinArch.tscn" id="32_hqn07"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/PineLarge.tscn" id="33_w0r5o"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Cabin.tscn" id="34_5s2qy"]
+[ext_resource type="PackedScene" path="res://prefabs/snowkit/Castle.tscn" id="35_4i04p"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Urn.tscn" id="36_bpoh0"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/ColumnCactus.tscn" id="37_r0atg"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/BarrelCactus.tscn" id="38_cj1vc"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Brazier.tscn" id="39_wkavb"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/ScrubGrass.tscn" id="40_k86gy"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/BoulderSmall.tscn" id="41_uai36"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/DryShrub.tscn" id="42_52mrt"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Pots.tscn" id="43_oqt61"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Crates.tscn" id="44_a5nvb"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/BoulderMedium.tscn" id="45_cbk2n"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/MarketStall.tscn" id="46_0yqgm"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Rug.tscn" id="47_hsbmu"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Bones.tscn" id="48_sl1vp"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Awning.tscn" id="49_7aakt"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Obelisk.tscn" id="50_4icdc"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Well.tscn" id="51_v65id"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/RuinedColumn.tscn" id="52_vdovq"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/BoulderLarge.tscn" id="53_rbokr"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/SandPile.tscn" id="54_6shfw"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/DatePalmLean.tscn" id="55_4e3e6"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/SandstoneArch.tscn" id="56_xlumj"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/SandstoneLedge.tscn" id="57_epnjv"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/DatePalm.tscn" id="58_xuk8s"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/DatePalmTall.tscn" id="59_4b50d"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/AdobeHouse.tscn" id="60_k5dwy"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/AdobeHouseTall.tscn" id="61_pmkp2"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Mesa.tscn" id="62_hcwid"]
+[ext_resource type="PackedScene" path="res://prefabs/desertkit/Temple.tscn" id="63_w2s87"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Jar.tscn" id="64_ndw4l"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Pot.tscn" id="65_wm30x"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Barrel.tscn" id="66_nmoi5"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Scarecrow.tscn" id="67_6wf7q"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Crate.tscn" id="68_vp40p"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Cairn.tscn" id="69_8sfwt"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Minecart.tscn" id="70_6c3pi"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Beehives.tscn" id="71_2d6ns"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/HayBale.tscn" id="72_uto7f"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/ChoppingBlock.tscn" id="73_t2equ"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Shrine.tscn" id="74_6bew0"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Boardwalk.tscn" id="75_2lc3c"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/LilyPads.tscn" id="76_12kgd"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Haystack.tscn" id="77_kec3o"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/WoodShed.tscn" id="78_8c85s"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/StiltHut.tscn" id="79_o41l6"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/CharcoalMound.tscn" id="80_yoi7k"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Watchtower.tscn" id="81_85641"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/DrownedChapel.tscn" id="82_f8tw5"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/Farmhouse.tscn" id="83_tismm"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/MineMouth.tscn" id="84_i8sgu"]
+[ext_resource type="PackedScene" path="res://prefabs/worldkit/TrunkArch.tscn" id="85_qsh0s"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/hanging_lantern.tscn" id="86_waom3"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ivy.tscn" id="87_k4p3e"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/wall_lantern.tscn" id="88_wv0x2"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/hanging_sign.tscn" id="89_cf0je"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/railing.tscn" id="90_iints"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/signpost.tscn" id="91_715b4"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/banner.tscn" id="92_jcfx1"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/laundry_line.tscn" id="93_83c4t"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/bollard.tscn" id="94_iqknh"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/lantern_post.tscn" id="95_8fnje"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/urn.tscn" id="96_s055b"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/clothesline.tscn" id="97_boygv"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ladder.tscn" id="98_r4iya"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/chest.tscn" id="99_fhgue"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/weapon_rack.tscn" id="100_w46oc"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/bunting_pennant.tscn" id="101_thfju"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/street_lamp.tscn" id="102_w7u06"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/bench.tscn" id="103_5bigw"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/training_dummy.tscn" id="104_gefwt"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/grindstone.tscn" id="105_p68dr"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/barrels.tscn" id="106_3m13u"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/fence.tscn" id="107_rvrj7"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/rope_coil.tscn" id="108_im08j"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/anvil.tscn" id="109_bo4nc"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/post_chain.tscn" id="110_4atvb"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/laundry_span.tscn" id="111_mvcui"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/iron_fence.tscn" id="112_ukacd"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/brazier.tscn" id="113_kqs61"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/sacks.tscn" id="114_tc3av"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/flag.tscn" id="115_p7j6p"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/notice_board.tscn" id="116_4f301"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/stump.tscn" id="117_dhie8"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/scarecrow.tscn" id="118_jlhiy"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/mooring_post.tscn" id="119_evxpu"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/bunting_s.tscn" id="120_4ucl5"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/planter.tscn" id="121_hh0fa"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/stone_wall.tscn" id="122_vyf4j"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/training_target.tscn" id="123_unkfs"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/crate_pile.tscn" id="124_qvrmq"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/gate_small.tscn" id="125_8cg55"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/trough.tscn" id="126_woyqu"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/pots.tscn" id="127_luxai"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/bunting_m.tscn" id="128_woghl"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/goods_crates.tscn" id="129_d7oao"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/table_set.tscn" id="130_sdu53"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/drying_rack.tscn" id="131_qev4u"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/log_pile.tscn" id="132_oda8e"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/barrel_stack.tscn" id="133_ahye1"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/fish_barrels.tscn" id="134_1nbo1"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/hedge.tscn" id="135_f66i1"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/flower_bed.tscn" id="136_gesne"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/net_stack.tscn" id="137_wbjui"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/balcony.tscn" id="138_ynu1m"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/fishing_nets.tscn" id="139_pv5m5"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/statue_saint.tscn" id="140_r2igd"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/statue_knight.tscn" id="141_qxugy"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/cart.tscn" id="142_k0nmp"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/awning.tscn" id="143_rl7rk"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/tree_planter.tscn" id="144_vol83"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ruin_wall.tscn" id="145_4toyv"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/garden_bed.tscn" id="146_o4flr"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/broken_cart.tscn" id="147_8vyru"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/stall_c.tscn" id="148_qnh0p"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ruin_pillar.tscn" id="149_lslen"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/market_stall_b.tscn" id="150_718e1"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/well.tscn" id="151_054yw"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/market_stall_a.tscn" id="152_d546o"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/rowboat.tscn" id="153_ed4fd"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/monument.tscn" id="154_826ip"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/forge.tscn" id="155_n0gwp"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/shed.tscn" id="156_1m146"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ruin_arch.tscn" id="157_vc1a4"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/wagon.tscn" id="158_vqhtd"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/fountain_small.tscn" id="159_g33pd"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/retaining_12.tscn" id="160_oc87w"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/retaining_4.tscn" id="161_db5d5"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/retaining_6.tscn" id="162_1qgyf"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/retaining_8.tscn" id="163_tap5i"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/hay_stack.tscn" id="164_i1j4l"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/tree_slim.tscn" id="165_8gi1r"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/sailboat.tscn" id="166_7sg67"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/pergola.tscn" id="167_gmbv2"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/large_stall.tscn" id="168_1elkg"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/chain_boom.tscn" id="169_nbs6r"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/stone_stairs.tscn" id="170_tx1fq"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/archway.tscn" id="171_tib48"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/crane.tscn" id="172_38cqs"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/harbour_hut.tscn" id="173_pb7f4"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/wall_run.tscn" id="174_ko6gs"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/wall_corner.tscn" id="175_ybys7"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/sluice_gate.tscn" id="176_hr2px"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/tree_broad.tscn" id="177_dm5ms"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/pier.tscn" id="178_u652h"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/riverbank.tscn" id="179_na3x2"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/tower_house.tscn" id="180_1whgq"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/quay_wall.tscn" id="181_kkq38"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ship_fishing.tscn" id="182_ti1r3"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/watchtower.tscn" id="183_mpi7r"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/alley_house.tscn" id="184_j12me"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/dock_barge.tscn" id="185_hsv8f"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/dock_platform.tscn" id="186_4wtms"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/tower_square.tscn" id="187_vjpfg"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/cottage.tscn" id="188_cey8a"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/granary.tscn" id="189_wq2vw"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse.tscn" id="190_6lb3b"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_narrow.tscn" id="191_gy74t"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_ruin.tscn" id="192_y5ex7"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ramp.tscn" id="193_1k06d"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/cottage_thatch.tscn" id="194_em1gc"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/cottage_tile.tscn" id="195_4gulk"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_wooden.tscn" id="196_uvlpt"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_stone.tscn" id="197_whp30"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/tower_round.tscn" id="198_231ds"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_arched.tscn" id="199_2h2rf"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/crop_field.tscn" id="200_5kqdp"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/tenement.tscn" id="201_yfmkp"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/apothecary.tscn" id="202_ueafm"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_std.tscn" id="203_7nar7"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/shop.tscn" id="204_dltrp"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_stall.tscn" id="205_w4gjv"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/river_house.tscn" id="206_njfwg"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/city_house.tscn" id="207_wq2ri"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/grand_stair.tscn" id="208_bo0kj"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_corner.tscn" id="209_qmnpw"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/townhouse_damaged.tscn" id="210_x7oi7"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/fisher_house.tscn" id="211_oi55c"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/bridge_covered.tscn" id="212_1rsce"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/blacksmith.tscn" id="213_fela4"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/merchant_house.tscn" id="214_2t067"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/mill_house.tscn" id="215_a0d3d"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/waterfall.tscn" id="216_63syy"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/cottage_l.tscn" id="217_clrlc"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/chapel.tscn" id="218_e0gcb"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/dockhouse.tscn" id="219_irj6x"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/bridge_arch.tscn" id="220_tk8iu"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/windmill.tscn" id="221_ri1o2"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/small_keep.tscn" id="222_4yab5"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/market_hall.tscn" id="223_e6e7w"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/guildhouse.tscn" id="224_dvjb1"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/warehouse.tscn" id="225_bdj7r"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/tavern.tscn" id="226_jo36q"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/harbour_arm.tscn" id="227_45wq2"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/stables.tscn" id="228_pdt6i"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ship_cargo.tscn" id="229_cqmg1"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/library.tscn" id="230_42uh2"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/stable_yard.tscn" id="231_txbo0"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/water_gate.tscn" id="232_2lujv"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/lighthouse.tscn" id="233_ldkxg"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/gatehouse.tscn" id="234_lmnfx"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/barracks.tscn" id="235_2elv0"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/inn.tscn" id="236_t1hww"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/barn.tscn" id="237_tfn1t"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/town_hall.tscn" id="238_1ackx"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/manor_b.tscn" id="239_iei8e"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/fountain.tscn" id="240_pisri"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/ship_merchant.tscn" id="241_8phil"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/manor_a.tscn" id="242_amr70"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/mansion.tscn" id="243_fmcxy"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/church.tscn" id="244_4ogu0"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/bridge_long.tscn" id="245_w1ixp"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/keep.tscn" id="246_txthe"]
+[ext_resource type="PackedScene" path="res://prefabs/citykit/cathedral.tscn" id="247_hmudt"]
+[ext_resource type="PackedScene" path="res://prefabs/village/street_lamp.tscn" id="248_tbu8m"]
+[ext_resource type="PackedScene" path="res://prefabs/village/hanging_lantern.tscn" id="249_yx7pn"]
+[ext_resource type="PackedScene" path="res://prefabs/village/wood_fence.tscn" id="250_3c8ty"]
+[ext_resource type="PackedScene" path="res://prefabs/village/bush.tscn" id="251_jbd7p"]
+[ext_resource type="PackedScene" path="res://prefabs/village/kit_retaining.tscn" id="252_em4lb"]
+[ext_resource type="PackedScene" path="res://prefabs/village/kit_steps.tscn" id="253_v7muw"]
+[ext_resource type="PackedScene" path="res://prefabs/village/flowers.tscn" id="254_t37kw"]
+[ext_resource type="PackedScene" path="res://prefabs/village/grass_patch.tscn" id="255_7dtf7"]
+[ext_resource type="PackedScene" path="res://prefabs/village/tree_small.tscn" id="256_somxc"]
+[ext_resource type="PackedScene" path="res://prefabs/village/tree_large.tscn" id="257_rynp6"]
+[ext_resource type="PackedScene" path="res://prefabs/village/tree_group.tscn" id="258_6x7lv"]
+[ext_resource type="PackedScene" path="res://prefabs/village/bld_cottage.tscn" id="259_4l8dq"]
+[ext_resource type="PackedScene" path="res://prefabs/village/kit_cottage.tscn" id="260_rutb3"]
+[ext_resource type="PackedScene" path="res://prefabs/village/kit_townhouse.tscn" id="261_52yfp"]
+[ext_resource type="PackedScene" path="res://prefabs/village/bld_townhouse.tscn" id="262_c1pgc"]
+[ext_resource type="PackedScene" path="res://prefabs/village/monument_keep.tscn" id="263_jngeu"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/mushroom.tscn" id="264_qq1v3"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/reed.tscn" id="265_mi0x1"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/wheat.tscn" id="266_j1rku"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/flowers.tscn" id="267_doy7r"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/heather.tscn" id="268_6ufde"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/fern.tscn" id="269_8yoqw"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/bush.tscn" id="270_ka84w"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/log.tscn" id="271_hk83o"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/snag.tscn" id="272_h6xxc"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/autumn_birch.tscn" id="273_ky2py"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/birch.tscn" id="274_hwpf4"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/pine.tscn" id="275_proiw"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/autumn_oak.tscn" id="276_tat6h"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/oak.tscn" id="277_n5670"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/vine_oak.tscn" id="278_qi48o"]
+[ext_resource type="PackedScene" path="res://prefabs/foliage/willow.tscn" id="279_oagqn"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/robin.tscn" id="280_8j3ng"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/hen.tscn" id="281_jm3fm"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/hen_white.tscn" id="282_8a4eb"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/squirrel.tscn" id="283_pdna1"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/hare.tscn" id="284_vj7u8"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/frog.tscn" id="285_3pobx"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/rabbit.tscn" id="286_ckgwj"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/pigeon.tscn" id="287_p6yrr"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/duck.tscn" id="288_oot2y"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/koi.tscn" id="289_vtflg"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/cat.tscn" id="290_cpnkr"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/cat_grey.tscn" id="291_j04lv"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/cat_black.tscn" id="292_2htu5"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/crow.tscn" id="293_366pu"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/boar.tscn" id="294_ph640"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/heron.tscn" id="295_3uysy"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/sheep.tscn" id="296_762en"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/pig.tscn" id="297_343oq"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/gull.tscn" id="298_d5egr"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/goat.tscn" id="299_s5g2l"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/dog.tscn" id="300_5v75i"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/dog_black.tscn" id="301_8idqj"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/fox.tscn" id="302_mj6bh"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/doe.tscn" id="303_xm1gn"]
+[ext_resource type="PackedScene" path="res://prefabs/fauna/stag.tscn" id="304_0eqo7"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/farmer.tscn" id="305_ihr6m"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/merchant.tscn" id="306_aigb3"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/guard.tscn" id="307_yudei"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/market_woman.tscn" id="308_sv1oc"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/noble_lady.tscn" id="309_tboxo"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/old_man.tscn" id="310_vlk2c"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/child.tscn" id="311_1bqft"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/blacksmith.tscn" id="312_fbreq"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/monk.tscn" id="313_qsy3b"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/young_woman.tscn" id="314_xqtr2"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/fisher.tscn" id="315_0qyxs"]
+[ext_resource type="PackedScene" path="res://prefabs/folk/dockhand.tscn" id="316_v5m7m"]
+[ext_resource type="PackedScene" path="res://prefabs/player/player.tscn" id="317_utpj8"]
+[ext_resource type="PackedScene" path="res://prefabs/ship/ship_cargo.tscn" id="318_4cx8h"]
+[ext_resource type="Script" path="res://scripts/FlyCamera.cs" id="319_y38sd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pqc6h"]
+albedo_color = Color(0.36, 0.34, 0.3, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_id52y"]
+size = Vector2(184, 405.22635)
+
+[sub_resource type="Shader" id="Shader_5lmtr"]
+code = "
+shader_type sky;
+
+uniform vec3 top = vec3(0.10, 0.15, 0.34);
+uniform vec3 horizon = vec3(0.62, 0.32, 0.18);
+uniform vec3 ground_horizon = vec3(0.30, 0.22, 0.20);
+uniform vec3 ground_bottom = vec3(0.07, 0.06, 0.08);
+uniform vec3 cloud_lit = vec3(0.62, 0.40, 0.31);
+uniform vec3 cloud_dark = vec3(0.16, 0.12, 0.19);
+uniform float speed = 0.018;
+uniform float cover : hint_range(0.0, 1.0) = 0.26;
+
+float hash(vec2 p) {
+    return fract(sin(dot(p, vec2(41.3, 289.1))) * 43758.5453);
+}
+
+// Value noise. Smooth-stepped so the cells do not show as diamonds.
+float noise(vec2 p) {
+    vec2 i = floor(p);
+    vec2 f = fract(p);
+    f = f * f * (3.0 - 2.0 * f);
+    return mix(mix(hash(i), hash(i + vec2(1, 0)), f.x),
+               mix(hash(i + vec2(0, 1)), hash(i + vec2(1, 1)), f.x), f.y);
+}
+
+float fbm(vec2 p) {
+    float v = 0.0;
+    float a = 0.5;
+    for (int i = 0; i < 3; i++) {
+        v += a * noise(p);
+        p *= 2.03;
+        a *= 0.5;
+    }
+    return v;
+}
+
+void sky() {
+    float up = EYEDIR.y;
+
+    // The gradient, above and below the horizon.
+    vec3 col = up >= 0.0
+        ? mix(horizon, top, pow(clamp(up, 0.0, 1.0), 0.45))
+        : mix(ground_horizon, ground_bottom, pow(clamp(-up, 0.0, 1.0), 0.35));
+
+    if (up > 0.002) {
+        // Project the view direction onto a flat plane overhead. Dividing by y
+        // is what makes the band stretch toward the horizon instead of wrapping
+        // round the dome like a hat.
+        vec2 uv = EYEDIR.xz / (up + 0.22);
+        uv += vec2(TIME * speed * 6.0, TIME * speed * 2.0);
+
+        float d = fbm(uv * 2.6);
+        float c = smoothstep(cover, cover + 0.22, d);
+
+        // A second, slower layer so the edges churn instead of sliding as one
+        // rigid sheet.
+        float d2 = fbm(uv * 5.2 + vec2(TIME * speed * 2.0, 0.0));
+        c *= 0.70 + 0.30 * smoothstep(0.25, 0.70, d2);
+
+        // Fade out near the horizon, where uv blows up and the noise turns to
+        // stripes, and again at the zenith so the band has a top edge.
+        c *= smoothstep(0.01, 0.07, up);
+
+        // No lighting: the shading is the noise itself, dark underside to lit
+        // top. Nothing here reads the sun.
+        vec3 cloud = mix(cloud_dark, cloud_lit, smoothstep(0.35, 0.85, d));
+        col = mix(col, cloud, clamp(c, 0.0, 1.0) * 0.95);
+    }
+
+    COLOR = col;
+}"
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cobr0"]
+shader = SubResource("Shader_5lmtr")
+shader_parameter/top = Vector3(0.1, 0.15, 0.34)
+shader_parameter/horizon = Vector3(0.62, 0.32, 0.18)
+shader_parameter/ground_horizon = Vector3(0.3, 0.22, 0.2)
+shader_parameter/ground_bottom = Vector3(0.07, 0.06, 0.08)
+shader_parameter/cloud_lit = Vector3(0.62, 0.4, 0.31)
+shader_parameter/cloud_dark = Vector3(0.16, 0.12, 0.19)
+shader_parameter/speed = 0.018
+shader_parameter/cover = 0.26
+
+[sub_resource type="Sky" id="Sky_awe6m"]
+sky_material = SubResource("ShaderMaterial_cobr0")
+process_mode = 2
+radiance_size = 2
+
+[sub_resource type="Environment" id="Environment_rt26q"]
+background_mode = 2
+sky = SubResource("Sky_awe6m")
+ambient_light_source = 2
+ambient_light_color = Color(0.3, 0.34, 0.52, 1)
+ambient_light_energy = 0.62399995
+tonemap_mode = 3
+tonemap_exposure = 1.35
+tonemap_white = 4.0
+ssao_enabled = true
+ssao_radius = 1.6
+ssao_intensity = 1.6
+glow_enabled = true
+glow_intensity = 0.8
+glow_bloom = 0.2
+glow_hdr_threshold = 0.85
+fog_light_color = Color(0.74, 0.55, 0.42, 1)
+fog_light_energy = 0.42
+fog_density = 0.0004
+fog_aerial_perspective = 0.3
+fog_sky_affect = 0.0
+volumetric_fog_density = 0.0015
+volumetric_fog_albedo = Color(0.74, 0.55, 0.42, 1)
+volumetric_fog_anisotropy = 0.6
+volumetric_fog_length = 96.0
+adjustment_enabled = true
+adjustment_brightness = 1.02
+adjustment_contrast = 1.3
+adjustment_saturation = 0.75
+
+[node name="AssetSheet" type="Node3D" unique_id=965845257]
+
+[node name="_snowkit" type="Label3D" parent="." unique_id=231034167]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 2)
+pixel_size = 0.01
+billboard = 1
+text = "SNOWKIT"
+font_size = 256
+outline_size = 24
+
+[node name="snowkit_Fence" type="Node3D" parent="." unique_id=2093308101 instance=ExtResource("1_3h7ep")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.204, 0, 0.104)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Fence"
+
+[node name="_label" type="Label3D" parent="snowkit_Fence" unique_id=1217555319]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.88, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Fence"
+font_size = 64
+
+[node name="snowkit_Sapling" type="Node3D" parent="." unique_id=1792936372 instance=ExtResource("3_s24ea")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.9477744, 0, 0.43497726)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Sapling"
+
+[node name="_label" type="Label3D" parent="snowkit_Sapling" unique_id=1550409601]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.019887209, 2.9765358, 0.007961214)
+pixel_size = 0.01
+billboard = 1
+text = "Sapling"
+font_size = 64
+
+[node name="snowkit_Lantern" type="Node3D" parent="." unique_id=246356173 instance=ExtResource("4_qrgjo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8054624, 0, 0.3566429)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Lantern"
+
+[node name="_label" type="Label3D" parent="snowkit_Lantern" unique_id=1418521349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008107394, 3.77, 0.34667856)
+pixel_size = 0.01
+billboard = 1
+text = "Lantern"
+font_size = 64
+
+[node name="snowkit_FrozenGrass" type="Node3D" parent="." unique_id=1048645991 instance=ExtResource("5_qkt5y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.96705, 0, 0.46834165)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "FrozenGrass"
+
+[node name="_label" type="Label3D" parent="snowkit_FrozenGrass" unique_id=297787022]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0058262944, 1.2585944, 0.050837696)
+pixel_size = 0.01
+billboard = 1
+text = "FrozenGrass"
+font_size = 64
+
+[node name="snowkit_Bench" type="Node3D" parent="." unique_id=224030990 instance=ExtResource("6_a5ra8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.46463, 0, 0.3273964)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Bench"
+
+[node name="_label" type="Label3D" parent="snowkit_Bench" unique_id=2079077293]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.006877601, 1.51, 0.0018199086)
+pixel_size = 0.01
+billboard = 1
+text = "Bench"
+font_size = 64
+
+[node name="snowkit_Barrels" type="Node3D" parent="." unique_id=496953292 instance=ExtResource("7_xrme0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.265614, 0, 0.43826845)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Barrels"
+
+[node name="_label" type="Label3D" parent="snowkit_Barrels" unique_id=752650616]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.045335293, 1.6, -0.010206789)
+pixel_size = 0.01
+billboard = 1
+text = "Barrels"
+font_size = 64
+
+[node name="snowkit_Signpost" type="Node3D" parent="." unique_id=2015780073 instance=ExtResource("8_u57vx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.702595, 0, 0.46697223)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Signpost"
+
+[node name="_label" type="Label3D" parent="snowkit_Signpost" unique_id=1751305624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.027313769, 2.7799997, 0.014225036)
+pixel_size = 0.01
+billboard = 1
+text = "Signpost"
+font_size = 64
+
+[node name="snowkit_SnowShrub" type="Node3D" parent="." unique_id=605778255 instance=ExtResource("9_dcmb0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.102219, 0, 0.58684033)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "SnowShrub"
+
+[node name="_label" type="Label3D" parent="snowkit_SnowShrub" unique_id=502073780]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.011690915, 1.708463, -0.011901081)
+pixel_size = 0.01
+billboard = 1
+text = "SnowShrub"
+font_size = 64
+
+[node name="snowkit_BerriesBush" type="Node3D" parent="." unique_id=1602646698 instance=ExtResource("10_b3jdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.280773, 0, 0.65699697)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "BerriesBush"
+
+[node name="_label" type="Label3D" parent="snowkit_BerriesBush" unique_id=313635083]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.027917862, 1.32, -0.0108578205)
+pixel_size = 0.01
+billboard = 1
+text = "BerriesBush"
+font_size = 64
+
+[node name="snowkit_Stump" type="Node3D" parent="." unique_id=1409614992 instance=ExtResource("11_loj0s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.689524, 0, 0.7503787)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Stump"
+
+[node name="_label" type="Label3D" parent="snowkit_Stump" unique_id=1672648340]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.033647776, 1.36, -0.028437138)
+pixel_size = 0.01
+billboard = 1
+text = "Stump"
+font_size = 64
+
+[node name="snowkit_StoneWall" type="Node3D" parent="." unique_id=310196322 instance=ExtResource("12_llsof")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.941517, 0, 0.47396564)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "StoneWall"
+
+[node name="_label" type="Label3D" parent="snowkit_StoneWall" unique_id=349348705]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008850217, 1.64, -0.009522527)
+pixel_size = 0.01
+billboard = 1
+text = "StoneWall"
+font_size = 64
+
+[node name="snowkit_LogPile" type="Node3D" parent="." unique_id=1781685595 instance=ExtResource("13_xjbyl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.289562, 0, 0.8458674)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "LogPile"
+
+[node name="_label" type="Label3D" parent="snowkit_LogPile" unique_id=719821540]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008754253, 1.8613434, 0.012405574)
+pixel_size = 0.01
+billboard = 1
+text = "LogPile"
+font_size = 64
+
+[node name="snowkit_SnowPile" type="Node3D" parent="." unique_id=1196571235 instance=ExtResource("14_g5jj4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.952248, 0, 0.79697615)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "SnowPile"
+
+[node name="_label" type="Label3D" parent="snowkit_SnowPile" unique_id=1956091240]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04665357, 1.1, 0.02933091)
+pixel_size = 0.01
+billboard = 1
+text = "SnowPile"
+font_size = 64
+
+[node name="snowkit_PineYoung" type="Node3D" parent="." unique_id=1386428770 instance=ExtResource("15_hm110")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.836185, 0, 0.8227241)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "PineYoung"
+
+[node name="_label" type="Label3D" parent="snowkit_PineYoung" unique_id=838245612]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.8734045, 0)
+pixel_size = 0.01
+billboard = 1
+text = "PineYoung"
+font_size = 64
+
+[node name="snowkit_SnowBush" type="Node3D" parent="." unique_id=1872086951 instance=ExtResource("16_jrhuk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.671947, 0, 0.91672146)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "SnowBush"
+
+[node name="_label" type="Label3D" parent="snowkit_SnowBush" unique_id=553937498]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.012947977, 1.8153344, -0.03337741)
+pixel_size = 0.01
+billboard = 1
+text = "SnowBush"
+font_size = 64
+
+[node name="snowkit_RockSmall" type="Node3D" parent="." unique_id=679535875 instance=ExtResource("17_irin2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.527878, 0, 1.0875059)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "RockSmall"
+
+[node name="_label" type="Label3D" parent="snowkit_RockSmall" unique_id=1119800502]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.006595075, 1.855472, -0.200005)
+pixel_size = 0.01
+billboard = 1
+text = "RockSmall"
+font_size = 64
+
+[node name="snowkit_Stairs" type="Node3D" parent="." unique_id=1614874510 instance=ExtResource("18_huf8s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.30896, 0, 1.86)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Stairs"
+
+[node name="_label" type="Label3D" parent="snowkit_Stairs" unique_id=821143657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1, -0.8000001)
+pixel_size = 0.01
+billboard = 1
+text = "Stairs"
+font_size = 64
+
+[node name="snowkit_IceOverhang" type="Node3D" parent="." unique_id=402099663 instance=ExtResource("19_y1r5q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.281277, 0, 0.8539423)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "IceOverhang"
+
+[node name="_label" type="Label3D" parent="snowkit_IceOverhang" unique_id=1577036473]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.004483819, 3.388466, 0.011439145)
+pixel_size = 0.01
+billboard = 1
+text = "IceOverhang"
+font_size = 64
+
+[node name="snowkit_CartCrates" type="Node3D" parent="." unique_id=2079370965 instance=ExtResource("20_id74k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.32462, 0, 0.74235857)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "CartCrates"
+
+[node name="_label" type="Label3D" parent="snowkit_CartCrates" unique_id=1559321381]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46000004, 2.3400002, -0.01878953)
+pixel_size = 0.01
+billboard = 1
+text = "CartCrates"
+font_size = 64
+
+[node name="snowkit_RockLarge" type="Node3D" parent="." unique_id=90143587 instance=ExtResource("21_g85k1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.42235, 0, 0.7151463)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "RockLarge"
+
+[node name="_label" type="Label3D" parent="snowkit_RockLarge" unique_id=1540032464]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06143689, 3.7123103, 0.15180355)
+pixel_size = 0.01
+billboard = 1
+text = "RockLarge"
+font_size = 64
+
+[node name="snowkit_RockMedium" type="Node3D" parent="." unique_id=1850444704 instance=ExtResource("22_1opsq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 76.80054, 0, 1.0683104)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "RockMedium"
+
+[node name="_label" type="Label3D" parent="snowkit_RockMedium" unique_id=2088669047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06659949, 2.7399359, -0.0026773214)
+pixel_size = 0.01
+billboard = 1
+text = "RockMedium"
+font_size = 64
+
+[node name="snowkit_DeadTree" type="Node3D" parent="." unique_id=2118772663 instance=ExtResource("23_8g35g")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.876396, 0, 1.2605091)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "DeadTree"
+
+[node name="_label" type="Label3D" parent="snowkit_DeadTree" unique_id=957652037]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13215727, 6.7999997, -0.1683687)
+pixel_size = 0.01
+billboard = 1
+text = "DeadTree"
+font_size = 64
+
+[node name="snowkit_BrokenCart" type="Node3D" parent="." unique_id=150440804 instance=ExtResource("24_u6nho")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 85.037796, 0, 1.0683964)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "BrokenCart"
+
+[node name="_label" type="Label3D" parent="snowkit_BrokenCart" unique_id=1852470401]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44399428, 1.7427913, -0.12395471)
+pixel_size = 0.01
+billboard = 1
+text = "BrokenCart"
+font_size = 64
+
+[node name="snowkit_SnowyLedge" type="Node3D" parent="." unique_id=1233458639 instance=ExtResource("25_h06qb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90.49265, 0, 1.1038693)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "SnowyLedge"
+
+[node name="_label" type="Label3D" parent="snowkit_SnowyLedge" unique_id=1175872695]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.012634039, 2.3322043, -0.12092525)
+pixel_size = 0.01
+billboard = 1
+text = "SnowyLedge"
+font_size = 64
+
+[node name="snowkit_CliffModule" type="Node3D" parent="." unique_id=1134087688 instance=ExtResource("26_r8kwp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 95.577675, 0, 0.8904257)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "CliffModule"
+
+[node name="_label" type="Label3D" parent="snowkit_CliffModule" unique_id=910441795]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.060121894, 4.622258, 0.21192884)
+pixel_size = 0.01
+billboard = 1
+text = "CliffModule"
+font_size = 64
+
+[node name="snowkit_PineSmall" type="Node3D" parent="." unique_id=999997760 instance=ExtResource("27_pbb2h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 100.60281, 0, 1.2557368)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "PineSmall"
+
+[node name="_label" type="Label3D" parent="snowkit_PineSmall" unique_id=1804354697]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.258176, 0)
+pixel_size = 0.01
+billboard = 1
+text = "PineSmall"
+font_size = 64
+
+[node name="snowkit_RuinPillar" type="Node3D" parent="." unique_id=490055999 instance=ExtResource("28_pr5h8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 104.70282, 0, 1.417985)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "RuinPillar"
+
+[node name="_label" type="Label3D" parent="snowkit_RuinPillar" unique_id=2112619212]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8722204, 3.0899997, -0.20437026)
+pixel_size = 0.01
+billboard = 1
+text = "RuinPillar"
+font_size = 64
+
+[node name="snowkit_PineSparse" type="Node3D" parent="." unique_id=462819407 instance=ExtResource("29_cakyy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 110.31078, 0, 1.4265847)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "PineSparse"
+
+[node name="_label" type="Label3D" parent="snowkit_PineSparse" unique_id=351412105]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14323723, 7.699145, 0)
+pixel_size = 0.01
+billboard = 1
+text = "PineSparse"
+font_size = 64
+
+[node name="snowkit_RuinWall" type="Node3D" parent="." unique_id=1052744774 instance=ExtResource("30_51yiq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 116.50911, 0, 0.602579)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "RuinWall"
+
+[node name="_label" type="Label3D" parent="snowkit_RuinWall" unique_id=1899883075]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.027676105, 4.130265, 0.38877147)
+pixel_size = 0.01
+billboard = 1
+text = "RuinWall"
+font_size = 64
+
+[node name="snowkit_PineMedium" type="Node3D" parent="." unique_id=1823671415 instance=ExtResource("31_qknjp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 123.00209, 0, 1.602147)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "PineMedium"
+
+[node name="_label" type="Label3D" parent="snowkit_PineMedium" unique_id=933985373]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.6041436, 0)
+pixel_size = 0.01
+billboard = 1
+text = "PineMedium"
+font_size = 64
+
+[node name="snowkit_RuinArch" type="Node3D" parent="." unique_id=886555288 instance=ExtResource("32_hqn07")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 129.60193, 0, 1.0355358)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "RuinArch"
+
+[node name="_label" type="Label3D" parent="snowkit_RuinArch" unique_id=536714311]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.06752014, 5.885, 0.13370728)
+pixel_size = 0.01
+billboard = 1
+text = "RuinArch"
+font_size = 64
+
+[node name="snowkit_PineLarge" type="Node3D" parent="." unique_id=908441724 instance=ExtResource("33_w0r5o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 136.46674, 0, 1.9485571)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "PineLarge"
+
+[node name="_label" type="Label3D" parent="snowkit_PineLarge" unique_id=1863405503]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.016497, 0)
+pixel_size = 0.01
+billboard = 1
+text = "PineLarge"
+font_size = 64
+
+[node name="snowkit_Cabin" type="Node3D" parent="." unique_id=887918269 instance=ExtResource("34_5s2qy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 144.7751, 0, 3.594164)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Cabin"
+
+[node name="_label" type="Label3D" parent="snowkit_Cabin" unique_id=487220603]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025030136, 6.5177493, -0.01685834)
+pixel_size = 0.01
+billboard = 1
+text = "Cabin"
+font_size = 64
+
+[node name="snowkit_Castle" type="Node3D" parent="." unique_id=450223663 instance=ExtResource("35_4i04p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.671999, 0, 29.826612)
+script = ExtResource("2_pvfqy")
+Kit = "snowkit"
+Kind = "Castle"
+
+[node name="_label" type="Label3D" parent="snowkit_Castle" unique_id=1643870285]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 34.46, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Castle"
+font_size = 64
+
+[node name="_desertkit" type="Label3D" parent="." unique_id=951974931]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 62.49861)
+pixel_size = 0.01
+billboard = 1
+text = "DESERTKIT"
+font_size = 256
+outline_size = 24
+
+[node name="desertkit_Urn" type="Node3D" parent="." unique_id=1127628060 instance=ExtResource("36_bpoh0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35, 0, 60.84861)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Urn"
+
+[node name="_label" type="Label3D" parent="desertkit_Urn" unique_id=1489430109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.15, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Urn"
+font_size = 64
+
+[node name="desertkit_ColumnCactus" type="Node3D" parent="." unique_id=1390355585 instance=ExtResource("37_r0atg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9619699, 0, 60.773968)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "ColumnCactus"
+
+[node name="_label" type="Label3D" parent="desertkit_ColumnCactus" unique_id=653104238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.685, 0)
+pixel_size = 0.01
+billboard = 1
+text = "ColumnCactus"
+font_size = 64
+
+[node name="desertkit_BarrelCactus" type="Node3D" parent="." unique_id=571195062 instance=ExtResource("38_cj1vc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.486114, 0, 61.024097)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "BarrelCactus"
+
+[node name="_label" type="Label3D" parent="desertkit_BarrelCactus" unique_id=1671000225]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1109128, 1.47, -0.08725649)
+pixel_size = 0.01
+billboard = 1
+text = "BarrelCactus"
+font_size = 64
+
+[node name="desertkit_Brazier" type="Node3D" parent="." unique_id=275176375 instance=ExtResource("39_wkavb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.820114, 0, 61.04861)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Brazier"
+
+[node name="_label" type="Label3D" parent="desertkit_Brazier" unique_id=885668776]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4213047, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Brazier"
+font_size = 64
+
+[node name="desertkit_ScrubGrass" type="Node3D" parent="." unique_id=703394459 instance=ExtResource("40_k86gy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.987955, 0, 61.169647)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "ScrubGrass"
+
+[node name="_label" type="Label3D" parent="desertkit_ScrubGrass" unique_id=929164875]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.051330745, 1.1487583, -0.21434763)
+pixel_size = 0.01
+billboard = 1
+text = "ScrubGrass"
+font_size = 64
+
+[node name="desertkit_BoulderSmall" type="Node3D" parent="." unique_id=1842251799 instance=ExtResource("41_uai36")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.324123, 0, 61.03591)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "BoulderSmall"
+
+[node name="_label" type="Label3D" parent="desertkit_BoulderSmall" unique_id=282989701]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.013310969, 1.180153, -0.02487123)
+pixel_size = 0.01
+billboard = 1
+text = "BoulderSmall"
+font_size = 64
+
+[node name="desertkit_DryShrub" type="Node3D" parent="." unique_id=2067447844 instance=ExtResource("42_52mrt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.753273, 0, 61.13302)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "DryShrub"
+
+[node name="_label" type="Label3D" parent="desertkit_DryShrub" unique_id=1131427589]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09652537, 1.4420543, -0.09243053)
+pixel_size = 0.01
+billboard = 1
+text = "DryShrub"
+font_size = 64
+
+[node name="desertkit_Pots" type="Node3D" parent="." unique_id=73911573 instance=ExtResource("43_oqt61")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.259068, 0, 61.187565)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Pots"
+
+[node name="_label" type="Label3D" parent="desertkit_Pots" unique_id=332039451]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.069384694, 1.4385, -0.039065003)
+pixel_size = 0.01
+billboard = 1
+text = "Pots"
+font_size = 64
+
+[node name="desertkit_Crates" type="Node3D" parent="." unique_id=2091642273 instance=ExtResource("44_a5nvb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.95617, 0, 61.228592)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Crates"
+
+[node name="_label" type="Label3D" parent="desertkit_Crates" unique_id=1506582994]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.069138646, 1.9, -0.12642497)
+pixel_size = 0.01
+billboard = 1
+text = "Crates"
+font_size = 64
+
+[node name="desertkit_BoulderMedium" type="Node3D" parent="." unique_id=2084389788 instance=ExtResource("45_cbk2n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.16739, 0, 61.340004)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "BoulderMedium"
+
+[node name="_label" type="Label3D" parent="desertkit_BoulderMedium" unique_id=1589827545]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.20144379, 1.6865827, 0.03450668)
+pixel_size = 0.01
+billboard = 1
+text = "BoulderMedium"
+font_size = 64
+
+[node name="desertkit_MarketStall" type="Node3D" parent="." unique_id=1787959421 instance=ExtResource("46_0yqgm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.166084, 0, 61.24861)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "MarketStall"
+
+[node name="_label" type="Label3D" parent="desertkit_MarketStall" unique_id=1768741346]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.15, 0.21749997)
+pixel_size = 0.01
+billboard = 1
+text = "MarketStall"
+font_size = 64
+
+[node name="desertkit_Rug" type="Node3D" parent="." unique_id=867985678 instance=ExtResource("47_hsbmu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.966084, 0, 61.91861)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Rug"
+
+[node name="_label" type="Label3D" parent="desertkit_Rug" unique_id=2063370479]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84000003, -0.28499997)
+pixel_size = 0.01
+billboard = 1
+text = "Rug"
+font_size = 64
+
+[node name="desertkit_Bones" type="Node3D" parent="." unique_id=845499386 instance=ExtResource("48_sl1vp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.712425, 0, 61.08045)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Bones"
+
+[node name="_label" type="Label3D" parent="desertkit_Bones" unique_id=1065873716]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3271389, 1.2321057, 0.4708429)
+pixel_size = 0.01
+billboard = 1
+text = "Bones"
+font_size = 64
+
+[node name="desertkit_Awning" type="Node3D" parent="." unique_id=184652533 instance=ExtResource("49_7aakt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.513042, 0, 60.698612)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Awning"
+
+[node name="_label" type="Label3D" parent="desertkit_Awning" unique_id=554210340]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.1999998, 0.94250005)
+pixel_size = 0.01
+billboard = 1
+text = "Awning"
+font_size = 64
+
+[node name="desertkit_Obelisk" type="Node3D" parent="." unique_id=1112389965 instance=ExtResource("50_4icdc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.213043, 0, 62.18349)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Obelisk"
+
+[node name="_label" type="Label3D" parent="desertkit_Obelisk" unique_id=356239485]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5337386, 8.8, -0.3424399)
+pixel_size = 0.01
+billboard = 1
+text = "Obelisk"
+font_size = 64
+
+[node name="desertkit_Well" type="Node3D" parent="." unique_id=1422210875 instance=ExtResource("51_v65id")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.430523, 0, 61.922916)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Well"
+
+[node name="_label" type="Label3D" parent="desertkit_Well" unique_id=1536697907]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5494374, 3.0106215, -0.13166237)
+pixel_size = 0.01
+billboard = 1
+text = "Well"
+font_size = 64
+
+[node name="desertkit_RuinedColumn" type="Node3D" parent="." unique_id=1372624793 instance=ExtResource("52_vdovq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.700165, 0, 62.019375)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "RuinedColumn"
+
+[node name="_label" type="Label3D" parent="desertkit_RuinedColumn" unique_id=1704421918]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.009231806, 4.16, -0.27544618)
+pixel_size = 0.01
+billboard = 1
+text = "RuinedColumn"
+font_size = 64
+
+[node name="desertkit_BoulderLarge" type="Node3D" parent="." unique_id=498422703 instance=ExtResource("53_rbokr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.74857, 0, 61.95561)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "BoulderLarge"
+
+[node name="_label" type="Label3D" parent="desertkit_BoulderLarge" unique_id=1711792287]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21213388, 2.4808908, -0.08215964)
+pixel_size = 0.01
+billboard = 1
+text = "BoulderLarge"
+font_size = 64
+
+[node name="desertkit_SandPile" type="Node3D" parent="." unique_id=994398726 instance=ExtResource("54_6shfw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.75308, 0, 62.25038)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "SandPile"
+
+[node name="_label" type="Label3D" parent="desertkit_SandPile" unique_id=1355948752]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.52531457, 1.2, -0.11156058)
+pixel_size = 0.01
+billboard = 1
+text = "SandPile"
+font_size = 64
+
+[node name="desertkit_DatePalmLean" type="Node3D" parent="." unique_id=1029452961 instance=ExtResource("55_4e3e6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 85.58988, 0, 62.525333)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "DatePalmLean"
+
+[node name="_label" type="Label3D" parent="desertkit_DatePalmLean" unique_id=158391954]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8100013, 6.9252625, -0.019812346)
+pixel_size = 0.01
+billboard = 1
+text = "DatePalmLean"
+font_size = 64
+
+[node name="desertkit_SandstoneArch" type="Node3D" parent="." unique_id=1557637231 instance=ExtResource("56_xlumj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 94.383575, 0, 61.913956)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "SandstoneArch"
+
+[node name="_label" type="Label3D" parent="desertkit_SandstoneArch" unique_id=447647311]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24424958, 6.45, 0.11753714)
+pixel_size = 0.01
+billboard = 1
+text = "SandstoneArch"
+font_size = 64
+
+[node name="desertkit_SandstoneLedge" type="Node3D" parent="." unique_id=1566547649 instance=ExtResource("57_epnjv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 102.71205, 0, 61.628647)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "SandstoneLedge"
+
+[node name="_label" type="Label3D" parent="desertkit_SandstoneLedge" unique_id=1603259495]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.1692028, 2.4, 0.6751865)
+pixel_size = 0.01
+billboard = 1
+text = "SandstoneLedge"
+font_size = 64
+
+[node name="desertkit_DatePalm" type="Node3D" parent="." unique_id=1385430421 instance=ExtResource("58_xuk8s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109.64074, 0, 62.982994)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "DatePalm"
+
+[node name="_label" type="Label3D" parent="desertkit_DatePalm" unique_id=2125385014]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.056439877, 8.320984, -0.028914213)
+pixel_size = 0.01
+billboard = 1
+text = "DatePalm"
+font_size = 64
+
+[node name="desertkit_DatePalmTall" type="Node3D" parent="." unique_id=618661090 instance=ExtResource("59_4b50d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 115.63097, 0, 63.529247)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "DatePalmTall"
+
+[node name="_label" type="Label3D" parent="desertkit_DatePalmTall" unique_id=156284009]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0449629, 10.58759, -0.4424317)
+pixel_size = 0.01
+billboard = 1
+text = "DatePalmTall"
+font_size = 64
+
+[node name="desertkit_AdobeHouse" type="Node3D" parent="." unique_id=691643050 instance=ExtResource("60_k5dwy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.138794, 0, 63.78676)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "AdobeHouse"
+
+[node name="_label" type="Label3D" parent="desertkit_AdobeHouse" unique_id=1616270712]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.17622662, 4.504585, 0.29842615)
+pixel_size = 0.01
+billboard = 1
+text = "AdobeHouse"
+font_size = 64
+
+[node name="desertkit_AdobeHouseTall" type="Node3D" parent="." unique_id=602407342 instance=ExtResource("61_pmkp2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 135.58112, 0, 64.15235)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "AdobeHouseTall"
+
+[node name="_label" type="Label3D" parent="desertkit_AdobeHouseTall" unique_id=898736725]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.37559128, 7.5, 0.14063048)
+pixel_size = 0.01
+billboard = 1
+text = "AdobeHouseTall"
+font_size = 64
+
+[node name="desertkit_Mesa" type="Node3D" parent="." unique_id=1542957157 instance=ExtResource("62_hcwid")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.591629, 0, 81.45061)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Mesa"
+
+[node name="_label" type="Label3D" parent="desertkit_Mesa" unique_id=351498312]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8265667, 11.3, -0.12575817)
+pixel_size = 0.01
+billboard = 1
+text = "Mesa"
+font_size = 64
+
+[node name="desertkit_Temple" type="Node3D" parent="." unique_id=434904944 instance=ExtResource("63_w2s87")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.260445, 0, 86.08735)
+script = ExtResource("2_pvfqy")
+Kit = "desertkit"
+Kind = "Temple"
+
+[node name="_label" type="Label3D" parent="desertkit_Temple" unique_id=1061159579]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8367901, 16.4, 1.495306)
+pixel_size = 0.01
+billboard = 1
+text = "Temple"
+font_size = 64
+
+[node name="_worldkit" type="Label3D" parent="." unique_id=1501537350]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 117.07796)
+pixel_size = 0.01
+billboard = 1
+text = "WORLDKIT"
+font_size = 256
+outline_size = 24
+
+[node name="worldkit_Jar" type="Node3D" parent="." unique_id=1725323922 instance=ExtResource("64_ndw4l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2648471, 0, 115.34776)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Jar"
+
+[node name="_label" type="Label3D" parent="worldkit_Jar" unique_id=642450345]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.55, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Jar"
+font_size = 64
+
+[node name="worldkit_Pot" type="Node3D" parent="." unique_id=768104842 instance=ExtResource("65_wm30x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2874122, 0, 115.37788)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Pot"
+
+[node name="_label" type="Label3D" parent="worldkit_Pot" unique_id=363719960]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.245, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Pot"
+font_size = 64
+
+[node name="worldkit_Barrel" type="Node3D" parent="." unique_id=1667648439 instance=ExtResource("66_nmoi5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.431978, 0, 115.456535)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Barrel"
+
+[node name="_label" type="Label3D" parent="worldkit_Barrel" unique_id=37360935]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05098903, 1.6, -0.0013843477)
+pixel_size = 0.01
+billboard = 1
+text = "Barrel"
+font_size = 64
+
+[node name="worldkit_Scarecrow" type="Node3D" parent="." unique_id=1729203750 instance=ExtResource("67_6wf7q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.76, 0, 115.37796)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Scarecrow"
+
+[node name="_label" type="Label3D" parent="worldkit_Scarecrow" unique_id=286303223]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7800002, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Scarecrow"
+font_size = 64
+
+[node name="worldkit_Crate" type="Node3D" parent="." unique_id=1476043987 instance=ExtResource("68_vp40p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.085072, 0, 115.58837)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Crate"
+
+[node name="_label" type="Label3D" parent="worldkit_Crate" unique_id=878569005]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.07876977, 1.3800001, 0.0036017299)
+pixel_size = 0.01
+billboard = 1
+text = "Crate"
+font_size = 64
+
+[node name="worldkit_Cairn" type="Node3D" parent="." unique_id=1767936391 instance=ExtResource("69_8sfwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.067533, 0, 115.56914)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Cairn"
+
+[node name="_label" type="Label3D" parent="worldkit_Cairn" unique_id=109264273]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.028623581, 2.0837634, 0.015815765)
+pixel_size = 0.01
+billboard = 1
+text = "Cairn"
+font_size = 64
+
+[node name="worldkit_Minecart" type="Node3D" parent="." unique_id=331609096 instance=ExtResource("70_6c3pi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.17782, 0, 115.527954)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Minecart"
+
+[node name="_label" type="Label3D" parent="worldkit_Minecart" unique_id=708813764]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.61, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Minecart"
+font_size = 64
+
+[node name="worldkit_Beehives" type="Node3D" parent="." unique_id=574306783 instance=ExtResource("71_2d6ns")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.847818, 0, 115.37796)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Beehives"
+
+[node name="_label" type="Label3D" parent="worldkit_Beehives" unique_id=1202689246]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.62, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Beehives"
+font_size = 64
+
+[node name="worldkit_HayBale" type="Node3D" parent="." unique_id=1727650414 instance=ExtResource("72_uto7f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.651672, 0, 115.52393)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "HayBale"
+
+[node name="_label" type="Label3D" parent="worldkit_HayBale" unique_id=2099854682]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0042297244, 1.1400001, -0.003611356)
+pixel_size = 0.01
+billboard = 1
+text = "HayBale"
+font_size = 64
+
+[node name="worldkit_ChoppingBlock" type="Node3D" parent="." unique_id=800481768 instance=ExtResource("73_t2equ")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.109247, 0, 115.901344)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "ChoppingBlock"
+
+[node name="_label" type="Label3D" parent="worldkit_ChoppingBlock" unique_id=1533468319]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0611881, 1.5764883, 0.03525585)
+pixel_size = 0.01
+billboard = 1
+text = "ChoppingBlock"
+font_size = 64
+
+[node name="worldkit_Shrine" type="Node3D" parent="." unique_id=1173633016 instance=ExtResource("74_6bew0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.093807, 0, 116.22796)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Shrine"
+
+[node name="_label" type="Label3D" parent="worldkit_Shrine" unique_id=127182504]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.6, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Shrine"
+font_size = 64
+
+[node name="worldkit_Boardwalk" type="Node3D" parent="." unique_id=263620546 instance=ExtResource("75_2lc3c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.233654, 0, 115.86652)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Boardwalk"
+
+[node name="_label" type="Label3D" parent="worldkit_Boardwalk" unique_id=1569627991]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.004847884, 1.0500001, -0.019285142)
+pixel_size = 0.01
+billboard = 1
+text = "Boardwalk"
+font_size = 64
+
+[node name="worldkit_LilyPads" type="Node3D" parent="." unique_id=2115197138 instance=ExtResource("76_12kgd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.6606, 0, 116.33891)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "LilyPads"
+
+[node name="_label" type="Label3D" parent="worldkit_LilyPads" unique_id=2113892657]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.015028954, 0.70000005, -0.053257823)
+pixel_size = 0.01
+billboard = 1
+text = "LilyPads"
+font_size = 64
+
+[node name="worldkit_Haystack" type="Node3D" parent="." unique_id=1141025540 instance=ExtResource("77_kec3o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.48301, 0, 116.50303)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Haystack"
+
+[node name="_label" type="Label3D" parent="worldkit_Haystack" unique_id=153964975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Haystack"
+font_size = 64
+
+[node name="worldkit_WoodShed" type="Node3D" parent="." unique_id=624707983 instance=ExtResource("78_8c85s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.858086, 0, 116.4046)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "WoodShed"
+
+[node name="_label" type="Label3D" parent="worldkit_WoodShed" unique_id=1208338859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.202402, 0)
+pixel_size = 0.01
+billboard = 1
+text = "WoodShed"
+font_size = 64
+
+[node name="worldkit_StiltHut" type="Node3D" parent="." unique_id=2053852155 instance=ExtResource("79_o41l6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.708088, 0, 117.06849)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "StiltHut"
+
+[node name="_label" type="Label3D" parent="worldkit_StiltHut" unique_id=62150145]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.3286614, -0.14526594)
+pixel_size = 0.01
+billboard = 1
+text = "StiltHut"
+font_size = 64
+
+[node name="worldkit_CharcoalMound" type="Node3D" parent="." unique_id=246552982 instance=ExtResource("80_yoi7k")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.43258, 0, 116.99319)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "CharcoalMound"
+
+[node name="_label" type="Label3D" parent="worldkit_CharcoalMound" unique_id=1023854716]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.05343306, 2.12, -0.018571377)
+pixel_size = 0.01
+billboard = 1
+text = "CharcoalMound"
+font_size = 64
+
+[node name="worldkit_Watchtower" type="Node3D" parent="." unique_id=1923876584 instance=ExtResource("81_85641")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.86394, 0, 117.57796)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Watchtower"
+
+[node name="_label" type="Label3D" parent="worldkit_Watchtower" unique_id=1880025071]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.200001, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Watchtower"
+font_size = 64
+
+[node name="worldkit_DrownedChapel" type="Node3D" parent="." unique_id=1070712216 instance=ExtResource("82_f8tw5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78.963936, 0, 122.677956)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "DrownedChapel"
+
+[node name="_label" type="Label3D" parent="worldkit_DrownedChapel" unique_id=759952463]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.024999976, 11.065811, -2.975)
+pixel_size = 0.01
+billboard = 1
+text = "DrownedChapel"
+font_size = 64
+
+[node name="worldkit_Farmhouse" type="Node3D" parent="." unique_id=1208544839 instance=ExtResource("83_tismm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 85.963936, 0, 117.75977)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "Farmhouse"
+
+[node name="_label" type="Label3D" parent="worldkit_Farmhouse" unique_id=598649546]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.1499996, 0)
+pixel_size = 0.01
+billboard = 1
+text = "Farmhouse"
+font_size = 64
+
+[node name="worldkit_MineMouth" type="Node3D" parent="." unique_id=2046383725 instance=ExtResource("84_i8sgu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 94.884514, 0, 118.09602)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "MineMouth"
+
+[node name="_label" type="Label3D" parent="worldkit_MineMouth" unique_id=700173669]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.10292649, 4.8251004, 0.54096746)
+pixel_size = 0.01
+billboard = 1
+text = "MineMouth"
+font_size = 64
+
+[node name="worldkit_TrunkArch" type="Node3D" parent="." unique_id=150201109 instance=ExtResource("85_qsh0s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 106.74924, 0, 117.38143)
+script = ExtResource("2_pvfqy")
+Kit = "worldkit"
+Kind = "TrunkArch"
+
+[node name="_label" type="Label3D" parent="worldkit_TrunkArch" unique_id=1579107926]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3068366, 5.8879743, -0.03818345)
+pixel_size = 0.01
+billboard = 1
+text = "TrunkArch"
+font_size = 64
+
+[node name="_citykit" type="Label3D" parent="." unique_id=224489110]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 138.32796)
+pixel_size = 0.01
+billboard = 1
+text = "CITYKIT"
+font_size = 256
+outline_size = 24
+
+[node name="citykit_hanging_lantern" type="Node3D" parent="." unique_id=1859278788 instance=ExtResource("86_waom3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.16970563, 0, 136.49767)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "hanging_lantern"
+
+[node name="_label" type="Label3D" parent="citykit_hanging_lantern" unique_id=709633328]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.6599998, 0)
+pixel_size = 0.01
+billboard = 1
+text = "hanging_lantern"
+font_size = 64
+
+[node name="citykit_ivy" type="Node3D" parent="." unique_id=1232506063 instance=ExtResource("87_k4p3e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.307831, 0, 136.32796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ivy"
+
+[node name="_label" type="Label3D" parent="citykit_ivy" unique_id=1289063664]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.11798084, 3.9689384, 0.04)
+pixel_size = 0.01
+billboard = 1
+text = "ivy"
+font_size = 64
+
+[node name="citykit_wall_lantern" type="Node3D" parent="." unique_id=429283042 instance=ExtResource("88_wv0x2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.007186, 0, 136.40796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "wall_lantern"
+
+[node name="_label" type="Label3D" parent="citykit_wall_lantern" unique_id=933883497]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.25, 0.28778172)
+pixel_size = 0.01
+billboard = 1
+text = "wall_lantern"
+font_size = 64
+
+[node name="citykit_hanging_sign" type="Node3D" parent="." unique_id=2005740861 instance=ExtResource("89_cf0je")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.951623, 0, 136.42796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "hanging_sign"
+
+[node name="_label" type="Label3D" parent="citykit_hanging_sign" unique_id=1328394129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.9, 0.5)
+pixel_size = 0.01
+billboard = 1
+text = "hanging_sign"
+font_size = 64
+
+[node name="citykit_railing" type="Node3D" parent="." unique_id=2116049173 instance=ExtResource("90_iints")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.401623, 0, 136.37796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "railing"
+
+[node name="_label" type="Label3D" parent="citykit_railing" unique_id=940265631]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.63, 0)
+pixel_size = 0.01
+billboard = 1
+text = "railing"
+font_size = 64
+
+[node name="citykit_signpost" type="Node3D" parent="." unique_id=2068428100 instance=ExtResource("91_715b4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.645372, 0, 136.45114)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "signpost"
+
+[node name="_label" type="Label3D" parent="citykit_signpost" unique_id=1424093016]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.028124988, 2.6999998, 0)
+pixel_size = 0.01
+billboard = 1
+text = "signpost"
+font_size = 64
+
+[node name="citykit_banner" type="Node3D" parent="." unique_id=442402061 instance=ExtResource("92_jcfx1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.045372, 0, 136.46796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "banner"
+
+[node name="_label" type="Label3D" parent="citykit_banner" unique_id=1817438435]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.66, 0.010000005)
+pixel_size = 0.01
+billboard = 1
+text = "banner"
+font_size = 64
+
+[node name="citykit_laundry_line" type="Node3D" parent="." unique_id=2140480204 instance=ExtResource("93_83c4t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.945372, 0, 136.37796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "laundry_line"
+
+[node name="_label" type="Label3D" parent="citykit_laundry_line" unique_id=503349171]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.9, 0)
+pixel_size = 0.01
+billboard = 1
+text = "laundry_line"
+font_size = 64
+
+[node name="citykit_bollard" type="Node3D" parent="." unique_id=1962572191 instance=ExtResource("94_iqknh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.535374, 0, 136.66986)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "bollard"
+
+[node name="_label" type="Label3D" parent="citykit_bollard" unique_id=2128048281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.32, 0)
+pixel_size = 0.01
+billboard = 1
+text = "bollard"
+font_size = 64
+
+[node name="citykit_lantern_post" type="Node3D" parent="." unique_id=799232697 instance=ExtResource("95_8fnje")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.415375, 0, 136.42796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "lantern_post"
+
+[node name="_label" type="Label3D" parent="citykit_lantern_post" unique_id=828507288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.6999998, 0.45000002)
+pixel_size = 0.01
+billboard = 1
+text = "lantern_post"
+font_size = 64
+
+[node name="citykit_urn" type="Node3D" parent="." unique_id=1112559766 instance=ExtResource("96_s055b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.545372, 0, 136.67796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "urn"
+
+[node name="_label" type="Label3D" parent="citykit_urn" unique_id=16402370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.15, 0)
+pixel_size = 0.01
+billboard = 1
+text = "urn"
+font_size = 64
+
+[node name="citykit_clothesline" type="Node3D" parent="." unique_id=1279959413 instance=ExtResource("97_boygv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.255375, 0, 136.38795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "clothesline"
+
+[node name="_label" type="Label3D" parent="citykit_clothesline" unique_id=1085776819]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3, 0)
+pixel_size = 0.01
+billboard = 1
+text = "clothesline"
+font_size = 64
+
+[node name="citykit_ladder" type="Node3D" parent="." unique_id=1822831138 instance=ExtResource("98_r4iya")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.600372, 0, 136.36191)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ladder"
+
+[node name="_label" type="Label3D" parent="citykit_ladder" unique_id=1902705879]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.8084888, 0.4)
+pixel_size = 0.01
+billboard = 1
+text = "ladder"
+font_size = 64
+
+[node name="citykit_chest" type="Node3D" parent="." unique_id=963951957 instance=ExtResource("99_fhgue")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.800373, 0, 136.62296)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "chest"
+
+[node name="_label" type="Label3D" parent="citykit_chest" unique_id=845493381]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25, 0.004999995)
+pixel_size = 0.01
+billboard = 1
+text = "chest"
+font_size = 64
+
+[node name="citykit_weapon_rack" type="Node3D" parent="." unique_id=1274315779 instance=ExtResource("100_w46oc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.265373, 0, 136.41331)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "weapon_rack"
+
+[node name="_label" type="Label3D" parent="citykit_weapon_rack" unique_id=1211536736]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.92, 0.087322325)
+pixel_size = 0.01
+billboard = 1
+text = "weapon_rack"
+font_size = 64
+
+[node name="citykit_bunting_pennant" type="Node3D" parent="." unique_id=1003131422 instance=ExtResource("101_thfju")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.267334, 0, 136.38795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "bunting_pennant"
+
+[node name="_label" type="Label3D" parent="citykit_bunting_pennant" unique_id=1307064136]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.2, 0)
+pixel_size = 0.01
+billboard = 1
+text = "bunting_pennant"
+font_size = 64
+
+[node name="citykit_street_lamp" type="Node3D" parent="." unique_id=783204492 instance=ExtResource("102_w7u06")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.6193, 0, 136.62796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "street_lamp"
+
+[node name="_label" type="Label3D" parent="citykit_street_lamp" unique_id=349570070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33409387, 4.95, 0)
+pixel_size = 0.01
+billboard = 1
+text = "street_lamp"
+font_size = 64
+
+[node name="citykit_bench" type="Node3D" parent="." unique_id=803458672 instance=ExtResource("103_5bigw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 69.38749, 0, 136.55296)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "bench"
+
+[node name="_label" type="Label3D" parent="citykit_bench" unique_id=1117802265]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.46, 0.03982921)
+pixel_size = 0.01
+billboard = 1
+text = "bench"
+font_size = 64
+
+[node name="citykit_training_dummy" type="Node3D" parent="." unique_id=1159289411 instance=ExtResource("104_gefwt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.867485, 0, 136.66353)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "training_dummy"
+
+[node name="_label" type="Label3D" parent="citykit_training_dummy" unique_id=1376118152]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.65, -0.022786647)
+pixel_size = 0.01
+billboard = 1
+text = "training_dummy"
+font_size = 64
+
+[node name="citykit_grindstone" type="Node3D" parent="." unique_id=350863069 instance=ExtResource("105_p68dr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 75.99748, 0, 136.74796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "grindstone"
+
+[node name="_label" type="Label3D" parent="citykit_grindstone" unique_id=885646797]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.08499998, 1.8094697, 0)
+pixel_size = 0.01
+billboard = 1
+text = "grindstone"
+font_size = 64
+
+[node name="citykit_barrels" type="Node3D" parent="." unique_id=1738802613 instance=ExtResource("106_3m13u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 79.297485, 0, 136.65796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "barrels"
+
+[node name="_label" type="Label3D" parent="citykit_barrels" unique_id=410894002]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0018000007, 1.565, 0)
+pixel_size = 0.01
+billboard = 1
+text = "barrels"
+font_size = 64
+
+[node name="citykit_fence" type="Node3D" parent="." unique_id=942704436 instance=ExtResource("107_rvrj7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.16197, 0, 136.50027)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "fence"
+
+[node name="_label" type="Label3D" parent="citykit_fence" unique_id=394892283]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00044190884, 1.8650001, 0.03714554)
+pixel_size = 0.01
+billboard = 1
+text = "fence"
+font_size = 64
+
+[node name="citykit_rope_coil" type="Node3D" parent="." unique_id=1568838246 instance=ExtResource("108_im08j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 86.84027, 0, 136.82625)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "rope_coil"
+
+[node name="_label" type="Label3D" parent="citykit_rope_coil" unique_id=1008203027]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.91, 0)
+pixel_size = 0.01
+billboard = 1
+text = "rope_coil"
+font_size = 64
+
+[node name="citykit_anvil" type="Node3D" parent="." unique_id=279606810 instance=ExtResource("109_bo4nc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 89.69197, 0, 136.90295)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "anvil"
+
+[node name="_label" type="Label3D" parent="citykit_anvil" unique_id=1228927982]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23749998, 1.61, -0.1275)
+pixel_size = 0.01
+billboard = 1
+text = "anvil"
+font_size = 64
+
+[node name="citykit_post_chain" type="Node3D" parent="." unique_id=700135606 instance=ExtResource("110_4atvb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 94.17698, 0, 136.48796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "post_chain"
+
+[node name="_label" type="Label3D" parent="citykit_post_chain" unique_id=933837962]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.55, 0)
+pixel_size = 0.01
+billboard = 1
+text = "post_chain"
+font_size = 64
+
+[node name="citykit_laundry_span" type="Node3D" parent="." unique_id=1237437970 instance=ExtResource("111_mvcui")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 101.69759, 0, 136.39796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "laundry_span"
+
+[node name="_label" type="Label3D" parent="citykit_laundry_span" unique_id=893948937]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.2, 0)
+pixel_size = 0.01
+billboard = 1
+text = "laundry_span"
+font_size = 64
+
+[node name="citykit_iron_fence" type="Node3D" parent="." unique_id=1846183445 instance=ExtResource("112_ukacd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109.05822, 0, 136.52795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "iron_fence"
+
+[node name="_label" type="Label3D" parent="citykit_iron_fence" unique_id=1714996141]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3400002, 0)
+pixel_size = 0.01
+billboard = 1
+text = "iron_fence"
+font_size = 64
+
+[node name="citykit_brazier" type="Node3D" parent="." unique_id=1594945786 instance=ExtResource("113_kqs61")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 113.10822, 0, 136.87796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "brazier"
+
+[node name="_label" type="Label3D" parent="citykit_brazier" unique_id=93238123]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2466621, 0)
+pixel_size = 0.01
+billboard = 1
+text = "brazier"
+font_size = 64
+
+[node name="citykit_sacks" type="Node3D" parent="." unique_id=410270059 instance=ExtResource("114_tc3av")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 116.34629, 0, 136.97444)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "sacks"
+
+[node name="_label" type="Label3D" parent="citykit_sacks" unique_id=702894128]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.032289684, 1.74, -0.22395092)
+pixel_size = 0.01
+billboard = 1
+text = "sacks"
+font_size = 64
+
+[node name="citykit_flag" type="Node3D" parent="." unique_id=953135890 instance=ExtResource("115_p7j6p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 119.39894, 0, 136.62796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "flag"
+
+[node name="_label" type="Label3D" parent="citykit_flag" unique_id=932815069]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7920608, 6.75, 0)
+pixel_size = 0.01
+billboard = 1
+text = "flag"
+font_size = 64
+
+[node name="citykit_notice_board" type="Node3D" parent="." unique_id=1730027258 instance=ExtResource("116_4f301")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 124.28306, 0, 136.6651)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "notice_board"
+
+[node name="_label" type="Label3D" parent="citykit_notice_board" unique_id=247966265]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.0283122, 0)
+pixel_size = 0.01
+billboard = 1
+text = "notice_board"
+font_size = 64
+
+[node name="citykit_stump" type="Node3D" parent="." unique_id=1618457375 instance=ExtResource("117_dhie8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.73247, 0, 136.92332)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "stump"
+
+[node name="_label" type="Label3D" parent="citykit_stump" unique_id=840784286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.118187666, 1.3499999, 0.0036400557)
+pixel_size = 0.01
+billboard = 1
+text = "stump"
+font_size = 64
+
+[node name="citykit_scarecrow" type="Node3D" parent="." unique_id=1304869533 instance=ExtResource("118_jlhiy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 131.31824, 0, 136.70837)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "scarecrow"
+
+[node name="_label" type="Label3D" parent="citykit_scarecrow" unique_id=222557313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.06, 0)
+pixel_size = 0.01
+billboard = 1
+text = "scarecrow"
+font_size = 64
+
+[node name="citykit_mooring_post" type="Node3D" parent="." unique_id=1864939729 instance=ExtResource("119_evxpu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 134.45825, 0, 136.57166)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "mooring_post"
+
+[node name="_label" type="Label3D" parent="citykit_mooring_post" unique_id=580697835]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5887469, 1.88, 0.1892295)
+pixel_size = 0.01
+billboard = 1
+text = "mooring_post"
+font_size = 64
+
+[node name="citykit_bunting_s" type="Node3D" parent="." unique_id=1594232170 instance=ExtResource("120_4ucl5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 142.17575, 0, 136.41457)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "bunting_s"
+
+[node name="_label" type="Label3D" parent="citykit_bunting_s" unique_id=368928465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
+pixel_size = 0.01
+billboard = 1
+text = "bunting_s"
+font_size = 64
+
+[node name="citykit_planter" type="Node3D" parent="." unique_id=348040471 instance=ExtResource("121_hh0fa")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 149.10211, 0, 136.92796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "planter"
+
+[node name="_label" type="Label3D" parent="citykit_planter" unique_id=1721054179]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0054546, 2.8000002, 0)
+pixel_size = 0.01
+billboard = 1
+text = "planter"
+font_size = 64
+
+[node name="citykit_stone_wall" type="Node3D" parent="." unique_id=127504782 instance=ExtResource("122_vyf4j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 153.00957, 0, 136.6352)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "stone_wall"
+
+[node name="_label" type="Label3D" parent="citykit_stone_wall" unique_id=1891188869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.023724914, 1.62, -0.002860576)
+pixel_size = 0.01
+billboard = 1
+text = "stone_wall"
+font_size = 64
+
+[node name="citykit_training_target" type="Node3D" parent="." unique_id=827243529 instance=ExtResource("123_unkfs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 157.07402, 0, 136.66368)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "training_target"
+
+[node name="_label" type="Label3D" parent="citykit_training_target" unique_id=1730528629]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7375001, 2.6, -0.057863533)
+pixel_size = 0.01
+billboard = 1
+text = "training_target"
+font_size = 64
+
+[node name="citykit_crate_pile" type="Node3D" parent="." unique_id=643790020 instance=ExtResource("124_qvrmq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4178851, 0, 141.93796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "crate_pile"
+
+[node name="_label" type="Label3D" parent="citykit_crate_pile" unique_id=863140700]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7005081, 2.62, 0.0039425194)
+pixel_size = 0.01
+billboard = 1
+text = "crate_pile"
+font_size = 64
+
+[node name="citykit_gate_small" type="Node3D" parent="." unique_id=1658710198 instance=ExtResource("125_8cg55")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.8467865, 0, 141.83795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "gate_small"
+
+[node name="_label" type="Label3D" parent="citykit_gate_small" unique_id=2017999266]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.1999998, 0)
+pixel_size = 0.01
+billboard = 1
+text = "gate_small"
+font_size = 64
+
+[node name="citykit_trough" type="Node3D" parent="." unique_id=796218156 instance=ExtResource("126_woyqu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.356786, 0, 141.9737)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "trough"
+
+[node name="_label" type="Label3D" parent="citykit_trough" unique_id=482826157]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.22500002, 1.25, -0.0015829504)
+pixel_size = 0.01
+billboard = 1
+text = "trough"
+font_size = 64
+
+[node name="citykit_pots" type="Node3D" parent="." unique_id=836798943 instance=ExtResource("127_luxai")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.55783, 0, 142.21796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "pots"
+
+[node name="_label" type="Label3D" parent="citykit_pots" unique_id=1403066368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.06077659, 1.4385, -0.039210677)
+pixel_size = 0.01
+billboard = 1
+text = "pots"
+font_size = 64
+
+[node name="citykit_bunting_m" type="Node3D" parent="." unique_id=146147426 instance=ExtResource("128_woghl")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.687319, 0, 141.61456)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "bunting_m"
+
+[node name="_label" type="Label3D" parent="citykit_bunting_m" unique_id=6574734]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6, 0)
+pixel_size = 0.01
+billboard = 1
+text = "bunting_m"
+font_size = 64
+
+[node name="citykit_goods_crates" type="Node3D" parent="." unique_id=1284687253 instance=ExtResource("129_d7oao")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.987667, 0, 142.11041)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "goods_crates"
+
+[node name="_label" type="Label3D" parent="citykit_goods_crates" unique_id=1208881562]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34832478, 1.7, -0.12623191)
+pixel_size = 0.01
+billboard = 1
+text = "goods_crates"
+font_size = 64
+
+[node name="citykit_table_set" type="Node3D" parent="." unique_id=2070522221 instance=ExtResource("130_sdu53")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.33467, 0, 142.28795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "table_set"
+
+[node name="_label" type="Label3D" parent="citykit_table_set" unique_id=74547893]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.53, 0)
+pixel_size = 0.01
+billboard = 1
+text = "table_set"
+font_size = 64
+
+[node name="citykit_drying_rack" type="Node3D" parent="." unique_id=1352975980 instance=ExtResource("131_qev4u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.38467, 0, 141.9671)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "drying_rack"
+
+[node name="_label" type="Label3D" parent="citykit_drying_rack" unique_id=360429432]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.5082405, 0)
+pixel_size = 0.01
+billboard = 1
+text = "drying_rack"
+font_size = 64
+
+[node name="citykit_log_pile" type="Node3D" parent="." unique_id=854486815 instance=ExtResource("132_oda8e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 45.52085, 0, 142.22795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "log_pile"
+
+[node name="_label" type="Label3D" parent="citykit_log_pile" unique_id=379182781]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0056639314, 1.7408038, 0)
+pixel_size = 0.01
+billboard = 1
+text = "log_pile"
+font_size = 64
+
+[node name="citykit_barrel_stack" type="Node3D" parent="." unique_id=1814071097 instance=ExtResource("133_ahye1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.468357, 0, 142.07796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "barrel_stack"
+
+[node name="_label" type="Label3D" parent="citykit_barrel_stack" unique_id=470490231]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4038486, 0)
+pixel_size = 0.01
+billboard = 1
+text = "barrel_stack"
+font_size = 64
+
+[node name="citykit_fish_barrels" type="Node3D" parent="." unique_id=1182760994 instance=ExtResource("134_1nbo1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.60836, 0, 142.48969)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "fish_barrels"
+
+[node name="_label" type="Label3D" parent="citykit_fish_barrels" unique_id=105659825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.021499991, 1.57, -0.32393926)
+pixel_size = 0.01
+billboard = 1
+text = "fish_barrels"
+font_size = 64
+
+[node name="citykit_hedge" type="Node3D" parent="." unique_id=1158816047 instance=ExtResource("135_f66i1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.115356, 0, 141.9773)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "hedge"
+
+[node name="_label" type="Label3D" parent="citykit_hedge" unique_id=1080870423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.049999952, 1.7551577, -0.0027480721)
+pixel_size = 0.01
+billboard = 1
+text = "hedge"
+font_size = 64
+
+[node name="citykit_flower_bed" type="Node3D" parent="." unique_id=629022562 instance=ExtResource("136_gesne")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.025356, 0, 142.07796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "flower_bed"
+
+[node name="_label" type="Label3D" parent="citykit_flower_bed" unique_id=1807957901]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.09, 0)
+pixel_size = 0.01
+billboard = 1
+text = "flower_bed"
+font_size = 64
+
+[node name="citykit_net_stack" type="Node3D" parent="." unique_id=255082808 instance=ExtResource("137_wbjui")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.31482, 0, 142.28734)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "net_stack"
+
+[node name="_label" type="Label3D" parent="citykit_net_stack" unique_id=1065431435]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.10696006, 1.37, 0.086486876)
+pixel_size = 0.01
+billboard = 1
+text = "net_stack"
+font_size = 64
+
+[node name="citykit_balcony" type="Node3D" parent="." unique_id=2073908371 instance=ExtResource("138_ynu1m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 71.29036, 0, 141.56654)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "balcony"
+
+[node name="_label" type="Label3D" parent="citykit_balcony" unique_id=2053744349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6450001, 0.60570425)
+pixel_size = 0.01
+billboard = 1
+text = "balcony"
+font_size = 64
+
+[node name="citykit_fishing_nets" type="Node3D" parent="." unique_id=1974575364 instance=ExtResource("139_pv5m5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 76.19036, 0, 141.56795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "fishing_nets"
+
+[node name="_label" type="Label3D" parent="citykit_fishing_nets" unique_id=345908609]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8000002, 0.43)
+pixel_size = 0.01
+billboard = 1
+text = "fishing_nets"
+font_size = 64
+
+[node name="citykit_statue_saint" type="Node3D" parent="." unique_id=1043707326 instance=ExtResource("140_r2igd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.7927, 0, 142.22795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "statue_saint"
+
+[node name="_label" type="Label3D" parent="citykit_statue_saint" unique_id=321301990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0011686087, 4.2, 0.22876555)
+pixel_size = 0.01
+billboard = 1
+text = "statue_saint"
+font_size = 64
+
+[node name="citykit_statue_knight" type="Node3D" parent="." unique_id=8832090 instance=ExtResource("141_qxugy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.59318, 0, 142.26556)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "statue_knight"
+
+[node name="_label" type="Label3D" parent="citykit_statue_knight" unique_id=962015127]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.053829014, 4.45, 0.20619822)
+pixel_size = 0.01
+billboard = 1
+text = "statue_knight"
+font_size = 64
+
+[node name="citykit_cart" type="Node3D" parent="." unique_id=1586524509 instance=ExtResource("142_k0nmp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 88.53132, 0, 142.19795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "cart"
+
+[node name="_label" type="Label3D" parent="citykit_cart" unique_id=588032131]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46000004, 2.2600002, 0)
+pixel_size = 0.01
+billboard = 1
+text = "cart"
+font_size = 64
+
+[node name="citykit_awning" type="Node3D" parent="." unique_id=1976474925 instance=ExtResource("143_rl7rk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 93.871315, 0, 141.54817)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "awning"
+
+[node name="_label" type="Label3D" parent="citykit_awning" unique_id=1646135549]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.4777827, 0.7)
+pixel_size = 0.01
+billboard = 1
+text = "awning"
+font_size = 64
+
+[node name="citykit_tree_planter" type="Node3D" parent="." unique_id=2112732777 instance=ExtResource("144_vol83")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 98.45363, 0, 142.63959)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "tree_planter"
+
+[node name="_label" type="Label3D" parent="citykit_tree_planter" unique_id=1483681685]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0106316805, 3.8150616, -0.10523796)
+pixel_size = 0.01
+billboard = 1
+text = "tree_planter"
+font_size = 64
+
+[node name="citykit_ruin_wall" type="Node3D" parent="." unique_id=679954410 instance=ExtResource("145_4toyv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 104.00968, 0, 141.9667)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ruin_wall"
+
+[node name="_label" type="Label3D" parent="citykit_ruin_wall" unique_id=84584741]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.3841858e-07, 3.9247122, 0.031341225)
+pixel_size = 0.01
+billboard = 1
+text = "ruin_wall"
+font_size = 64
+
+[node name="citykit_garden_bed" type="Node3D" parent="." unique_id=1402572031 instance=ExtResource("146_o4flr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109.99468, 0, 142.32796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "garden_bed"
+
+[node name="_label" type="Label3D" parent="citykit_garden_bed" unique_id=1282108491]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0350001, 0)
+pixel_size = 0.01
+billboard = 1
+text = "garden_bed"
+font_size = 64
+
+[node name="citykit_broken_cart" type="Node3D" parent="." unique_id=1140715456 instance=ExtResource("147_8vyru")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 114.456696, 0, 142.59634)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "broken_cart"
+
+[node name="_label" type="Label3D" parent="citykit_broken_cart" unique_id=790320301]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44399428, 1.7427913, -0.19919825)
+pixel_size = 0.01
+billboard = 1
+text = "broken_cart"
+font_size = 64
+
+[node name="citykit_stall_c" type="Node3D" parent="." unique_id=282059591 instance=ExtResource("148_qnh0p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 119.60919, 0, 142.49411)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "stall_c"
+
+[node name="_label" type="Label3D" parent="citykit_stall_c" unique_id=1046724676]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.3400002, 0)
+pixel_size = 0.01
+billboard = 1
+text = "stall_c"
+font_size = 64
+
+[node name="citykit_ruin_pillar" type="Node3D" parent="." unique_id=815899993 instance=ExtResource("149_lslen")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 123.5617, 0, 142.17795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ruin_pillar"
+
+[node name="_label" type="Label3D" parent="citykit_ruin_pillar" unique_id=960783868]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.8722204, 3.0150003, 0.17962217)
+pixel_size = 0.01
+billboard = 1
+text = "ruin_pillar"
+font_size = 64
+
+[node name="citykit_market_stall_b" type="Node3D" parent="." unique_id=1676835912 instance=ExtResource("150_718e1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 129.30614, 0, 142.32796)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "market_stall_b"
+
+[node name="_label" type="Label3D" parent="citykit_market_stall_b" unique_id=2086731348]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.23341906, 3.6, 0.00999999)
+pixel_size = 0.01
+billboard = 1
+text = "market_stall_b"
+font_size = 64
+
+[node name="citykit_well" type="Node3D" parent="." unique_id=450684398 instance=ExtResource("151_054yw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 134.44705, 0, 142.50203)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "well"
+
+[node name="_label" type="Label3D" parent="citykit_well" unique_id=1999872409]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016817927, 3.6773696, -0.011326373)
+pixel_size = 0.01
+billboard = 1
+text = "well"
+font_size = 64
+
+[node name="citykit_market_stall_a" type="Node3D" parent="." unique_id=1073087528 instance=ExtResource("152_d546o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 139.30727, 0, 142.54445)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "market_stall_a"
+
+[node name="_label" type="Label3D" parent="citykit_market_stall_a" unique_id=112231720]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.3923097, -0.14074445)
+pixel_size = 0.01
+billboard = 1
+text = "market_stall_a"
+font_size = 64
+
+[node name="citykit_rowboat" type="Node3D" parent="." unique_id=695449696 instance=ExtResource("153_ed4fd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 144.95598, 0, 142.33798)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "rowboat"
+
+[node name="_label" type="Label3D" parent="citykit_rowboat" unique_id=1086677252]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00127244, 1.4190894, 0)
+pixel_size = 0.01
+billboard = 1
+text = "rowboat"
+font_size = 64
+
+[node name="citykit_monument" type="Node3D" parent="." unique_id=1016060837 instance=ExtResource("154_826ip")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 150.29964, 0, 142.72795)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "monument"
+
+[node name="_label" type="Label3D" parent="citykit_monument" unique_id=515577845]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.2999997, 0.2716447)
+pixel_size = 0.01
+billboard = 1
+text = "monument"
+font_size = 64
+
+[node name="citykit_forge" type="Node3D" parent="." unique_id=1844515488 instance=ExtResource("155_n0gwp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 154.82964, 0, 142.60577)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "forge"
+
+[node name="_label" type="Label3D" parent="citykit_forge" unique_id=647412421]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.110000014, 4.8, 0.3210913)
+pixel_size = 0.01
+billboard = 1
+text = "forge"
+font_size = 64
+
+[node name="citykit_shed" type="Node3D" parent="." unique_id=1066782798 instance=ExtResource("156_1m146")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7, 0, 149.7279)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "shed"
+
+[node name="_label" type="Label3D" parent="citykit_shed" unique_id=568747685]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.4118652, 0)
+pixel_size = 0.01
+billboard = 1
+text = "shed"
+font_size = 64
+
+[node name="citykit_ruin_arch" type="Node3D" parent="." unique_id=590753198 instance=ExtResource("157_vc1a4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6509514, 0, 149.72754)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ruin_arch"
+
+[node name="_label" type="Label3D" parent="citykit_ruin_arch" unique_id=1403113751]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008523703, 5.745, -0.28993005)
+pixel_size = 0.01
+billboard = 1
+text = "ruin_arch"
+font_size = 64
+
+[node name="citykit_wagon" type="Node3D" parent="." unique_id=654395014 instance=ExtResource("158_vqhtd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.859856, 0, 149.39124)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "wagon"
+
+[node name="_label" type="Label3D" parent="citykit_wagon" unique_id=454426147]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.46532857, 2.835, 0)
+pixel_size = 0.01
+billboard = 1
+text = "wagon"
+font_size = 64
+
+[node name="citykit_fountain_small" type="Node3D" parent="." unique_id=1907242742 instance=ExtResource("159_g33pd")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.265512, 0, 150.04613)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "fountain_small"
+
+[node name="_label" type="Label3D" parent="citykit_fountain_small" unique_id=1432086785]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03810048, 3.2999997, -0.03744507)
+pixel_size = 0.01
+billboard = 1
+text = "fountain_small"
+font_size = 64
+
+[node name="citykit_retaining_12" type="Node3D" parent="." unique_id=1184427962 instance=ExtResource("160_oc87w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.841713, 0, 149.12123)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "retaining_12"
+
+[node name="_label" type="Label3D" parent="citykit_retaining_12" unique_id=2051015688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.800001, 0.325)
+pixel_size = 0.01
+billboard = 1
+text = "retaining_12"
+font_size = 64
+
+[node name="citykit_retaining_4" type="Node3D" parent="." unique_id=1086345378 instance=ExtResource("161_db5d5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.841713, 0, 149.12123)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "retaining_4"
+
+[node name="_label" type="Label3D" parent="citykit_retaining_4" unique_id=620784949]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.7999997, 0.325)
+pixel_size = 0.01
+billboard = 1
+text = "retaining_4"
+font_size = 64
+
+[node name="citykit_retaining_6" type="Node3D" parent="." unique_id=175027567 instance=ExtResource("162_1qgyf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.841713, 0, 149.12123)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "retaining_6"
+
+[node name="_label" type="Label3D" parent="citykit_retaining_6" unique_id=1136061682]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.7999997, 0.325)
+pixel_size = 0.01
+billboard = 1
+text = "retaining_6"
+font_size = 64
+
+[node name="citykit_retaining_8" type="Node3D" parent="." unique_id=1952537659 instance=ExtResource("163_tap5i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.841713, 0, 149.12123)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "retaining_8"
+
+[node name="_label" type="Label3D" parent="citykit_retaining_8" unique_id=540621047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.800001, 0.325)
+pixel_size = 0.01
+billboard = 1
+text = "retaining_8"
+font_size = 64
+
+[node name="citykit_hay_stack" type="Node3D" parent="." unique_id=544700469 instance=ExtResource("164_i1j4l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.67767, 0, 149.95244)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "hay_stack"
+
+[node name="_label" type="Label3D" parent="citykit_hay_stack" unique_id=633237589]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.059042335, 4, 0.16647899)
+pixel_size = 0.01
+billboard = 1
+text = "hay_stack"
+font_size = 64
+
+[node name="citykit_tree_slim" type="Node3D" parent="." unique_id=367294216 instance=ExtResource("165_8gi1r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.184494, 0, 150.17294)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "tree_slim"
+
+[node name="_label" type="Label3D" parent="citykit_tree_slim" unique_id=1723655850]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00036549568, 6.9, 0.005844116)
+pixel_size = 0.01
+billboard = 1
+text = "tree_slim"
+font_size = 64
+
+[node name="citykit_sailboat" type="Node3D" parent="." unique_id=287607806 instance=ExtResource("166_7sg67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.020325, 0, 149.53128)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "sailboat"
+
+[node name="_label" type="Label3D" parent="citykit_sailboat" unique_id=59169824]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0012431145, 6.416, 0)
+pixel_size = 0.01
+billboard = 1
+text = "sailboat"
+font_size = 64
+
+[node name="citykit_pergola" type="Node3D" parent="." unique_id=583581415 instance=ExtResource("167_gmbv2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77.16943, 0, 150.0272)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "pergola"
+
+[node name="_label" type="Label3D" parent="citykit_pergola" unique_id=1070522131]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.03536296, 3.4899998, -0.023961663)
+pixel_size = 0.01
+billboard = 1
+text = "pergola"
+font_size = 64
+
+[node name="citykit_large_stall" type="Node3D" parent="." unique_id=1884096102 instance=ExtResource("168_1elkg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.74059, 0, 149.95772)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "large_stall"
+
+[node name="_label" type="Label3D" parent="citykit_large_stall" unique_id=577492160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.1099133, -0.0050596)
+pixel_size = 0.01
+billboard = 1
+text = "large_stall"
+font_size = 64
+
+[node name="citykit_chain_boom" type="Node3D" parent="." unique_id=1750426085 instance=ExtResource("169_nbs6r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 94.7856, 0, 149.08942)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "chain_boom"
+
+[node name="_label" type="Label3D" parent="citykit_chain_boom" unique_id=880585981]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.94, 0)
+pixel_size = 0.01
+billboard = 1
+text = "chain_boom"
+font_size = 64
+
+[node name="citykit_stone_stairs" type="Node3D" parent="." unique_id=1005769468 instance=ExtResource("170_tx1fq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 105.6856, 0, 152.79124)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "stone_stairs"
+
+[node name="_label" type="Label3D" parent="citykit_stone_stairs" unique_id=1449341208]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09500003, 6.4300003, -2.0600002)
+pixel_size = 0.01
+billboard = 1
+text = "stone_stairs"
+font_size = 64
+
+[node name="citykit_archway" type="Node3D" parent="." unique_id=1557487679 instance=ExtResource("171_tib48")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 114.24278, 0, 149.38124)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "archway"
+
+[node name="_label" type="Label3D" parent="citykit_archway" unique_id=1251062308]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3485918, 8.25, 0.27278167)
+pixel_size = 0.01
+billboard = 1
+text = "archway"
+font_size = 64
+
+[node name="citykit_crane" type="Node3D" parent="." unique_id=1038629351 instance=ExtResource("172_38cqs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 121.79108, 0, 150.01004)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "crane"
+
+[node name="_label" type="Label3D" parent="citykit_crane" unique_id=1980941646]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.07564819, 7.1, 1.4205967)
+pixel_size = 0.01
+billboard = 1
+text = "crane"
+font_size = 64
+
+[node name="citykit_harbour_hut" type="Node3D" parent="." unique_id=558622507 instance=ExtResource("173_pb7f4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.933075, 0, 150.922)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "harbour_hut"
+
+[node name="_label" type="Label3D" parent="citykit_harbour_hut" unique_id=678646610]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.1712008, 0.074620485)
+pixel_size = 0.01
+billboard = 1
+text = "harbour_hut"
+font_size = 64
+
+[node name="citykit_wall_run" type="Node3D" parent="." unique_id=2105238486 instance=ExtResource("174_ko6gs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 136.47807, 0, 150.17123)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "wall_run"
+
+[node name="_label" type="Label3D" parent="citykit_wall_run" unique_id=1295104339]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.35, 0)
+pixel_size = 0.01
+billboard = 1
+text = "wall_run"
+font_size = 64
+
+[node name="citykit_wall_corner" type="Node3D" parent="." unique_id=1166865596 instance=ExtResource("175_ybys7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 145.37807, 0, 151.37123)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "wall_corner"
+
+[node name="_label" type="Label3D" parent="citykit_wall_corner" unique_id=1875846025]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.6, 0)
+pixel_size = 0.01
+billboard = 1
+text = "wall_corner"
+font_size = 64
+
+[node name="citykit_sluice_gate" type="Node3D" parent="." unique_id=1319502802 instance=ExtResource("176_hr2px")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 153.17807, 0, 151.48996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "sluice_gate"
+
+[node name="_label" type="Label3D" parent="citykit_sluice_gate" unique_id=1733120719]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.83, -0.00936389)
+pixel_size = 0.01
+billboard = 1
+text = "sluice_gate"
+font_size = 64
+
+[node name="citykit_tree_broad" type="Node3D" parent="." unique_id=921649164 instance=ExtResource("177_dm5ms")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.1639569, 0, 161.0756)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "tree_broad"
+
+[node name="_label" type="Label3D" parent="citykit_tree_broad" unique_id=2118430607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.09862256, 7.0169406, 0.11677718)
+pixel_size = 0.01
+billboard = 1
+text = "tree_broad"
+font_size = 64
+
+[node name="citykit_pier" type="Node3D" parent="." unique_id=1797511804 instance=ExtResource("178_u652h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.165159, 0, 158.48996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "pier"
+
+[node name="_label" type="Label3D" parent="citykit_pier" unique_id=1966613324]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.42, 6.0575)
+pixel_size = 0.01
+billboard = 1
+text = "pier"
+font_size = 64
+
+[node name="citykit_riverbank" type="Node3D" parent="." unique_id=1221548550 instance=ExtResource("179_na3x2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.805159, 0, 159.48996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "riverbank"
+
+[node name="_label" type="Label3D" parent="citykit_riverbank" unique_id=1171357920]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1719103, 1.5)
+pixel_size = 0.01
+billboard = 1
+text = "riverbank"
+font_size = 64
+
+[node name="citykit_tower_house" type="Node3D" parent="." unique_id=1870105169 instance=ExtResource("180_1whgq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.077429, 0, 161.43497)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "tower_house"
+
+[node name="_label" type="Label3D" parent="citykit_tower_house" unique_id=1327846454]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.058750153, 17.053827, 0.21363473)
+pixel_size = 0.01
+billboard = 1
+text = "tower_house"
+font_size = 64
+
+[node name="citykit_quay_wall" type="Node3D" parent="." unique_id=1918689753 instance=ExtResource("181_kkq38")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.337418, 0, 160.48996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "quay_wall"
+
+[node name="_label" type="Label3D" parent="citykit_quay_wall" unique_id=617632924]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.027610302, 5.52, 0.54999995)
+pixel_size = 0.01
+billboard = 1
+text = "quay_wall"
+font_size = 64
+
+[node name="citykit_ship_fishing" type="Node3D" parent="." unique_id=1557003628 instance=ExtResource("182_ti1r3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.98742, 0, 160.58997)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ship_fishing"
+
+[node name="_label" type="Label3D" parent="citykit_ship_fishing" unique_id=422092918]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5277648, 8.118963, 0)
+pixel_size = 0.01
+billboard = 1
+text = "ship_fishing"
+font_size = 64
+
+[node name="citykit_watchtower" type="Node3D" parent="." unique_id=2114020616 instance=ExtResource("183_mpi7r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.831394, 0, 161.78946)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "watchtower"
+
+[node name="_label" type="Label3D" parent="citykit_watchtower" unique_id=1488426170]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 15.8, 0)
+pixel_size = 0.01
+billboard = 1
+text = "watchtower"
+font_size = 64
+
+[node name="citykit_alley_house" type="Node3D" parent="." unique_id=1474306459 instance=ExtResource("184_j12me")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.746994, 0, 162.53496)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "alley_house"
+
+[node name="_label" type="Label3D" parent="citykit_alley_house" unique_id=780760699]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.029817581, 11.551374, 0.3000002)
+pixel_size = 0.01
+billboard = 1
+text = "alley_house"
+font_size = 64
+
+[node name="citykit_dock_barge" type="Node3D" parent="." unique_id=1153449153 instance=ExtResource("185_hsv8f")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 75.72273, 0, 160.45996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "dock_barge"
+
+[node name="_label" type="Label3D" parent="citykit_dock_barge" unique_id=1201416208]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6500001, 1.9, 0)
+pixel_size = 0.01
+billboard = 1
+text = "dock_barge"
+font_size = 64
+
+[node name="citykit_dock_platform" type="Node3D" parent="." unique_id=1314415789 instance=ExtResource("186_4wtms")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 88.32273, 0, 158.48996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "dock_platform"
+
+[node name="_label" type="Label3D" parent="citykit_dock_platform" unique_id=185567723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.62, 3.0525)
+pixel_size = 0.01
+billboard = 1
+text = "dock_platform"
+font_size = 64
+
+[node name="citykit_tower_square" type="Node3D" parent="." unique_id=2000636211 instance=ExtResource("187_vjpfg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 97.82273, 0, 161.98996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "tower_square"
+
+[node name="_label" type="Label3D" parent="citykit_tower_square" unique_id=965317104]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.024999857, 17.6, 0)
+pixel_size = 0.01
+billboard = 1
+text = "tower_square"
+font_size = 64
+
+[node name="citykit_cottage" type="Node3D" parent="." unique_id=1772152677 instance=ExtResource("188_cey8a")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 107.01773, 0, 161.73862)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "cottage"
+
+[node name="_label" type="Label3D" parent="citykit_cottage" unique_id=926021337]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24250007, 7.7309217, 0)
+pixel_size = 0.01
+billboard = 1
+text = "cottage"
+font_size = 64
+
+[node name="citykit_granary" type="Node3D" parent="." unique_id=297557906 instance=ExtResource("189_wq2vw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 116.69273, 0, 161.64558)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "granary"
+
+[node name="_label" type="Label3D" parent="citykit_granary" unique_id=1869240052]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.3866625, 0.4099524)
+pixel_size = 0.01
+billboard = 1
+text = "granary"
+font_size = 64
+
+[node name="citykit_townhouse" type="Node3D" parent="." unique_id=912610495 instance=ExtResource("190_6lb3b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.329575, 0, 162.48495)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse" unique_id=2078995818]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.277848, 0.20000005)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse"
+font_size = 64
+
+[node name="citykit_townhouse_narrow" type="Node3D" parent="." unique_id=1568308677 instance=ExtResource("191_gy74t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 133.24478, 0, 162.78496)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_narrow"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_narrow" unique_id=1419041009]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0023477077, 11.985929, 0.3499999)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_narrow"
+font_size = 64
+
+[node name="citykit_townhouse_ruin" type="Node3D" parent="." unique_id=1390261234 instance=ExtResource("192_y5ex7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 140.92345, 0, 162.14996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_ruin"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_ruin" unique_id=280070728]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.700001, 0.92479825)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_ruin"
+font_size = 64
+
+[node name="citykit_ramp" type="Node3D" parent="." unique_id=1510766947 instance=ExtResource("193_1k06d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 147.98344, 0, 170.50209)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ramp"
+
+[node name="_label" type="Label3D" parent="citykit_ramp" unique_id=1269682273]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.1, -6)
+pixel_size = 0.01
+billboard = 1
+text = "ramp"
+font_size = 64
+
+[node name="citykit_cottage_thatch" type="Node3D" parent="." unique_id=782735371 instance=ExtResource("194_em1gc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 155.92844, 0, 161.75896)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "cottage_thatch"
+
+[node name="_label" type="Label3D" parent="citykit_cottage_thatch" unique_id=1197163674]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.903214, 0.37300324)
+pixel_size = 0.01
+billboard = 1
+text = "cottage_thatch"
+font_size = 64
+
+[node name="citykit_cottage_tile" type="Node3D" parent="." unique_id=624176077 instance=ExtResource("195_4gulk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.8449998, 0, 177.97522)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "cottage_tile"
+
+[node name="_label" type="Label3D" parent="citykit_cottage_tile" unique_id=619128581]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.04095149, 6.864761, 0.17862344)
+pixel_size = 0.01
+billboard = 1
+text = "cottage_tile"
+font_size = 64
+
+[node name="citykit_townhouse_wooden" type="Node3D" parent="." unique_id=1513616073 instance=ExtResource("196_uvlpt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.290375, 0, 178.54997)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_wooden"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_wooden" unique_id=1647368948]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.015979767, 9.51557, 0.07749963)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_wooden"
+font_size = 64
+
+[node name="citykit_townhouse_stone" type="Node3D" parent="." unique_id=1200201983 instance=ExtResource("197_whp30")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.36754, 0, 178.64996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_stone"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_stone" unique_id=1107452606]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0024337769, 9.838312, 0.113865376)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_stone"
+font_size = 64
+
+[node name="citykit_tower_round" type="Node3D" parent="." unique_id=1787563594 instance=ExtResource("198_231ds")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.888222, 0, 178.53012)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "tower_round"
+
+[node name="_label" type="Label3D" parent="citykit_tower_round" unique_id=1924681946]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 22.1, 0)
+pixel_size = 0.01
+billboard = 1
+text = "tower_round"
+font_size = 64
+
+[node name="citykit_townhouse_arched" type="Node3D" parent="." unique_id=6073537 instance=ExtResource("199_2h2rf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.414066, 0, 178.64996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_arched"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_arched" unique_id=1944846558]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00088763237, 12.32111, 0.2999997)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_arched"
+font_size = 64
+
+[node name="citykit_crop_field" type="Node3D" parent="." unique_id=880872500 instance=ExtResource("200_5kqdp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.016525, 0, 178.60497)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "crop_field"
+
+[node name="_label" type="Label3D" parent="citykit_crop_field" unique_id=1644362305]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.845, 0)
+pixel_size = 0.01
+billboard = 1
+text = "crop_field"
+font_size = 64
+
+[node name="citykit_tenement" type="Node3D" parent="." unique_id=1534652812 instance=ExtResource("201_yfmkp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.861526, 0, 178.50711)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "tenement"
+
+[node name="_label" type="Label3D" parent="citykit_tenement" unique_id=472449087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.95405, 0.30117488)
+pixel_size = 0.01
+billboard = 1
+text = "tenement"
+font_size = 64
+
+[node name="citykit_apothecary" type="Node3D" parent="." unique_id=195018706 instance=ExtResource("202_ueafm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.10505, 0, 178.44997)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "apothecary"
+
+[node name="_label" type="Label3D" parent="citykit_apothecary" unique_id=730478360]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0016565323, 9.813983, 0.9325001)
+pixel_size = 0.01
+billboard = 1
+text = "apothecary"
+font_size = 64
+
+[node name="citykit_townhouse_std" type="Node3D" parent="." unique_id=555895402 instance=ExtResource("203_7nar7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 79.672325, 0, 178.64996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_std"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_std" unique_id=378510308]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.385314, 9.613694, 0.33249998)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_std"
+font_size = 64
+
+[node name="citykit_shop" type="Node3D" parent="." unique_id=1667087694 instance=ExtResource("204_dltrp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 88.76325, 0, 178.44997)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "shop"
+
+[node name="_label" type="Label3D" parent="citykit_shop" unique_id=339273998]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.039706945, 10.117679, 0.595958)
+pixel_size = 0.01
+billboard = 1
+text = "shop"
+font_size = 64
+
+[node name="citykit_townhouse_stall" type="Node3D" parent="." unique_id=1035046626 instance=ExtResource("205_w4gjv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 98.07601, 0, 178.64996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_stall"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_stall" unique_id=1151543723]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0007801056, 9.681091, 0.77249956)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_stall"
+font_size = 64
+
+[node name="citykit_river_house" type="Node3D" parent="." unique_id=1080120964 instance=ExtResource("206_njfwg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 107.159805, 0, 180.03487)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "river_house"
+
+[node name="_label" type="Label3D" parent="citykit_river_house" unique_id=1018933286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10.027321, -0.6214609)
+pixel_size = 0.01
+billboard = 1
+text = "river_house"
+font_size = 64
+
+[node name="citykit_city_house" type="Node3D" parent="." unique_id=1748601590 instance=ExtResource("207_wq2ri")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 116.3498, 0, 178.99583)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "city_house"
+
+[node name="_label" type="Label3D" parent="citykit_city_house" unique_id=915299935]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.085458, 0.30126953)
+pixel_size = 0.01
+billboard = 1
+text = "city_house"
+font_size = 64
+
+[node name="citykit_grand_stair" type="Node3D" parent="." unique_id=855191969 instance=ExtResource("208_bo0kj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.04481, 0, 186.10497)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "grand_stair"
+
+[node name="_label" type="Label3D" parent="citykit_grand_stair" unique_id=679407360]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 7.5, -5.675)
+pixel_size = 0.01
+billboard = 1
+text = "grand_stair"
+font_size = 64
+
+[node name="citykit_townhouse_corner" type="Node3D" parent="." unique_id=2134567567 instance=ExtResource("209_qmnpw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 133.8398, 0, 178.59016)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_corner"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_corner" unique_id=1529507462]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.41087532, 12.6, 0.29077673)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_corner"
+font_size = 64
+
+[node name="citykit_townhouse_damaged" type="Node3D" parent="." unique_id=254151772 instance=ExtResource("210_x7oi7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 143.8989, 0, 178.43497)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "townhouse_damaged"
+
+[node name="_label" type="Label3D" parent="citykit_townhouse_damaged" unique_id=170114469]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.3828278e-05, 8.920796, 1.4462659)
+pixel_size = 0.01
+billboard = 1
+text = "townhouse_damaged"
+font_size = 64
+
+[node name="citykit_fisher_house" type="Node3D" parent="." unique_id=214203645 instance=ExtResource("211_oi55c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 153.65182, 0, 177.87816)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "fisher_house"
+
+[node name="_label" type="Label3D" parent="citykit_fisher_house" unique_id=235017748]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44468927, 6.8180485, 0.7534013)
+pixel_size = 0.01
+billboard = 1
+text = "fisher_house"
+font_size = 64
+
+[node name="citykit_bridge_covered" type="Node3D" parent="." unique_id=1260813358 instance=ExtResource("212_1rsce")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.9555635, 0, 192.66254)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "bridge_covered"
+
+[node name="_label" type="Label3D" parent="citykit_bridge_covered" unique_id=1093433519]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.300085, -0.009435177)
+pixel_size = 0.01
+billboard = 1
+text = "bridge_covered"
+font_size = 64
+
+[node name="citykit_blacksmith" type="Node3D" parent="." unique_id=1483003338 instance=ExtResource("213_fela4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.956127, 0, 194.02513)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "blacksmith"
+
+[node name="_label" type="Label3D" parent="citykit_blacksmith" unique_id=1399648078]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4275002, 8.01, -0.0017473698)
+pixel_size = 0.01
+billboard = 1
+text = "blacksmith"
+font_size = 64
+
+[node name="citykit_merchant_house" type="Node3D" parent="." unique_id=240796447 instance=ExtResource("214_2t067")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.20113, 0, 194.54515)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "merchant_house"
+
+[node name="_label" type="Label3D" parent="citykit_merchant_house" unique_id=1844048200]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.016556, 0.5049076)
+pixel_size = 0.01
+billboard = 1
+text = "merchant_house"
+font_size = 64
+
+[node name="citykit_mill_house" type="Node3D" parent="." unique_id=626234960 instance=ExtResource("215_a0d3d")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.94613, 0, 194.03671)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "mill_house"
+
+[node name="_label" type="Label3D" parent="citykit_mill_house" unique_id=1419238568]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.6715741, 9.680241, 0.6591244)
+pixel_size = 0.01
+billboard = 1
+text = "mill_house"
+font_size = 64
+
+[node name="citykit_waterfall" type="Node3D" parent="." unique_id=1017708861 instance=ExtResource("216_63syy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.603928, 0, 192.75496)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "waterfall"
+
+[node name="_label" type="Label3D" parent="citykit_waterfall" unique_id=194055]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.069167614, 11.69, 1.290627)
+pixel_size = 0.01
+billboard = 1
+text = "waterfall"
+font_size = 64
+
+[node name="citykit_cottage_l" type="Node3D" parent="." unique_id=1770740996 instance=ExtResource("217_clrlc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 70.08821, 0, 196.89996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "cottage_l"
+
+[node name="_label" type="Label3D" parent="citykit_cottage_l" unique_id=545665410]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.58809376, 6.833885, -1.6646705)
+pixel_size = 0.01
+billboard = 1
+text = "cottage_l"
+font_size = 64
+
+[node name="citykit_chapel" type="Node3D" parent="." unique_id=1814421785 instance=ExtResource("218_e0gcb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.94686, 0, 195.79996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "chapel"
+
+[node name="_label" type="Label3D" parent="citykit_chapel" unique_id=1925759587]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0010268688, 13.72726, 0.07749987)
+pixel_size = 0.01
+billboard = 1
+text = "chapel"
+font_size = 64
+
+[node name="citykit_dockhouse" type="Node3D" parent="." unique_id=1742407458 instance=ExtResource("219_irj6x")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 92.163605, 0, 194.29996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "dockhouse"
+
+[node name="_label" type="Label3D" parent="citykit_dockhouse" unique_id=1410251911]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.006823063, 11.04585, 0.7207513)
+pixel_size = 0.01
+billboard = 1
+text = "dockhouse"
+font_size = 64
+
+[node name="citykit_bridge_arch" type="Node3D" parent="." unique_id=876936296 instance=ExtResource("220_tk8iu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109.458595, 0, 192.80496)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "bridge_arch"
+
+[node name="_label" type="Label3D" parent="citykit_bridge_arch" unique_id=595265561]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.75, 0)
+pixel_size = 0.01
+billboard = 1
+text = "bridge_arch"
+font_size = 64
+
+[node name="citykit_windmill" type="Node3D" parent="." unique_id=263593467 instance=ExtResource("221_ri1o2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 128.49077, 0, 193.8581)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "windmill"
+
+[node name="_label" type="Label3D" parent="citykit_windmill" unique_id=2124770581]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 18.732178, 0.19843507)
+pixel_size = 0.01
+billboard = 1
+text = "windmill"
+font_size = 64
+
+[node name="citykit_small_keep" type="Node3D" parent="." unique_id=2051056202 instance=ExtResource("222_4yab5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 142.68456, 0, 195.41656)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "small_keep"
+
+[node name="_label" type="Label3D" parent="citykit_small_keep" unique_id=2070869157]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.7683716e-07, 18.6, 0.069200516)
+pixel_size = 0.01
+billboard = 1
+text = "small_keep"
+font_size = 64
+
+[node name="citykit_market_hall" type="Node3D" parent="." unique_id=1973196022 instance=ExtResource("223_e6e7w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.545, 0, 209.80647)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "market_hall"
+
+[node name="_label" type="Label3D" parent="citykit_market_hall" unique_id=425959485]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 13.8, -2.0980835e-05)
+pixel_size = 0.01
+billboard = 1
+text = "market_hall"
+font_size = 64
+
+[node name="citykit_guildhouse" type="Node3D" parent="." unique_id=1068419785 instance=ExtResource("224_dvjb1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.422983, 0, 210.04495)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "guildhouse"
+
+[node name="_label" type="Label3D" parent="citykit_guildhouse" unique_id=1885449120]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0158391, 21.871525, 0.7774997)
+pixel_size = 0.01
+billboard = 1
+text = "guildhouse"
+font_size = 64
+
+[node name="citykit_warehouse" type="Node3D" parent="." unique_id=1971602450 instance=ExtResource("225_bdj7r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.58676, 0, 211.04495)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "warehouse"
+
+[node name="_label" type="Label3D" parent="citykit_warehouse" unique_id=1377242468]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.006392956, 12.146104, 0.47749949)
+pixel_size = 0.01
+billboard = 1
+text = "warehouse"
+font_size = 64
+
+[node name="citykit_tavern" type="Node3D" parent="." unique_id=49092227 instance=ExtResource("226_jo36q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.90309, 0, 209.77779)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "tavern"
+
+[node name="_label" type="Label3D" parent="citykit_tavern" unique_id=69334592]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.14249992, 10.196731, 1.1160841)
+pixel_size = 0.01
+billboard = 1
+text = "tavern"
+font_size = 64
+
+[node name="citykit_harbour_arm" type="Node3D" parent="." unique_id=1956435961 instance=ExtResource("227_45wq2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.148094, 0, 209.99995)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "harbour_arm"
+
+[node name="_label" type="Label3D" parent="citykit_harbour_arm" unique_id=1097385000]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06908274, 6.19, 0.3147502)
+pixel_size = 0.01
+billboard = 1
+text = "harbour_arm"
+font_size = 64
+
+[node name="citykit_stables" type="Node3D" parent="." unique_id=1449968593 instance=ExtResource("228_pdt6i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 72.93126, 0, 209.27109)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "stables"
+
+[node name="_label" type="Label3D" parent="citykit_stables" unique_id=43358332]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.51253843, 6.369333, 0.36443353)
+pixel_size = 0.01
+billboard = 1
+text = "stables"
+font_size = 64
+
+[node name="citykit_ship_cargo" type="Node3D" parent="." unique_id=673234939 instance=ExtResource("229_cqmg1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 90.80134, 0, 208.89995)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ship_cargo"
+
+[node name="_label" type="Label3D" parent="citykit_ship_cargo" unique_id=144139049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.676734, 12.506123, 0)
+pixel_size = 0.01
+billboard = 1
+text = "ship_cargo"
+font_size = 64
+
+[node name="citykit_library" type="Node3D" parent="." unique_id=1709308239 instance=ExtResource("230_42uh2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 107.89981, 0, 210.29422)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "library"
+
+[node name="_label" type="Label3D" parent="citykit_library" unique_id=1394865801]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.45133114, 10.918788, 0.40786552)
+pixel_size = 0.01
+billboard = 1
+text = "library"
+font_size = 64
+
+[node name="citykit_stable_yard" type="Node3D" parent="." unique_id=1856944905 instance=ExtResource("231_txbo0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 122.89247, 0, 209.01656)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "stable_yard"
+
+[node name="_label" type="Label3D" parent="citykit_stable_yard" unique_id=856820930]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.503091, 1.3467023)
+pixel_size = 0.01
+billboard = 1
+text = "stable_yard"
+font_size = 64
+
+[node name="citykit_water_gate" type="Node3D" parent="." unique_id=117806479 instance=ExtResource("232_2lujv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 140.95229, 0, 208.84996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "water_gate"
+
+[node name="_label" type="Label3D" parent="citykit_water_gate" unique_id=894462626]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 19.7, 0)
+pixel_size = 0.01
+billboard = 1
+text = "water_gate"
+font_size = 64
+
+[node name="citykit_lighthouse" type="Node3D" parent="." unique_id=667985337 instance=ExtResource("233_ldkxg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.3575034, 0, 227.22263)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "lighthouse"
+
+[node name="_label" type="Label3D" parent="citykit_lighthouse" unique_id=1639601149]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.66774654, 26.499998, -0.20032501)
+pixel_size = 0.01
+billboard = 1
+text = "lighthouse"
+font_size = 64
+
+[node name="citykit_gatehouse" type="Node3D" parent="." unique_id=966593455 instance=ExtResource("234_lmnfx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.37692, 0, 225.57138)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "gatehouse"
+
+[node name="_label" type="Label3D" parent="citykit_gatehouse" unique_id=1883681226]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 22.4, -0.08542848)
+pixel_size = 0.01
+billboard = 1
+text = "gatehouse"
+font_size = 64
+
+[node name="citykit_barracks" type="Node3D" parent="." unique_id=1913660035 instance=ExtResource("235_2elv0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.248344, 0, 225.82996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "barracks"
+
+[node name="_label" type="Label3D" parent="citykit_barracks" unique_id=1661314257]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 10.261789, 0.019752026)
+pixel_size = 0.01
+billboard = 1
+text = "barracks"
+font_size = 64
+
+[node name="citykit_inn" type="Node3D" parent="." unique_id=987292567 instance=ExtResource("236_t1hww")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.83834, 0, 226.33247)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "inn"
+
+[node name="_label" type="Label3D" parent="citykit_inn" unique_id=1645264441]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.13499975, 13.285813, 1.2362361)
+pixel_size = 0.01
+billboard = 1
+text = "inn"
+font_size = 64
+
+[node name="citykit_barn" type="Node3D" parent="." unique_id=1489848798 instance=ExtResource("237_tfn1t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.35334, 0, 228.08995)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "barn"
+
+[node name="_label" type="Label3D" parent="citykit_barn" unique_id=1669769223]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.55774593, 7.797834, 0.27749968)
+pixel_size = 0.01
+billboard = 1
+text = "barn"
+font_size = 64
+
+[node name="citykit_town_hall" type="Node3D" parent="." unique_id=833279543 instance=ExtResource("238_1ackx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 87.98285, 0, 226.86226)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "town_hall"
+
+[node name="_label" type="Label3D" parent="citykit_town_hall" unique_id=1503395222]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 22.420418, 0.6610265)
+pixel_size = 0.01
+billboard = 1
+text = "town_hall"
+font_size = 64
+
+[node name="citykit_manor_b" type="Node3D" parent="." unique_id=2025177818 instance=ExtResource("239_iei8e")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 102.572845, 0, 226.34764)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "manor_b"
+
+[node name="_label" type="Label3D" parent="citykit_manor_b" unique_id=78320618]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2107592, 15.900001, 0.83191776)
+pixel_size = 0.01
+billboard = 1
+text = "manor_b"
+font_size = 64
+
+[node name="citykit_fountain" type="Node3D" parent="." unique_id=84693603 instance=ExtResource("240_pisri")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 119.50652, 0, 228.01212)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "fountain"
+
+[node name="_label" type="Label3D" parent="citykit_fountain" unique_id=29137985]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 12.32, 0)
+pixel_size = 0.01
+billboard = 1
+text = "fountain"
+font_size = 64
+
+[node name="citykit_ship_merchant" type="Node3D" parent="." unique_id=1794058541 instance=ExtResource("241_8phil")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 139.17368, 0, 225.69495)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "ship_merchant"
+
+[node name="_label" type="Label3D" parent="citykit_ship_merchant" unique_id=308494001]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1830378, 17.636002, 0)
+pixel_size = 0.01
+billboard = 1
+text = "ship_merchant"
+font_size = 64
+
+[node name="citykit_manor_a" type="Node3D" parent="." unique_id=578162893 instance=ExtResource("242_amr70")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.55, 0, 244.73996)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "manor_a"
+
+[node name="_label" type="Label3D" parent="citykit_manor_a" unique_id=559466141]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 16.707003, 2.31)
+pixel_size = 0.01
+billboard = 1
+text = "manor_a"
+font_size = 64
+
+[node name="citykit_mansion" type="Node3D" parent="." unique_id=1533684845 instance=ExtResource("243_fmcxy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.93526, 0, 244.98578)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "mansion"
+
+[node name="_label" type="Label3D" parent="citykit_mansion" unique_id=1884825151]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 14.125614, 1.0245886)
+pixel_size = 0.01
+billboard = 1
+text = "mansion"
+font_size = 64
+
+[node name="citykit_church" type="Node3D" parent="." unique_id=430120456 instance=ExtResource("244_4ogu0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.97052, 0, 251.58995)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "church"
+
+[node name="_label" type="Label3D" parent="citykit_church" unique_id=536294758]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 34.199997, 0.35000038)
+pixel_size = 0.01
+billboard = 1
+text = "church"
+font_size = 64
+
+[node name="citykit_bridge_long" type="Node3D" parent="." unique_id=620888252 instance=ExtResource("245_w1ixp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.870514, 0, 243.08995)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "bridge_long"
+
+[node name="_label" type="Label3D" parent="citykit_bridge_long" unique_id=1887148082]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 8.150001, 0)
+pixel_size = 0.01
+billboard = 1
+text = "bridge_long"
+font_size = 64
+
+[node name="citykit_keep" type="Node3D" parent="." unique_id=95847804 instance=ExtResource("246_txthe")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 99.226814, 0, 249.84625)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "keep"
+
+[node name="_label" type="Label3D" parent="citykit_keep" unique_id=896883271]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 33.3, 0)
+pixel_size = 0.01
+billboard = 1
+text = "keep"
+font_size = 64
+
+[node name="citykit_cathedral" type="Node3D" parent="." unique_id=1816073418 instance=ExtResource("247_hmudt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120.431915, 0, 257.88995)
+script = ExtResource("2_pvfqy")
+Kit = "citykit"
+Kind = "cathedral"
+
+[node name="_label" type="Label3D" parent="citykit_cathedral" unique_id=1076513833]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 35.199997, -0.27560043)
+pixel_size = 0.01
+billboard = 1
+text = "cathedral"
+font_size = 64
+
+[node name="_village" type="Label3D" parent="." unique_id=1108914208]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 290.03876)
+pixel_size = 0.01
+billboard = 1
+text = "VILLAGE"
+font_size = 256
+outline_size = 24
+
+[node name="village_street_lamp" type="Node3D" parent="." unique_id=1610070895 instance=ExtResource("248_tbu8m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18501487, 0, 288.23212)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "street_lamp"
+
+[node name="_label" type="Label3D" parent="village_street_lamp" unique_id=595489458]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.034442887, 4.36, 0.02144377)
+pixel_size = 0.01
+billboard = 1
+text = "street_lamp"
+font_size = 64
+
+[node name="village_hanging_lantern" type="Node3D" parent="." unique_id=1954055908 instance=ExtResource("249_yx7pn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.96275, 0, 288.297)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "hanging_lantern"
+
+[node name="_label" type="Label3D" parent="village_hanging_lantern" unique_id=1562859986]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.4468873, 3.42, -0.042198777)
+pixel_size = 0.01
+billboard = 1
+text = "hanging_lantern"
+font_size = 64
+
+[node name="village_wood_fence" type="Node3D" parent="." unique_id=421163224 instance=ExtResource("250_3c8ty")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.50697, 0, 288.1973)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "wood_fence"
+
+[node name="_label" type="Label3D" parent="village_wood_fence" unique_id=587317241]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00043535233, 1.6970544, -0.024716094)
+pixel_size = 0.01
+billboard = 1
+text = "wood_fence"
+font_size = 64
+
+[node name="village_bush" type="Node3D" parent="." unique_id=1716231783 instance=ExtResource("251_jbd7p")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.472321, 0, 288.60437)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "bush"
+
+[node name="_label" type="Label3D" parent="village_bush" unique_id=1673427688]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06439507, 1.4754837, -0.046440244)
+pixel_size = 0.01
+billboard = 1
+text = "bush"
+font_size = 64
+
+[node name="village_kit_retaining" type="Node3D" parent="." unique_id=1223619427 instance=ExtResource("252_em4lb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.592088, 0, 288.42877)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "kit_retaining"
+
+[node name="_label" type="Label3D" parent="village_kit_retaining" unique_id=712390615]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.2600002, 0.03999999)
+pixel_size = 0.01
+billboard = 1
+text = "kit_retaining"
+font_size = 64
+
+[node name="village_kit_steps" type="Node3D" parent="." unique_id=2087676655 instance=ExtResource("253_v7muw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.892086, 0, 289.44876)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "kit_steps"
+
+[node name="_label" type="Label3D" parent="village_kit_steps" unique_id=1094927168]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.1, -0.6)
+pixel_size = 0.01
+billboard = 1
+text = "kit_steps"
+font_size = 64
+
+[node name="village_flowers" type="Node3D" parent="." unique_id=292846388 instance=ExtResource("254_t37kw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.55153, 0, 288.8182)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "flowers"
+
+[node name="_label" type="Label3D" parent="village_flowers" unique_id=1093481417]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.050530016, 1.1247312, 0.037890196)
+pixel_size = 0.01
+billboard = 1
+text = "flowers"
+font_size = 64
+
+[node name="village_grass_patch" type="Node3D" parent="." unique_id=5867160 instance=ExtResource("255_7dtf7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.346329, 0, 288.90744)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "grass_patch"
+
+[node name="_label" type="Label3D" parent="village_grass_patch" unique_id=1224727544]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0019965172, 0.96071315, 0.06719482)
+pixel_size = 0.01
+billboard = 1
+text = "grass_patch"
+font_size = 64
+
+[node name="village_tree_small" type="Node3D" parent="." unique_id=1883150719 instance=ExtResource("256_somxc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.077343, 0, 289.08167)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "tree_small"
+
+[node name="_label" type="Label3D" parent="village_tree_small" unique_id=1651888667]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.24583793, 4.4088316, 0.21474183)
+pixel_size = 0.01
+billboard = 1
+text = "tree_small"
+font_size = 64
+
+[node name="village_tree_large" type="Node3D" parent="." unique_id=418619137 instance=ExtResource("257_rynp6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.668755, 0, 290.38318)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "tree_large"
+
+[node name="_label" type="Label3D" parent="village_tree_large" unique_id=172317260]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.683846, 5.9743237, 0.13123989)
+pixel_size = 0.01
+billboard = 1
+text = "tree_large"
+font_size = 64
+
+[node name="village_tree_group" type="Node3D" parent="." unique_id=2060244112 instance=ExtResource("258_6x7lv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.408592, 0, 290.74292)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "tree_group"
+
+[node name="_label" type="Label3D" parent="village_tree_group" unique_id=947042869]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.7495427, 5.2877398, -0.15433764)
+pixel_size = 0.01
+billboard = 1
+text = "tree_group"
+font_size = 64
+
+[node name="village_bld_cottage" type="Node3D" parent="." unique_id=51007384 instance=ExtResource("259_4l8dq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.75317, 0, 290.98935)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "bld_cottage"
+
+[node name="_label" type="Label3D" parent="village_bld_cottage" unique_id=1065357783]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.012608528, 9.162565, 0.47969723)
+pixel_size = 0.01
+billboard = 1
+text = "bld_cottage"
+font_size = 64
+
+[node name="village_kit_cottage" type="Node3D" parent="." unique_id=1845251686 instance=ExtResource("260_rutb3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.54402, 0, 291.2874)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "kit_cottage"
+
+[node name="_label" type="Label3D" parent="village_kit_cottage" unique_id=2098051224]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24250007, 7.7309217, 0)
+pixel_size = 0.01
+billboard = 1
+text = "kit_cottage"
+font_size = 64
+
+[node name="village_kit_townhouse" type="Node3D" parent="." unique_id=745754649 instance=ExtResource("261_52yfp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 71.76586, 0, 292.03375)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "kit_townhouse"
+
+[node name="_label" type="Label3D" parent="village_kit_townhouse" unique_id=1448088105]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.277848, 0.20000005)
+pixel_size = 0.01
+billboard = 1
+text = "kit_townhouse"
+font_size = 64
+
+[node name="village_bld_townhouse" type="Node3D" parent="." unique_id=74263108 instance=ExtResource("262_c1pgc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.07834, 0, 291.54532)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "bld_townhouse"
+
+[node name="_label" type="Label3D" parent="village_bld_townhouse" unique_id=1072638920]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.35149145, 12.477106, 0.13860321)
+pixel_size = 0.01
+billboard = 1
+text = "bld_townhouse"
+font_size = 64
+
+[node name="village_monument_keep" type="Node3D" parent="." unique_id=1507687047 instance=ExtResource("263_jngeu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.57393, 0, 293.55637)
+script = ExtResource("2_pvfqy")
+Kit = "village"
+Kind = "monument_keep"
+
+[node name="_label" type="Label3D" parent="village_monument_keep" unique_id=1552394337]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.01980114, 11.712978, 0.16796303)
+pixel_size = 0.01
+billboard = 1
+text = "monument_keep"
+font_size = 64
+
+[node name="_foliage" type="Label3D" parent="." unique_id=1161380932]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 313.4099)
+pixel_size = 0.01
+billboard = 1
+text = "FOLIAGE"
+font_size = 256
+outline_size = 24
+
+[node name="foliage_mushroom" type="Node3D" parent="." unique_id=983648690 instance=ExtResource("264_qq1v3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3296539, 0, 311.73956)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "mushroom"
+
+[node name="_label" type="Label3D" parent="foliage_mushroom" unique_id=922915459]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.024581462, 1.1137369, -0.024581462)
+pixel_size = 0.01
+billboard = 1
+text = "mushroom"
+font_size = 64
+
+[node name="foliage_reed" type="Node3D" parent="." unique_id=1876438678 instance=ExtResource("265_mi0x1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.5521126, 0, 311.96204)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "reed"
+
+[node name="_label" type="Label3D" parent="foliage_reed" unique_id=1811482215]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0813629, 2.2564936, -0.0813629)
+pixel_size = 0.01
+billboard = 1
+text = "reed"
+font_size = 64
+
+[node name="foliage_wheat" type="Node3D" parent="." unique_id=992026980 instance=ExtResource("266_j1rku")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5368485, 0, 311.94675)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "wheat"
+
+[node name="_label" type="Label3D" parent="foliage_wheat" unique_id=1266542207]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05676049, 1.761361, -0.05676049)
+pixel_size = 0.01
+billboard = 1
+text = "wheat"
+font_size = 64
+
+[node name="foliage_flowers" type="Node3D" parent="." unique_id=1741519290 instance=ExtResource("267_doy7r")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.521585, 0, 311.9315)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "flowers"
+
+[node name="_label" type="Label3D" parent="foliage_flowers" unique_id=223747534]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.032158285, 1.2662303, -0.032158285)
+pixel_size = 0.01
+billboard = 1
+text = "flowers"
+font_size = 64
+
+[node name="foliage_heather" type="Node3D" parent="." unique_id=1746274003 instance=ExtResource("268_6ufde")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.639927, 0, 312.04984)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "heather"
+
+[node name="_label" type="Label3D" parent="foliage_heather" unique_id=1823671698]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.03688222, 1.3612988, -0.03688222)
+pixel_size = 0.01
+billboard = 1
+text = "heather"
+font_size = 64
+
+[node name="foliage_fern" type="Node3D" parent="." unique_id=418526547 instance=ExtResource("269_8yoqw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.071999, 0, 312.27582)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "fern"
+
+[node name="_label" type="Label3D" parent="foliage_fern" unique_id=2085132506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.061484396, 1.8564285, -0.061484396)
+pixel_size = 0.01
+billboard = 1
+text = "fern"
+font_size = 64
+
+[node name="foliage_bush" type="Node3D" parent="." unique_id=1269811250 instance=ExtResource("270_ka84w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.803885, 0, 312.39886)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "bush"
+
+[node name="_label" type="Label3D" parent="foliage_bush" unique_id=385722247]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.07191521, 2.0663586, -0.07191521)
+pixel_size = 0.01
+billboard = 1
+text = "bush"
+font_size = 64
+
+[node name="foliage_log" type="Node3D" parent="." unique_id=1899179468 instance=ExtResource("271_hk83o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.911743, 0, 312.67267)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "log"
+
+[node name="_label" type="Label3D" parent="foliage_log" unique_id=1009906108]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.04918325, 1.6088632, -0.04918325)
+pixel_size = 0.01
+billboard = 1
+text = "log"
+font_size = 64
+
+[node name="foliage_snag" type="Node3D" parent="." unique_id=1928290915 instance=ExtResource("272_h6xxc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.003948, 0, 313.33774)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "snag"
+
+[node name="_label" type="Label3D" parent="foliage_snag" unique_id=1509170031]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.29333818, 6.5225644, -0.29333818)
+pixel_size = 0.01
+billboard = 1
+text = "snag"
+font_size = 64
+
+[node name="foliage_autumn_birch" type="Node3D" parent="." unique_id=1543775346 instance=ExtResource("273_ky2py")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.552063, 0, 313.61688)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "autumn_birch"
+
+[node name="_label" type="Label3D" parent="foliage_autumn_birch" unique_id=766405768]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.36148727, 7.894085, -0.36148727)
+pixel_size = 0.01
+billboard = 1
+text = "autumn_birch"
+font_size = 64
+
+[node name="foliage_birch" type="Node3D" parent="." unique_id=1492423941 instance=ExtResource("274_hwpf4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.26378, 0, 313.63763)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "birch"
+
+[node name="_label" type="Label3D" parent="foliage_birch" unique_id=346418070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.37186956, 8.103033, -0.37186956)
+pixel_size = 0.01
+billboard = 1
+text = "birch"
+font_size = 64
+
+[node name="foliage_pine" type="Node3D" parent="." unique_id=1623180937 instance=ExtResource("275_proiw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.121376, 0, 313.7835)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "pine"
+
+[node name="_label" type="Label3D" parent="foliage_pine" unique_id=64584122]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.41069245, 8.884354, -0.41069245)
+pixel_size = 0.01
+billboard = 1
+text = "pine"
+font_size = 64
+
+[node name="foliage_autumn_oak" type="Node3D" parent="." unique_id=1664570685 instance=ExtResource("276_tat6h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.61802, 0, 314.35434)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "autumn_oak"
+
+[node name="_label" type="Label3D" parent="foliage_autumn_oak" unique_id=488481315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.34254313, 7.5128326, -0.34254313)
+pixel_size = 0.01
+billboard = 1
+text = "autumn_oak"
+font_size = 64
+
+[node name="foliage_oak" type="Node3D" parent="." unique_id=714576511 instance=ExtResource("277_n5670")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.840664, 0, 314.37323)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "oak"
+
+[node name="_label" type="Label3D" parent="foliage_oak" unique_id=1391788328]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35199094, 7.702965, -0.35199094)
+pixel_size = 0.01
+billboard = 1
+text = "oak"
+font_size = 64
+
+[node name="foliage_vine_oak" type="Node3D" parent="." unique_id=952372627 instance=ExtResource("278_qi48o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.264435, 0, 314.57437)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "vine_oak"
+
+[node name="_label" type="Label3D" parent="foliage_vine_oak" unique_id=705157777]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.38131714, 8.293165, -0.38131714)
+pixel_size = 0.01
+billboard = 1
+text = "vine_oak"
+font_size = 64
+
+[node name="foliage_willow" type="Node3D" parent="." unique_id=132263081 instance=ExtResource("279_oagqn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.89599, 0, 314.63965)
+script = ExtResource("2_pvfqy")
+Kit = "foliage"
+Kind = "willow"
+
+[node name="_label" type="Label3D" parent="foliage_willow" unique_id=68633812]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.34254313, 7.5128326, -0.34254313)
+pixel_size = 0.01
+billboard = 1
+text = "willow"
+font_size = 64
+
+[node name="_fauna" type="Label3D" parent="." unique_id=129663655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 331.1843)
+pixel_size = 0.01
+billboard = 1
+text = "FAUNA"
+font_size = 256
+outline_size = 24
+
+[node name="fauna_robin" type="Node3D" parent="." unique_id=1818371299 instance=ExtResource("280_8j3ng")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.39423078, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "robin"
+
+[node name="_label" type="Label3D" parent="fauna_robin" unique_id=851331225]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5807693, 0)
+pixel_size = 0.01
+billboard = 1
+text = "robin"
+font_size = 64
+
+[node name="fauna_hen" type="Node3D" parent="." unique_id=429264668 instance=ExtResource("281_jm3fm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3942308, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "hen"
+
+[node name="_label" type="Label3D" parent="fauna_hen" unique_id=1786561238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.426923, 0)
+pixel_size = 0.01
+billboard = 1
+text = "hen"
+font_size = 64
+
+[node name="fauna_hen_white" type="Node3D" parent="." unique_id=412896982 instance=ExtResource("282_8a4eb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.394231, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "hen_white"
+
+[node name="_label" type="Label3D" parent="fauna_hen_white" unique_id=122039836]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.426923, 0)
+pixel_size = 0.01
+billboard = 1
+text = "hen_white"
+font_size = 64
+
+[node name="fauna_squirrel" type="Node3D" parent="." unique_id=370049243 instance=ExtResource("283_pdna1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.442307, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "squirrel"
+
+[node name="_label" type="Label3D" parent="fauna_squirrel" unique_id=1981515375]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5807693, 0)
+pixel_size = 0.01
+billboard = 1
+text = "squirrel"
+font_size = 64
+
+[node name="fauna_hare" type="Node3D" parent="." unique_id=229457832 instance=ExtResource("284_vj7u8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.442307, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "hare"
+
+[node name="_label" type="Label3D" parent="fauna_hare" unique_id=1263817854]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5807693, 0)
+pixel_size = 0.01
+billboard = 1
+text = "hare"
+font_size = 64
+
+[node name="fauna_frog" type="Node3D" parent="." unique_id=891838574 instance=ExtResource("285_3pobx")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.442307, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "frog"
+
+[node name="_label" type="Label3D" parent="fauna_frog" unique_id=920708344]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0807693, 0)
+pixel_size = 0.01
+billboard = 1
+text = "frog"
+font_size = 64
+
+[node name="fauna_rabbit" type="Node3D" parent="." unique_id=843825321 instance=ExtResource("286_ckgwj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.442308, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "rabbit"
+
+[node name="_label" type="Label3D" parent="fauna_rabbit" unique_id=158643539]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5807693, 0)
+pixel_size = 0.01
+billboard = 1
+text = "rabbit"
+font_size = 64
+
+[node name="fauna_pigeon" type="Node3D" parent="." unique_id=889842103 instance=ExtResource("287_p6yrr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.471153, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "pigeon"
+
+[node name="_label" type="Label3D" parent="fauna_pigeon" unique_id=1600999648]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.773077, 0)
+pixel_size = 0.01
+billboard = 1
+text = "pigeon"
+font_size = 64
+
+[node name="fauna_duck" type="Node3D" parent="." unique_id=1687343279 instance=ExtResource("288_oot2y")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.5, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "duck"
+
+[node name="_label" type="Label3D" parent="fauna_duck" unique_id=946382196]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4653847, 0)
+pixel_size = 0.01
+billboard = 1
+text = "duck"
+font_size = 64
+
+[node name="fauna_koi" type="Node3D" parent="." unique_id=1258689879 instance=ExtResource("289_vtflg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.5, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "koi"
+
+[node name="_label" type="Label3D" parent="fauna_koi" unique_id=1048501174]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.273077, 0)
+pixel_size = 0.01
+billboard = 1
+text = "koi"
+font_size = 64
+
+[node name="fauna_cat" type="Node3D" parent="." unique_id=1657450989 instance=ExtResource("290_cpnkr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.5, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "cat"
+
+[node name="_label" type="Label3D" parent="fauna_cat" unique_id=1477813395]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3692307, 0)
+pixel_size = 0.01
+billboard = 1
+text = "cat"
+font_size = 64
+
+[node name="fauna_cat_grey" type="Node3D" parent="." unique_id=747631083 instance=ExtResource("291_j04lv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.5, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "cat_grey"
+
+[node name="_label" type="Label3D" parent="fauna_cat_grey" unique_id=1436152655]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3692307, 0)
+pixel_size = 0.01
+billboard = 1
+text = "cat_grey"
+font_size = 64
+
+[node name="fauna_cat_black" type="Node3D" parent="." unique_id=1052426149 instance=ExtResource("292_2htu5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.5, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "cat_black"
+
+[node name="_label" type="Label3D" parent="fauna_cat_black" unique_id=713946547]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3692307, 0)
+pixel_size = 0.01
+billboard = 1
+text = "cat_black"
+font_size = 64
+
+[node name="fauna_crow" type="Node3D" parent="." unique_id=335672912 instance=ExtResource("293_366pu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.548077, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "crow"
+
+[node name="_label" type="Label3D" parent="fauna_crow" unique_id=1461540344]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8692309, 0)
+pixel_size = 0.01
+billboard = 1
+text = "crow"
+font_size = 64
+
+[node name="fauna_boar" type="Node3D" parent="." unique_id=375808097 instance=ExtResource("294_ph640")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.740383, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "boar"
+
+[node name="_label" type="Label3D" parent="fauna_boar" unique_id=1509248288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3692307, 0)
+pixel_size = 0.01
+billboard = 1
+text = "boar"
+font_size = 64
+
+[node name="fauna_heron" type="Node3D" parent="." unique_id=606617154 instance=ExtResource("295_3uysy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.028843, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "heron"
+
+[node name="_label" type="Label3D" parent="fauna_heron" unique_id=2051901624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.523077, 0)
+pixel_size = 0.01
+billboard = 1
+text = "heron"
+font_size = 64
+
+[node name="fauna_sheep" type="Node3D" parent="." unique_id=1895372982 instance=ExtResource("296_762en")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 49.317303, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "sheep"
+
+[node name="_label" type="Label3D" parent="fauna_sheep" unique_id=531619117]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5807693, 0)
+pixel_size = 0.01
+billboard = 1
+text = "sheep"
+font_size = 64
+
+[node name="fauna_pig" type="Node3D" parent="." unique_id=1903429767 instance=ExtResource("297_343oq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.605762, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "pig"
+
+[node name="_label" type="Label3D" parent="fauna_pig" unique_id=1301828349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3692307, 0)
+pixel_size = 0.01
+billboard = 1
+text = "pig"
+font_size = 64
+
+[node name="fauna_gull" type="Node3D" parent="." unique_id=217846964 instance=ExtResource("298_d5egr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.9423, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "gull"
+
+[node name="_label" type="Label3D" parent="fauna_gull" unique_id=958711587]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3307695, 0)
+pixel_size = 0.01
+billboard = 1
+text = "gull"
+font_size = 64
+
+[node name="fauna_goat" type="Node3D" parent="." unique_id=565671386 instance=ExtResource("299_s5g2l")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.326916, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "goat"
+
+[node name="_label" type="Label3D" parent="fauna_goat" unique_id=31765215]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8692309, 0)
+pixel_size = 0.01
+billboard = 1
+text = "goat"
+font_size = 64
+
+[node name="fauna_dog" type="Node3D" parent="." unique_id=74709672 instance=ExtResource("300_5v75i")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 62.769226, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "dog"
+
+[node name="_label" type="Label3D" parent="fauna_dog" unique_id=982371554]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5807693, 0)
+pixel_size = 0.01
+billboard = 1
+text = "dog"
+font_size = 64
+
+[node name="fauna_dog_black" type="Node3D" parent="." unique_id=480255759 instance=ExtResource("301_8idqj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.269226, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "dog_black"
+
+[node name="_label" type="Label3D" parent="fauna_dog_black" unique_id=1049732639]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5807693, 0)
+pixel_size = 0.01
+billboard = 1
+text = "dog_black"
+font_size = 64
+
+[node name="fauna_fox" type="Node3D" parent="." unique_id=564629365 instance=ExtResource("302_mj6bh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 69.96153, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "fox"
+
+[node name="_label" type="Label3D" parent="fauna_fox" unique_id=732117403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4653847, 0)
+pixel_size = 0.01
+billboard = 1
+text = "fox"
+font_size = 64
+
+[node name="fauna_doe" type="Node3D" parent="." unique_id=941554395 instance=ExtResource("303_xm1gn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 73.95192, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "doe"
+
+[node name="_label" type="Label3D" parent="fauna_doe" unique_id=499286564]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.4653847, 0)
+pixel_size = 0.01
+billboard = 1
+text = "doe"
+font_size = 64
+
+[node name="fauna_stag" type="Node3D" parent="." unique_id=1997889901 instance=ExtResource("304_0eqo7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78.394226, 0, 329.2843)
+script = ExtResource("2_pvfqy")
+Kit = "fauna"
+Kind = "stag"
+
+[node name="_label" type="Label3D" parent="fauna_stag" unique_id=1379506266]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.9653845, 0)
+pixel_size = 0.01
+billboard = 1
+text = "stag"
+font_size = 64
+
+[node name="_folk" type="Label3D" parent="." unique_id=906893160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 344.1843)
+pixel_size = 0.01
+billboard = 1
+text = "FOLK"
+font_size = 256
+outline_size = 24
+
+[node name="folk_farmer" type="Node3D" parent="." unique_id=987480233 instance=ExtResource("305_ihr6m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6923077, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "farmer"
+
+[node name="_label" type="Label3D" parent="folk_farmer" unique_id=1301379787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "farmer"
+font_size = 64
+
+[node name="folk_merchant" type="Node3D" parent="." unique_id=594758349 instance=ExtResource("306_aigb3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0769234, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "merchant"
+
+[node name="_label" type="Label3D" parent="folk_merchant" unique_id=471139140]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "merchant"
+font_size = 64
+
+[node name="folk_guard" type="Node3D" parent="." unique_id=588539145 instance=ExtResource("307_yudei")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.4615383, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "guard"
+
+[node name="_label" type="Label3D" parent="folk_guard" unique_id=531118247]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "guard"
+font_size = 64
+
+[node name="folk_market_woman" type="Node3D" parent="." unique_id=1914943933 instance=ExtResource("308_sv1oc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.846154, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "market_woman"
+
+[node name="_label" type="Label3D" parent="folk_market_woman" unique_id=714091852]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "market_woman"
+font_size = 64
+
+[node name="folk_noble_lady" type="Node3D" parent="." unique_id=534942097 instance=ExtResource("309_tboxo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.230769, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "noble_lady"
+
+[node name="_label" type="Label3D" parent="folk_noble_lady" unique_id=344351068]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "noble_lady"
+font_size = 64
+
+[node name="folk_old_man" type="Node3D" parent="." unique_id=1066298654 instance=ExtResource("310_vlk2c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.615385, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "old_man"
+
+[node name="_label" type="Label3D" parent="folk_old_man" unique_id=401859291]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "old_man"
+font_size = 64
+
+[node name="folk_child" type="Node3D" parent="." unique_id=158963764 instance=ExtResource("311_1bqft")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "child"
+
+[node name="_label" type="Label3D" parent="folk_child" unique_id=2109554624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "child"
+font_size = 64
+
+[node name="folk_blacksmith" type="Node3D" parent="." unique_id=1087350731 instance=ExtResource("312_fbreq")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.384615, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "blacksmith"
+
+[node name="_label" type="Label3D" parent="folk_blacksmith" unique_id=2062750135]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "blacksmith"
+font_size = 64
+
+[node name="folk_monk" type="Node3D" parent="." unique_id=517917364 instance=ExtResource("313_qsy3b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.76923, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "monk"
+
+[node name="_label" type="Label3D" parent="folk_monk" unique_id=27067431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "monk"
+font_size = 64
+
+[node name="folk_young_woman" type="Node3D" parent="." unique_id=1491367921 instance=ExtResource("314_xqtr2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.153845, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "young_woman"
+
+[node name="_label" type="Label3D" parent="folk_young_woman" unique_id=193256090]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "young_woman"
+font_size = 64
+
+[node name="folk_fisher" type="Node3D" parent="." unique_id=966575713 instance=ExtResource("315_0qyxs")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.53846, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "fisher"
+
+[node name="_label" type="Label3D" parent="folk_fisher" unique_id=2073352825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "fisher"
+font_size = 64
+
+[node name="folk_dockhand" type="Node3D" parent="." unique_id=831872206 instance=ExtResource("316_v5m7m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.923077, 0, 342.2843)
+script = ExtResource("2_pvfqy")
+Kit = "folk"
+Kind = "dockhand"
+
+[node name="_label" type="Label3D" parent="folk_dockhand" unique_id=386524244]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.8884616, 0)
+pixel_size = 0.01
+billboard = 1
+text = "dockhand"
+font_size = 64
+
+[node name="_player" type="Label3D" parent="." unique_id=8328676]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 357.1843)
+pixel_size = 0.01
+billboard = 1
+text = "PLAYER"
+font_size = 256
+outline_size = 24
+
+[node name="player_player" type="Node3D" parent="." unique_id=1848654310 instance=ExtResource("317_utpj8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.2307693, 0, 355.2843)
+script = ExtResource("2_pvfqy")
+Kit = "player"
+Kind = "player"
+
+[node name="_label" type="Label3D" parent="player_player" unique_id=1003189210]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.7538462, 0)
+pixel_size = 0.01
+billboard = 1
+text = "player"
+font_size = 64
+
+[node name="_ship" type="Label3D" parent="." unique_id=293937985]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 1.5, 370.1843)
+pixel_size = 0.01
+billboard = 1
+text = "SHIP"
+font_size = 256
+outline_size = 24
+
+[node name="ship_ship_cargo" type="Node3D" parent="." unique_id=1856052496 instance=ExtResource("318_4cx8h")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.1058, 0, 374.70532)
+script = ExtResource("2_pvfqy")
+Kit = "ship"
+Kind = "ship_cargo"
+
+[node name="_label" type="Label3D" parent="ship_ship_cargo" unique_id=1033510905]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0220985, 13.1, 0)
+pixel_size = 0.01
+billboard = 1
+text = "ship_cargo"
+font_size = 64
+
+[node name="_ground" type="MeshInstance3D" parent="." unique_id=1211920039]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, -0.01, 190.61317)
+material_override = SubResource("StandardMaterial3D_pqc6h")
+mesh = SubResource("PlaneMesh_id52y")
+
+[node name="_sun" type="DirectionalLight3D" parent="." unique_id=1509167166]
+transform = Transform3D(-0.9396926, -0.26200268, 0.21984637, 0, 0.64278764, 0.76604444, -0.3420202, 0.7198463, -0.6040228, 0, 0, 0)
+light_color = Color(1, 0.7437268, 0.5300863, 1)
+light_energy = 2.0
+shadow_enabled = true
+directional_shadow_max_distance = 250.0
+
+[node name="_fill" type="DirectionalLight3D" parent="." unique_id=628587600]
+transform = Transform3D(0.70710677, -0.3747095, 0.5996606, 0, 0.8480481, 0.52991927, -0.70710677, -0.3747095, 0.5996606, 0, 0, 0)
+light_color = Color(0.42, 0.52, 0.78, 1)
+light_energy = 0.6825
+
+[node name="_env" type="WorldEnvironment" parent="." unique_id=363341494]
+environment = SubResource("Environment_rt26q")
+
+[node name="_camera" type="Camera3D" parent="." unique_id=265354093]
+transform = Transform3D(-1, 0, 0, 0, 0.81408805, 0.58074147, 0, 0.58074147, -0.81408805, 80, 202.35185, -93.04527)
+far = 2000.0
+script = ExtResource("319_y38sd")

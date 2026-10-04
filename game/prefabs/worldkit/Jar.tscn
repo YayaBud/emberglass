@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_xl1vf"]
+
+[node name="Jar" type="Node3D" unique_id=1725323922]
+script = ExtResource("1_xl1vf")
+Kit = "worldkit"
+Kind = "Jar"

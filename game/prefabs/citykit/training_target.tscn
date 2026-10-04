@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_18pev"]
+
+[node name="training_target" type="Node3D" unique_id=827243529]
+script = ExtResource("1_18pev")
+Kit = "citykit"
+Kind = "training_target"

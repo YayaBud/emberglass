@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_8q2s8"]
+
+[node name="RockLarge" type="Node3D" unique_id=90143587]
+script = ExtResource("1_8q2s8")
+Kit = "snowkit"
+Kind = "RockLarge"

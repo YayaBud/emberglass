@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_m3ct6"]
+
+[node name="laundry_span" type="Node3D" unique_id=1237437970]
+script = ExtResource("1_m3ct6")
+Kit = "citykit"
+Kind = "laundry_span"

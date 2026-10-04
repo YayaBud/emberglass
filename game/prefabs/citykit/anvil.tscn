@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_yhhvv"]
+
+[node name="anvil" type="Node3D" unique_id=279606810]
+script = ExtResource("1_yhhvv")
+Kit = "citykit"
+Kind = "anvil"

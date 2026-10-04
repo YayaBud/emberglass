@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_10sbx"]
+
+[node name="townhouse_stone" type="Node3D" unique_id=1200201983]
+script = ExtResource("1_10sbx")
+Kit = "citykit"
+Kind = "townhouse_stone"

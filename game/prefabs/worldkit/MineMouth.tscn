@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_f1t2k"]
+
+[node name="MineMouth" type="Node3D" unique_id=2046383725]
+script = ExtResource("1_f1t2k")
+Kit = "worldkit"
+Kind = "MineMouth"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_2p3qb"]
+
+[node name="child" type="Node3D" unique_id=158963764]
+script = ExtResource("1_2p3qb")
+Kit = "folk"
+Kind = "child"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_guble"]
+
+[node name="SnowShrub" type="Node3D" unique_id=605778255]
+script = ExtResource("1_guble")
+Kit = "snowkit"
+Kind = "SnowShrub"

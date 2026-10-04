@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_aps8w"]
+
+[node name="crate_pile" type="Node3D" unique_id=643790020]
+script = ExtResource("1_aps8w")
+Kit = "citykit"
+Kind = "crate_pile"

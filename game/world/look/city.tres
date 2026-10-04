@@ -1,0 +1,35 @@
+[gd_resource type="Resource" script_class="LightPreset" format=3]
+
+[ext_resource type="Script" path="res://scripts/LightPreset.cs" id="1_dtny2"]
+
+[resource]
+script = ExtResource("1_dtny2")
+Elev = 16.0
+Yaw = -45.0
+Sun = Color(1, 0.69490296, 0.43104798, 1)
+SunEnergy = 3.2
+Soft = 0.5
+SunFog = 3.0
+Ambient = Color(0.434, 0.42, 0.556, 1)
+AmbientEnergy = 0.36
+Fill = Color(0.574, 0.554, 0.732, 1)
+FillEnergy = 0.26
+Fog = Color(0.66, 0.54, 0.68, 1)
+FogDen = 0.0004
+VFog = 0.0012
+Mist = Color(0.96, 0.92, 0.9, 1)
+Black = Color(0.022, 0.016, 0.024, 1)
+Exposure = 0.7
+Saturation = 1.12
+Contrast = 1.0
+Bloom = 0.5
+Tone = "aces"
+Lamps = 4.5
+WindowsLit = 1.0
+SpriteTint = Color(1, 1, 1, 1)
+SkyTop = Color(0.2, 0.15, 0.36, 1)
+SkyHorizon = Color(0.98, 0.58, 0.3, 1)
+GroundHorizon = Color(0.46, 0.3, 0.26, 1)
+GroundBottom = Color(0.08, 0.06, 0.07, 1)
+CloudLit = Color(1, 0.64, 0.4, 1)
+CloudDark = Color(0.32, 0.22, 0.32, 1)

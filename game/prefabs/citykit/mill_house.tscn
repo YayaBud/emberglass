@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_ila37"]
+
+[node name="mill_house" type="Node3D" unique_id=626234960]
+script = ExtResource("1_ila37")
+Kit = "citykit"
+Kind = "mill_house"

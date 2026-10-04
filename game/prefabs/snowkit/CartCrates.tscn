@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_bquvu"]
+
+[node name="CartCrates" type="Node3D" unique_id=2079370965]
+script = ExtResource("1_bquvu")
+Kit = "snowkit"
+Kind = "CartCrates"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_xgag5"]
+
+[node name="ChoppingBlock" type="Node3D" unique_id=800481768]
+script = ExtResource("1_xgag5")
+Kit = "worldkit"
+Kind = "ChoppingBlock"

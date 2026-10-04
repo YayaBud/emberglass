@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_li7j5"]
+
+[node name="kit_retaining" type="Node3D" unique_id=1223619427]
+script = ExtResource("1_li7j5")
+Kit = "village"
+Kind = "kit_retaining"

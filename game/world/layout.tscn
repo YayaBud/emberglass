@@ -1,0 +1,990 @@
+[gd_scene format=3]
+
+[sub_resource type="Curve3D" id="Curve3D_mrlac"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -320, 43.178177, 320, 0, 0, 0, 0, 0, 0, -360, 26.734337, 368, 0, 0, 0, 0, 0, 0, -394, 26.21463, 390, 0, 0, 0, 0, 0, 0, -420, 48.44027, 422, 0, 0, 0, 0, 0, 0, -445, 50.4028, 440, 0, 0, 0, 0, 0, 0, -460, 90.29929, 475, 0, 0, 0, 0, 0, 0, -450, 191.1435, 520, 0, 0, 0, 0, 0, 0, -482, 298.1858, 552),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 8
+
+[sub_resource type="Curve3D" id="Curve3D_ie16s"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -420, 48.44027, 422, 0, 0, 0, 0, 0, 0, -388, 46.711777, 444, 0, 0, 0, 0, 0, 0, -348, 55.447273, 458, 0, 0, 0, 0, 0, 0, -310, 53.92288, 448),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[sub_resource type="Curve3D" id="Curve3D_d5jj4"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -445, 50.4028, 440, 0, 0, 0, 0, 0, 0, -490, 116.10269, 432, 0, 0, 0, 0, 0, 0, -534, 235.22282, 408),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_c8wyj"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -396, 46.387756, 460, 0, 0, 0, 0, 0, 0, -418, 47.777702, 440, 0, 0, 0, 0, 0, 0, -440, 47.903038, 418, 0, 0, 0, 0, 0, 0, -468, 61.186485, 394),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[sub_resource type="Curve3D" id="Curve3D_5rnkk"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -340, 22.162205, 400, 0, 0, 0, 0, 0, 0, -362, 26.440933, 378, 0, 0, 0, 0, 0, 0, -385, 23.41432, 355),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_7tkc2"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -460, 89.81243, 488, 0, 0, 0, 0, 0, 0, -482, 91.26163, 466, 0, 0, 0, 0, 0, 0, -504, 150.77435, 444),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_ru2ji"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -430, 34.653835, 372, 0, 0, 0, 0, 0, 0, -452, 36.27629, 350, 0, 0, 0, 0, 0, 0, -474, 84.48075, 328),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_7ejho"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 330, 4.3677096, 320, 0, 0, 0, 0, 0, 0, 300, 4.496046, 290, 0, 0, 0, 0, 0, 0, 270, 6.356879, 260),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_f5baf"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 400, 4.0738406, 250, 0, 0, 0, 0, 0, 0, 375, 4.268966, 225, 0, 0, 0, 0, 0, 0, 350, 6.277696, 200),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_r60jb"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 240, 1.6308343, 365, 0, 0, 0, 0, 0, 0, 215, 3.2972922, 340, 0, 0, 0, 0, 0, 0, 190, 6.2673216, 315),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_83dmd"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 21.2, -0.33755934, 21.2, 0, 0, 0, 0, 0, 0, -63.6, 0.86115956, -63.6),
+"tilts": PackedFloat32Array(0, 0)
+}
+point_count = 2
+
+[sub_resource type="Curve3D" id="Curve3D_na0wf"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -190, 0, -10, 0, 0, 0, 0, 0, 0, -188, 0, -29, 0, 0, 0, 0, 0, 0, -168, 0, -51, 0, 0, 0, 0, 0, 0, -142, 0, -74, 0, 0, 0, 0, 0, 0, -112, 0, -93, 0, 0, 0, 0, 0, 0, -79, 0, -106, 0, 0, 0, 0, 0, 0, -45, 0, -115, 0, 0, 0, 0, 0, 0, -5, 0, -120, 0, 0, 0, 0, 0, 0, 28, 0, -122, 0, 0, 0, 0, 0, 0, 60, 0, -127, 0, 0, 0, 0, 0, 0, 117, 0, -130, 0, 0, 0, 0, 0, 0, 167, 0, -120, 0, 0, 0, 0, 0, 0, 174, 0, -88, 0, 0, 0, 0, 0, 0, 170, 0, -57, 0, 0, 0, 0, 0, 0, 188, 0, -40, 0, 0, 0, 0, 0, 0, 206, 0, -16, 0, 0, 0, 0, 0, 0, 221, 0, 15, 0, 0, 0, 0, 0, 0, 225, 0, 44, 0, 0, 0, 0, 0, 0, 217, 0, 67, 0, 0, 0, 0, 0, 0, 188, 0, 82, 0, 0, 0, 0, 0, 0, 158, 0, 100, 0, 0, 0, 0, 0, 0, 139, 0, 119, 0, 0, 0, 0, 0, 0, 117, 0, 134, 0, 0, 0, 0, 0, 0, 60, 0, 127, 0, 0, 0, 0, 0, 0, 4, 0, 121, 0, 0, 0, 0, 0, 0, -13, 0, 121, 0, 0, 0, 0, 0, 0, -13, 0, 78, 0, 0, 0, 0, 0, 0, -60, 0, 76, 0, 0, 0, 0, 0, 0, -120, 0, 80, 0, 0, 0, 0, 0, 0, -168, 0, 84, 0, 0, 0, 0, 0, 0, -186, 0, 52, 0, 0, 0, 0, 0, 0, -190, 0, 26),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 32
+
+[sub_resource type="Curve3D" id="Curve3D_0x827"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -250, 0, 4, 0, 0, 0, 0, 0, 0, -215, 0, 2, 0, 0, 0, 0, 0, 0, -199, 0, 18, 0, 0, 0, 0, 0, 0, -194, 0, 52, 0, 0, 0, 0, 0, 0, -172, 0, 88, 0, 0, 0, 0, 0, 0, -120, 0, 84, 0, 0, 0, 0, 0, 0, -60, 0, 80, 0, 0, 0, 0, 0, 0, -16, 0, 80, 0, 0, 0, 0, 0, 0, -16, 0, 124, 0, 0, 0, 0, 0, 0, 4, 0, 125, 0, 0, 0, 0, 0, 0, 60, 0, 131, 0, 0, 0, 0, 0, 0, 117, 0, 138, 0, 0, 0, 0, 0, 0, 146, 0, 140, 0, 0, 0, 0, 0, 0, 175, 0, 150, 0, 0, 0, 0, 0, 0, 207, 0, 146, 0, 0, 0, 0, 0, 0, 250, 0, 168, 0, 0, 0, 0, 0, 0, 360, 0, 176, 0, 0, 0, 0, 0, 0, 360, 0, 440, 0, 0, 0, 0, 0, 0, -360, 0, 440, 0, 0, 0, 0, 0, 0, -360, 0, 150, 0, 0, 0, 0, 0, 0, -270, 0, 120, 0, 0, 0, 0, 0, 0, -255, 0, 60),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 22
+
+[sub_resource type="Curve3D" id="Curve3D_x1guw"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -205, 0, 41, 0, 0, 0, 0, 0, 0, -150, 0, 34, 0, 0, 0, 0, 0, 0, -100, 0, 38, 0, 0, 0, 0, 0, 0, -50, 0, 44, 0, 0, 0, 0, 0, 0, -4, 0, 50, 0, 0, 0, 0, 0, 0, 40, 0, 57, 0, 0, 0, 0, 0, 0, 90, 0, 64, 0, 0, 0, 0, 0, 0, 140, 0, 70, 0, 0, 0, 0, 0, 0, 185, 0, 76),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 9
+
+[sub_resource type="Curve3D" id="Curve3D_iav0a"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 60, 0, -127, 0, 0, 0, 0, 0, 0, 117, 0, -130, 0, 0, 0, 0, 0, 0, 167, 0, -120, 0, 0, 0, 0, 0, 0, 174, 0, -88, 0, 0, 0, 0, 0, 0, 170, 0, -57, 0, 0, 0, 0, 0, 0, 118, 0, -52, 0, 0, 0, 0, 0, 0, 62, 0, -54),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 7
+
+[sub_resource type="Curve3D" id="Curve3D_86xsb"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -114, 0, -92, 0, 0, 0, 0, 0, 0, -79, 0, -106, 0, 0, 0, 0, 0, 0, -45, 0, -115, 0, 0, 0, 0, 0, 0, -5, 0, -120, 0, 0, 0, 0, 0, 0, 28, 0, -122, 0, 0, 0, 0, 0, 0, 60, 0, -127, 0, 0, 0, 0, 0, 0, 62, 0, -54, 0, 0, 0, 0, 0, 0, 38, 0, -49, 0, 0, 0, 0, 0, 0, 0, 0, -50, 0, 0, 0, 0, 0, 0, -40, 0, -50, 0, 0, 0, 0, 0, 0, -80, 0, -62),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 11
+
+[sub_resource type="Curve3D" id="Curve3D_acqrg"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -40, 0, 12, 0, 0, 0, 0, 0, 0, -36, 0, -24, 0, 0, 0, 0, 0, 0, -2, 0, -30, 0, 0, 0, 0, 0, 0, 30, 0, -24, 0, 0, 0, 0, 0, 0, 40, 0, 8, 0, 0, 0, 0, 0, 0, 14, 0, 34, 0, 0, 0, 0, 0, 0, -28, 0, 32),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 7
+
+[sub_resource type="Curve3D" id="Curve3D_8sr38"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 38, 0, -49, 0, 0, 0, 0, 0, 0, 62, 0, -54, 0, 0, 0, 0, 0, 0, 118, 0, -52, 0, 0, 0, 0, 0, 0, 170, 0, -57, 0, 0, 0, 0, 0, 0, 188, 0, -40, 0, 0, 0, 0, 0, 0, 150, 0, -24, 0, 0, 0, 0, 0, 0, 100, 0, -14, 0, 0, 0, 0, 0, 0, 56, 0, -2, 0, 0, 0, 0, 0, 0, 40, 0, 8, 0, 0, 0, 0, 0, 0, 30, 0, -24),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 10
+
+[sub_resource type="Curve3D" id="Curve3D_tve2c"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 145, 0, 126, 0, 0, 0, 0, 0, 0, 162, 0, 106, 0, 0, 0, 0, 0, 0, 190, 0, 90, 0, 0, 0, 0, 0, 0, 224, 0, 76, 0, 0, 0, 0, 0, 0, 236, 0, 86, 0, 0, 0, 0, 0, 0, 232, 0, 108, 0, 0, 0, 0, 0, 0, 214, 0, 128, 0, 0, 0, 0, 0, 0, 198, 0, 138, 0, 0, 0, 0, 0, 0, 175, 0, 146, 0, 0, 0, 0, 0, 0, 150, 0, 140),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 10
+
+[sub_resource type="Curve3D" id="Curve3D_24jg1"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -128, 0, -112, 0, 0, 0, 0, 0, 0, -160, 0, -86, 0, 0, 0, 0, 0, 0, -190, 0, -58, 0, 0, 0, 0, 0, 0, -208, 0, -30, 0, 0, 0, 0, 0, 0, -213, 0, -6, 0, 0, 0, 0, 0, 0, -214, 0, 4),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0)
+}
+point_count = 6
+
+[sub_resource type="Curve3D" id="Curve3D_njggn"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 204, 0, -64, 0, 0, 0, 0, 0, 0, 222, 0, -40, 0, 0, 0, 0, 0, 0, 236, 0, -12, 0, 0, 0, 0, 0, 0, 243, 0, 12, 0, 0, 0, 0, 0, 0, 246, 0, 26),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="Curve3D" id="Curve3D_7fo0v"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 247, 0, 32, 0, 0, 0, 0, 0, 0, 248, 0, 60, 0, 0, 0, 0, 0, 0, 238, 0, 95, 0, 0, 0, 0, 0, 0, 218, 0, 125, 0, 0, 0, 0, 0, 0, 203, 0, 141),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="Curve3D" id="Curve3D_v72qp"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -8, 0, -170, 0, 0, 0, 0, 0, 0, -6, 0, -140, 0, 0, 0, 0, 0, 0, -5, 0, -120, 0, 0, 0, 0, 0, 0, -4, 0, -100, 0, 0, 0, 0, 0, 0, -3, 0, -80, 0, 0, 0, 0, 0, 0, -2, 0, -64, 0, 0, 0, 0, 0, 0, -1, 0, -50, 0, 0, 0, 0, 0, 0, 0, 0, -36, 0, 0, 0, 0, 0, 0, 0, 0, -16),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 9
+
+[sub_resource type="Curve3D" id="Curve3D_xjuec"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 0, 0, 16, 0, 0, 0, 0, 0, 0, -2, 0, 30, 0, 0, 0, 0, 0, 0, -4, 0, 44, 0, 0, 0, 0, 0, 0, -4, 0, 58, 0, 0, 0, 0, 0, 0, -5, 0, 72, 0, 0, 0, 0, 0, 0, -5, 0, 90, 0, 0, 0, 0, 0, 0, -5, 0, 110, 0, 0, 0, 0, 0, 0, -5, 0, 130, 0, 0, 0, 0, 0, 0, -5, 0, 148),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 9
+
+[sub_resource type="Curve3D" id="Curve3D_ic8l7"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -16, 0, 0, 0, 0, 0, 0, 0, 0, -45, 0, -3, 0, 0, 0, 0, 0, 0, -80, 0, -6, 0, 0, 0, 0, 0, 0, -120, 0, -8, 0, 0, 0, 0, 0, 0, -160, 0, -9, 0, 0, 0, 0, 0, 0, -190, 0, -10, 0, 0, 0, 0, 0, 0, -199, 0, -6, 0, 0, 0, 0, 0, 0, -204, 0, 6, 0, 0, 0, 0, 0, 0, -210, 0, 18, 0, 0, 0, 0, 0, 0, -243, 0, 27, 0, 0, 0, 0, 0, 0, -280, 0, 31, 0, 0, 0, 0, 0, 0, -330, 0, 34),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 12
+
+[sub_resource type="Curve3D" id="Curve3D_ytcsh"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 16, 0, 2, 0, 0, 0, 0, 0, 0, 45, 0, 8, 0, 0, 0, 0, 0, 0, 90, 0, 18, 0, 0, 0, 0, 0, 0, 140, 0, 28, 0, 0, 0, 0, 0, 0, 190, 0, 38, 0, 0, 0, 0, 0, 0, 225, 0, 44, 0, 0, 0, 0, 0, 0, 235, 0, 45, 0, 0, 0, 0, 0, 0, 247, 0, 46, 0, 0, 0, 0, 0, 0, 262, 0, 48, 0, 0, 0, 0, 0, 0, 300, 0, 52, 0, 0, 0, 0, 0, 0, 340, 0, 55),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 11
+
+[sub_resource type="Curve3D" id="Curve3D_2e7c8"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 12, 0, -30, 0, 0, 0, 0, 0, 0, 30, 0, -40, 0, 0, 0, 0, 0, 0, 50, 0, -46, 0, 0, 0, 0, 0, 0, 70, 0, -50, 0, 0, 0, 0, 0, 0, 80, 0, -55, 0, 0, 0, 0, 0, 0, 88, 0, -66, 0, 0, 0, 0, 0, 0, 96, 0, -82, 0, 0, 0, 0, 0, 0, 100, 0, -94),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 8
+
+[sub_resource type="Curve3D" id="Curve3D_b77as"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -120, 0, 14, 0, 0, 0, 0, 0, 0, -80, 0, 20, 0, 0, 0, 0, 0, 0, -40, 0, 24, 0, 0, 0, 0, 0, 0, 0, 0, 26, 0, 0, 0, 0, 0, 0, 40, 0, 32, 0, 0, 0, 0, 0, 0, 80, 0, 36, 0, 0, 0, 0, 0, 0, 112, 0, 34, 0, 0, 0, 0, 0, 0, 135, 0, 20, 0, 0, 0, 0, 0, 0, 140, 0, -6, 0, 0, 0, 0, 0, 0, 125, 0, -20, 0, 0, 0, 0, 0, 0, 90, 0, -24, 0, 0, 0, 0, 0, 0, 60, 0, -30, 0, 0, 0, 0, 0, 0, 25, 0, -30, 0, 0, 0, 0, 0, 0, -5, 0, -30, 0, 0, 0, 0, 0, 0, -40, 0, -34, 0, 0, 0, 0, 0, 0, -80, 0, -42, 0, 0, 0, 0, 0, 0, -110, 0, -38, 0, 0, 0, 0, 0, 0, -133, 0, -24, 0, 0, 0, 0, 0, 0, -142, 0, 0, 0, 0, 0, 0, 0, 0, -132, 0, 12),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 20
+
+[sub_resource type="Curve3D" id="Curve3D_chjl2"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -5, 0, 78, 0, 0, 0, 0, 0, 0, -15, 0, 77, 0, 0, 0, 0, 0, 0, -26, 0, 69, 0, 0, 0, 0, 0, 0, -40, 0, 62, 0, 0, 0, 0, 0, 0, -80, 0, 61, 0, 0, 0, 0, 0, 0, -120, 0, 63, 0, 0, 0, 0, 0, 0, -165, 0, 62),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0, 0)
+}
+point_count = 7
+
+[sub_resource type="Curve3D" id="Curve3D_tu11u"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -3, 0, 83, 0, 0, 0, 0, 0, 0, 40, 0, 84, 0, 0, 0, 0, 0, 0, 80, 0, 89, 0, 0, 0, 0, 0, 0, 120, 0, 95, 0, 0, 0, 0, 0, 0, 150, 0, 96),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="Curve3D" id="Curve3D_k3vpm"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -1, 0, 100, 0, 0, 0, 0, 0, 0, 30, 0, 106, 0, 0, 0, 0, 0, 0, 60, 0, 112, 0, 0, 0, 0, 0, 0, 100, 0, 119, 0, 0, 0, 0, 0, 0, 130, 0, 117),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="Curve3D" id="Curve3D_0qbw7"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -40, 0, 24, 0, 0, 0, 0, 0, 0, -60, 0, 8, 0, 0, 0, 0, 0, 0, -74, 0, -12, 0, 0, 0, 0, 0, 0, -80, 0, -30, 0, 0, 0, 0, 0, 0, -80, 0, -44),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[sub_resource type="Curve3D" id="Curve3D_fa3r0"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -80, 0, -6, 0, 0, 0, 0, 0, 0, -98, 0, -20, 0, 0, 0, 0, 0, 0, -110, 0, -38),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_5b455"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -142, 0, 0, 0, 0, 0, 0, 0, 0, -160, 0, -18, 0, 0, 0, 0, 0, 0, -164, 0, -36, 0, 0, 0, 0, 0, 0, -152, 0, -55),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[sub_resource type="Curve3D" id="Curve3D_pnx24"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -133, 0, -24, 0, 0, 0, 0, 0, 0, -122, 0, -50, 0, 0, 0, 0, 0, 0, -110, 0, -70, 0, 0, 0, 0, 0, 0, -96, 0, -86),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[sub_resource type="Curve3D" id="Curve3D_qf744"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -120, 0, 14, 0, 0, 0, 0, 0, 0, -150, 0, 6, 0, 0, 0, 0, 0, 0, -178, 0, 10),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_v5ikk"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -2, 0, -66, 0, 0, 0, 0, 0, 0, -30, 0, -72, 0, 0, 0, 0, 0, 0, -60, 0, -80, 0, 0, 0, 0, 0, 0, -92, 0, -90),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[sub_resource type="Curve3D" id="Curve3D_45hdp"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -3, 0, -84, 0, 0, 0, 0, 0, 0, 22, 0, -86, 0, 0, 0, 0, 0, 0, 50, 0, -96),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_tnkqn"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -45, 0, -70, 0, 0, 0, 0, 0, 0, -42, 0, -94, 0, 0, 0, 0, 0, 0, -36, 0, -110),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_xqmgd"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 18, 0, -3, 0, 0, 0, 0, 0, 0, 30, 0, -12, 0, 0, 0, 0, 0, 0, 55, 0, -14, 0, 0, 0, 0, 0, 0, 80, 0, -12, 0, 0, 0, 0, 0, 0, 100, 0, -6, 0, 0, 0, 0, 0, 0, 109, 0, -2),
+"tilts": PackedFloat32Array(0, 0, 0, 0, 0, 0)
+}
+point_count = 6
+
+[sub_resource type="Curve3D" id="Curve3D_vne0c"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 125, 0, -24, 0, 0, 0, 0, 0, 0, 152, 0, -36, 0, 0, 0, 0, 0, 0, 168, 0, -42),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_iojeo"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 64, 0, -26, 0, 0, 0, 0, 0, 0, 80, 0, -22),
+"tilts": PackedFloat32Array(0, 0)
+}
+point_count = 2
+
+[sub_resource type="Curve3D" id="Curve3D_1emoe"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 72, 0, -13, 0, 0, 0, 0, 0, 0, 74, 0, -22, 0, 0, 0, 0, 0, 0, 78, 0, -29),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_thkri"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 104, 0, -5, 0, 0, 0, 0, 0, 0, 110, 0, -16, 0, 0, 0, 0, 0, 0, 118, 0, -23),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_7ri0v"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 136, 0, -29, 0, 0, 0, 0, 0, 0, 140, 0, -40, 0, 0, 0, 0, 0, 0, 148, 0, -50),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_d3pek"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 56, 0, 10, 0, 0, 0, 0, 0, 0, 70, 0, 28, 0, 0, 0, 0, 0, 0, 92, 0, 40),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_poqlk"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 112, 0, 34, 0, 0, 0, 0, 0, 0, 150, 0, 44, 0, 0, 0, 0, 0, 0, 188, 0, 58),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_1ce1y"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 140, 0, -6, 0, 0, 0, 0, 0, 0, 170, 0, 8, 0, 0, 0, 0, 0, 0, 200, 0, 14, 0, 0, 0, 0, 0, 0, 214, 0, 22),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[sub_resource type="Curve3D" id="Curve3D_wmut6"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 100, 0, 22, 0, 0, 0, 0, 0, 0, 108, 0, 2, 0, 0, 0, 0, 0, 0, 114, 0, -12),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_qe34o"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -40, 0, 60, 0, 0, 0, 0, 0, 0, -44, 0, 74),
+"tilts": PackedFloat32Array(0, 0)
+}
+point_count = 2
+
+[sub_resource type="Curve3D" id="Curve3D_f6jq8"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -100, 0, 62, 0, 0, 0, 0, 0, 0, -102, 0, 76),
+"tilts": PackedFloat32Array(0, 0)
+}
+point_count = 2
+
+[sub_resource type="Curve3D" id="Curve3D_dibg7"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, -150, 0, 63, 0, 0, 0, 0, 0, 0, -150, 0, 78),
+"tilts": PackedFloat32Array(0, 0)
+}
+point_count = 2
+
+[sub_resource type="Curve3D" id="Curve3D_3aprf"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 40, 0, 83, 0, 0, 0, 0, 0, 0, 44, 0, 108),
+"tilts": PackedFloat32Array(0, 0)
+}
+point_count = 2
+
+[sub_resource type="Curve3D" id="Curve3D_ssh6n"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 100, 0, 91, 0, 0, 0, 0, 0, 0, 104, 0, 117),
+"tilts": PackedFloat32Array(0, 0)
+}
+point_count = 2
+
+[sub_resource type="Curve3D" id="Curve3D_aga7a"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 96, 0, -82, 0, 0, 0, 0, 0, 0, 130, 0, -90, 0, 0, 0, 0, 0, 0, 152, 0, -100),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_l67sn"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 96, 0, -82, 0, 0, 0, 0, 0, 0, 76, 0, -96, 0, 0, 0, 0, 0, 0, 72, 0, -112),
+"tilts": PackedFloat32Array(0, 0, 0)
+}
+point_count = 3
+
+[sub_resource type="Curve3D" id="Curve3D_wntny"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 231, 0, 45, 0, 0, 0, 0, 0, 0, 226, 0, 78, 0, 0, 0, 0, 0, 0, 214, 0, 100, 0, 0, 0, 0, 0, 0, 196, 0, 128),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[sub_resource type="Curve3D" id="Curve3D_uc2xs"]
+_data = {
+"points": PackedVector3Array(0, 0, 0, 0, 0, 0, 160, 0, 114, 0, 0, 0, 0, 0, 0, 189, 0, 106, 0, 0, 0, 0, 0, 0, 193, 0, 113, 0, 0, 0, 0, 0, 0, 205, 0, 114),
+"tilts": PackedFloat32Array(0, 0, 0, 0)
+}
+point_count = 4
+
+[node name="Layout" type="Node3D" unique_id=765829934]
+
+[node name="World" type="Node3D" parent="." unique_id=805953610]
+
+[node name="Trails" type="Node3D" parent="World" unique_id=621799291]
+
+[node name="Trail_0" type="Path3D" parent="World/Trails" unique_id=777381338]
+curve = SubResource("Curve3D_mrlac")
+
+[node name="Trail_1" type="Path3D" parent="World/Trails" unique_id=973067419]
+curve = SubResource("Curve3D_ie16s")
+
+[node name="Trail_2" type="Path3D" parent="World/Trails" unique_id=100137543]
+curve = SubResource("Curve3D_d5jj4")
+
+[node name="Trail_3" type="Path3D" parent="World/Trails" unique_id=2140714600]
+curve = SubResource("Curve3D_c8wyj")
+
+[node name="Trail_4" type="Path3D" parent="World/Trails" unique_id=1155309679]
+curve = SubResource("Curve3D_5rnkk")
+
+[node name="Trail_5" type="Path3D" parent="World/Trails" unique_id=905268995]
+curve = SubResource("Curve3D_7tkc2")
+
+[node name="Trail_6" type="Path3D" parent="World/Trails" unique_id=1002991332]
+curve = SubResource("Curve3D_ru2ji")
+
+[node name="Trail_7" type="Path3D" parent="World/Trails" unique_id=2120842962]
+curve = SubResource("Curve3D_7ejho")
+
+[node name="Trail_8" type="Path3D" parent="World/Trails" unique_id=1036304852]
+curve = SubResource("Curve3D_f5baf")
+
+[node name="Trail_9" type="Path3D" parent="World/Trails" unique_id=1947296579]
+curve = SubResource("Curve3D_r60jb")
+
+[node name="VillageRoad" type="Path3D" parent="World" unique_id=688322314]
+curve = SubResource("Curve3D_83dmd")
+
+[node name="Dells" type="Node3D" parent="World" unique_id=1378450552]
+
+[node name="Dell_0" type="Marker3D" parent="World/Dells" unique_id=547706262]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -406.4, 46.71102, 450.6)
+metadata/r = 70.0
+
+[node name="Dell_1" type="Marker3D" parent="World/Dells" unique_id=2095420558]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -462, 59.525875, 398)
+metadata/r = 32.0
+
+[node name="Dell_2" type="Marker3D" parent="World/Dells" unique_id=1040084065]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -470, 90.278244, 478)
+metadata/r = 48.0
+
+[node name="Dell_3" type="Marker3D" parent="World/Dells" unique_id=506831477]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -438, 34.85874, 364)
+metadata/r = 46.0
+
+[node name="Dell_4" type="Marker3D" parent="World/Dells" unique_id=1542450598]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -362, 26.140934, 378)
+metadata/r = 38.0
+
+[node name="Dell_5" type="Marker3D" parent="World/Dells" unique_id=1650637405]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 325, 4.3396826, 318)
+metadata/r = 45.0
+
+[node name="Dell_6" type="Marker3D" parent="World/Dells" unique_id=1978904696]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 365, 4.249505, 227)
+metadata/r = 45.0
+
+[node name="Dell_7" type="Marker3D" parent="World/Dells" unique_id=400557537]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 334, 6.9638424, 184)
+metadata/r = 34.0
+
+[node name="Dell_8" type="Marker3D" parent="World/Dells" unique_id=119334170]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 230, 2.37881, 347)
+metadata/r = 50.0
+
+[node name="Oases" type="Node3D" parent="World" unique_id=711817735]
+
+[node name="Oasis_0" type="Marker3D" parent="World/Oases" unique_id=240070057]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 222, 1.916782, 333)
+metadata/r = 8.0
+
+[node name="Pond" type="Marker3D" parent="World" unique_id=1884130697]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -63.64, -4.4883957, 56.57)
+
+[node name="IcePools" type="Node3D" parent="World" unique_id=2001633128]
+
+[node name="Ice_0" type="Marker3D" parent="World/IcePools" unique_id=500262850]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -404, 47.012005, 440)
+metadata/rx = 5.0
+metadata/rz = 3.2
+
+[node name="Ice_1" type="Marker3D" parent="World/IcePools" unique_id=1197317177]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -492, 91.19676, 470)
+metadata/rx = 5.0
+metadata/rz = 3.5
+
+[node name="Ice_2" type="Marker3D" parent="World/IcePools" unique_id=1117599975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -441, 35.402805, 353)
+metadata/rx = 4.5
+metadata/rz = 3.0
+
+[node name="Biomes" type="Node3D" parent="World" unique_id=95100109]
+
+[node name="Greenwood" type="Marker3D" parent="World/Biomes" unique_id=440945962]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13219768, 0)
+metadata/radius = 210.0
+metadata/base = 0.0
+metadata/relief = 5.5
+metadata/grain = 0.016
+
+[node name="Meadow" type="Marker3D" parent="World/Biomes" unique_id=1809513041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -250, -2.3012242, -150)
+metadata/radius = 230.0
+metadata/base = -1.5
+metadata/relief = 2.4
+metadata/grain = 0.011
+
+[node name="Emberwood" type="Marker3D" parent="World/Biomes" unique_id=562647488]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 230, 2.1427064, -210)
+metadata/radius = 200.0
+metadata/base = 3.0
+metadata/relief = 8.5
+metadata/grain = 0.019
+
+[node name="Fen" type="Marker3D" parent="World/Biomes" unique_id=1145908340]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90, -6.626174, 300)
+metadata/radius = 180.0
+metadata/base = -6.5
+metadata/relief = 2.0
+metadata/grain = 0.014
+
+[node name="Crags" type="Marker3D" parent="World/Biomes" unique_id=1877872898]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -260, 28.160873, 250)
+metadata/radius = 215.0
+metadata/base = 14.0
+metadata/relief = 22.0
+metadata/grain = 0.013
+
+[node name="Dunes" type="Marker3D" parent="World/Biomes" unique_id=1480729066]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 280, 5.522456, 270)
+metadata/radius = 235.0
+metadata/base = 2.0
+metadata/relief = 11.0
+metadata/grain = 0.009
+
+[node name="Snow" type="Marker3D" parent="World/Biomes" unique_id=1572684193]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -430, 48.31785, 430)
+metadata/radius = 150.0
+metadata/base = 18.0
+metadata/relief = 10.0
+metadata/grain = 0.014
+
+[node name="Spawn" type="Marker3D" parent="World" unique_id=276701286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.13219768, 0)
+
+[node name="City" type="Node3D" parent="." unique_id=1648809561]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 0, 603.0207, -1050)
+
+[node name="Wall" type="Path3D" parent="City" unique_id=610236759]
+curve = SubResource("Curve3D_na0wf")
+metadata/closed = true
+
+[node name="Sea" type="Path3D" parent="City" unique_id=734461183]
+curve = SubResource("Curve3D_0x827")
+metadata/closed = true
+
+[node name="Canal" type="Path3D" parent="City" unique_id=1516175042]
+curve = SubResource("Curve3D_x1guw")
+
+[node name="Districts" type="Node3D" parent="City" unique_id=751154214]
+
+[node name="Citadel" type="Path3D" parent="City/Districts" unique_id=909271143]
+curve = SubResource("Curve3D_iav0a")
+metadata/closed = true
+
+[node name="Noble" type="Path3D" parent="City/Districts" unique_id=1221547946]
+curve = SubResource("Curve3D_86xsb")
+metadata/closed = true
+
+[node name="Market" type="Path3D" parent="City/Districts" unique_id=228648119]
+curve = SubResource("Curve3D_acqrg")
+metadata/closed = true
+
+[node name="OldCity" type="Path3D" parent="City/Districts" unique_id=652122103]
+curve = SubResource("Curve3D_8sr38")
+metadata/closed = true
+
+[node name="Farms" type="Path3D" parent="City/Districts" unique_id=568724055]
+curve = SubResource("Curve3D_tve2c")
+metadata/closed = true
+
+[node name="Rivers" type="Node3D" parent="City" unique_id=1297367006]
+
+[node name="River_0" type="Path3D" parent="City/Rivers" unique_id=1730253244]
+curve = SubResource("Curve3D_24jg1")
+metadata/level = 5.0
+metadata/hw = 6.0
+
+[node name="River_1" type="Path3D" parent="City/Rivers" unique_id=337020858]
+curve = SubResource("Curve3D_njggn")
+metadata/level = 4.0
+metadata/hw = 5.0
+
+[node name="River_2" type="Path3D" parent="City/Rivers" unique_id=894610470]
+curve = SubResource("Curve3D_7fo0v")
+metadata/level = 0.5
+metadata/hw = 5.0
+
+[node name="Falls" type="Node3D" parent="City" unique_id=152872331]
+
+[node name="North-west_falls" type="Marker3D" parent="City/Falls" unique_id=347627711]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -124, 5, -116)
+metadata/name = "North-west falls"
+metadata/dir = Vector2(-0.78, -0.62)
+metadata/top = 27.0
+metadata/foot = 5.0
+metadata/width = 12.0
+
+[node name="West_falls" type="Marker3D" parent="City/Falls" unique_id=1418944909]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -214, -1.5, 6)
+metadata/name = "West falls"
+metadata/dir = Vector2(0, -1)
+metadata/top = 5.0
+metadata/foot = -1.5
+metadata/width = 12.0
+
+[node name="East_falls" type="Marker3D" parent="City/Falls" unique_id=666675]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 200, 4, -68)
+metadata/name = "East falls"
+metadata/dir = Vector2(0.6, -0.8)
+metadata/top = 24.0
+metadata/foot = 4.0
+metadata/width = 10.0
+
+[node name="East_gate_cascade" type="Marker3D" parent="City/Falls" unique_id=2141048089]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 246.5, 0.5, 29)
+metadata/name = "East gate cascade"
+metadata/dir = Vector2(0, -1)
+metadata/top = 4.0
+metadata/foot = 0.5
+metadata/width = 10.0
+
+[node name="South-east_falls" type="Marker3D" parent="City/Falls" unique_id=224132647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 203, -1.5, 142)
+metadata/name = "South-east falls"
+metadata/dir = Vector2(0, -1)
+metadata/top = 0.5
+metadata/foot = -1.5
+metadata/width = 10.0
+
+[node name="Highland" type="Node3D" parent="City" unique_id=407864603]
+
+[node name="Hill_0" type="Marker3D" parent="City/Highland" unique_id=1393883347]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -160, 27, -140)
+
+[node name="Hill_1" type="Marker3D" parent="City/Highland" unique_id=186759533]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -80, 26, -160)
+
+[node name="Hill_2" type="Marker3D" parent="City/Highland" unique_id=1358230800]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 25, -165)
+
+[node name="Hill_3" type="Marker3D" parent="City/Highland" unique_id=494057635]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, 27, -168)
+
+[node name="Hill_4" type="Marker3D" parent="City/Highland" unique_id=394820456]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 170, 28, -150)
+
+[node name="Hill_5" type="Marker3D" parent="City/Highland" unique_id=661130148]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 232, 24, -80)
+
+[node name="Hill_6" type="Marker3D" parent="City/Highland" unique_id=675961908]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 290, 16, -20)
+
+[node name="Hill_7" type="Marker3D" parent="City/Highland" unique_id=880030351]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 300, 4, 80)
+
+[node name="Hill_8" type="Marker3D" parent="City/Highland" unique_id=1952468497]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 260, 2, 125)
+
+[node name="Hill_9" type="Marker3D" parent="City/Highland" unique_id=398814360]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -280, 12, -60)
+
+[node name="Hill_10" type="Marker3D" parent="City/Highland" unique_id=384557800]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -260, 18, -115)
+
+[node name="Hill_11" type="Marker3D" parent="City/Highland" unique_id=255719368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -300, 3, 60)
+
+[node name="Isle" type="Marker3D" parent="City" unique_id=1970415039]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -206, 0, 112)
+
+[node name="Roads" type="Node3D" parent="City" unique_id=1968871442]
+
+[node name="Road_0" type="Path3D" parent="City/Roads" unique_id=1136315856]
+curve = SubResource("Curve3D_v72qp")
+metadata/name = "North road"
+metadata/kind = "main"
+metadata/hw = 5.0
+metadata/loop = false
+metadata/slope = 0.45
+
+[node name="Road_1" type="Path3D" parent="City/Roads" unique_id=924089011]
+curve = SubResource("Curve3D_xjuec")
+metadata/name = "South road"
+metadata/kind = "main"
+metadata/hw = 5.0
+metadata/loop = false
+metadata/slope = 0.5
+
+[node name="Road_2" type="Path3D" parent="City/Roads" unique_id=915701775]
+curve = SubResource("Curve3D_ic8l7")
+metadata/name = "West road"
+metadata/kind = "main"
+metadata/hw = 5.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_3" type="Path3D" parent="City/Roads" unique_id=1899316355]
+curve = SubResource("Curve3D_ytcsh")
+metadata/name = "East road"
+metadata/kind = "main"
+metadata/hw = 5.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_4" type="Path3D" parent="City/Roads" unique_id=2033373304]
+curve = SubResource("Curve3D_2e7c8")
+metadata/name = "Citadel road"
+metadata/kind = "main"
+metadata/hw = 4.5
+metadata/loop = false
+metadata/slope = 0.36
+
+[node name="Road_5" type="Path3D" parent="City/Roads" unique_id=1144962177]
+curve = SubResource("Curve3D_b77as")
+metadata/name = "Ring road"
+metadata/kind = "ring"
+metadata/hw = 4.0
+metadata/loop = true
+metadata/slope = 0.2
+
+[node name="Road_6" type="Path3D" parent="City/Roads" unique_id=1329682516]
+curve = SubResource("Curve3D_chjl2")
+metadata/name = "Riverside route"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.6
+
+[node name="Road_7" type="Path3D" parent="City/Roads" unique_id=1593952490]
+curve = SubResource("Curve3D_tu11u")
+metadata/name = "Lower street"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_8" type="Path3D" parent="City/Roads" unique_id=1858823041]
+curve = SubResource("Curve3D_k3vpm")
+metadata/name = "Waterfront"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_9" type="Path3D" parent="City/Roads" unique_id=569316302]
+curve = SubResource("Curve3D_0qbw7")
+metadata/name = "Well lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_10" type="Path3D" parent="City/Roads" unique_id=1389005295]
+curve = SubResource("Curve3D_fa3r0")
+metadata/name = "Garden lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_11" type="Path3D" parent="City/Roads" unique_id=133977635]
+curve = SubResource("Curve3D_5b455")
+metadata/name = "Wall lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_12" type="Path3D" parent="City/Roads" unique_id=836875400]
+curve = SubResource("Curve3D_pnx24")
+metadata/name = "Hedge lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_13" type="Path3D" parent="City/Roads" unique_id=752224576]
+curve = SubResource("Curve3D_qf744")
+metadata/name = "Cottage row"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_14" type="Path3D" parent="City/Roads" unique_id=431364304]
+curve = SubResource("Curve3D_v5ikk")
+metadata/name = "Terrace walk"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_15" type="Path3D" parent="City/Roads" unique_id=351080848]
+curve = SubResource("Curve3D_45hdp")
+metadata/name = "Chapel walk"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_16" type="Path3D" parent="City/Roads" unique_id=492103026]
+curve = SubResource("Curve3D_tnkqn")
+metadata/name = "Manor lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_17" type="Path3D" parent="City/Roads" unique_id=795870719]
+curve = SubResource("Curve3D_xqmgd")
+metadata/name = "Church street"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_18" type="Path3D" parent="City/Roads" unique_id=325494002]
+curve = SubResource("Curve3D_vne0c")
+metadata/name = "Guild street"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_19" type="Path3D" parent="City/Roads" unique_id=632148360]
+curve = SubResource("Curve3D_iojeo")
+metadata/name = "Old lane"
+metadata/kind = "street"
+metadata/hw = 2.6
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_20" type="Path3D" parent="City/Roads" unique_id=1667939312]
+curve = SubResource("Curve3D_1emoe")
+metadata/name = "Tanner alley"
+metadata/kind = "lane"
+metadata/hw = 1.8
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_21" type="Path3D" parent="City/Roads" unique_id=1062982926]
+curve = SubResource("Curve3D_thkri")
+metadata/name = "Cooper alley"
+metadata/kind = "lane"
+metadata/hw = 1.8
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_22" type="Path3D" parent="City/Roads" unique_id=892979022]
+curve = SubResource("Curve3D_7ri0v")
+metadata/name = "Bell alley"
+metadata/kind = "lane"
+metadata/hw = 1.8
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_23" type="Path3D" parent="City/Roads" unique_id=1813637368]
+curve = SubResource("Curve3D_d3pek")
+metadata/name = "Smithy street"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_24" type="Path3D" parent="City/Roads" unique_id=575016120]
+curve = SubResource("Curve3D_poqlk")
+metadata/name = "Yard street"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_25" type="Path3D" parent="City/Roads" unique_id=1136353144]
+curve = SubResource("Curve3D_1ce1y")
+metadata/name = "Stable street"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_26" type="Path3D" parent="City/Roads" unique_id=1808367985]
+curve = SubResource("Curve3D_wmut6")
+metadata/name = "Mill lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_27" type="Path3D" parent="City/Roads" unique_id=1310325390]
+curve = SubResource("Curve3D_qe34o")
+metadata/name = "Quay lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_28" type="Path3D" parent="City/Roads" unique_id=1652081505]
+curve = SubResource("Curve3D_f6jq8")
+metadata/name = "Net lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_29" type="Path3D" parent="City/Roads" unique_id=2086747364]
+curve = SubResource("Curve3D_dibg7")
+metadata/name = "Dyer lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_30" type="Path3D" parent="City/Roads" unique_id=1543714024]
+curve = SubResource("Curve3D_3aprf")
+metadata/name = "Dock lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_31" type="Path3D" parent="City/Roads" unique_id=13185917]
+curve = SubResource("Curve3D_ssh6n")
+metadata/name = "Crane lane"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_32" type="Path3D" parent="City/Roads" unique_id=63430972]
+curve = SubResource("Curve3D_aga7a")
+metadata/name = "Keep court"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_33" type="Path3D" parent="City/Roads" unique_id=1911406996]
+curve = SubResource("Curve3D_l67sn")
+metadata/name = "Garden walk"
+metadata/kind = "street"
+metadata/hw = 3.0
+metadata/loop = false
+metadata/slope = 0.2
+
+[node name="Road_34" type="Path3D" parent="City/Roads" unique_id=1533642366]
+curve = SubResource("Curve3D_wntny")
+metadata/name = "Field track"
+metadata/kind = "track"
+metadata/hw = 1.8
+metadata/loop = false
+metadata/slope = 99.0
+
+[node name="Road_35" type="Path3D" parent="City/Roads" unique_id=2019069776]
+curve = SubResource("Curve3D_uc2xs")
+metadata/name = "Barn track"
+metadata/kind = "track"
+metadata/hw = 1.8
+metadata/loop = false
+metadata/slope = 99.0

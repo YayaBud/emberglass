@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_upwo5"]
+
+[node name="barrel_stack" type="Node3D" unique_id=1814071097]
+script = ExtResource("1_upwo5")
+Kit = "citykit"
+Kind = "barrel_stack"

@@ -1,0 +1,72 @@
+{
+ "cottage": {
+  "tris": 2404,
+  "shadow_tris": 32,
+  "materials": [
+   "fieldstone",
+   "plaster",
+   "M_Window_Dim",
+   "timber",
+   "iron",
+   "planks",
+   "moss",
+   "glass",
+   "thatch",
+   "brick",
+   "slate"
+  ],
+  "size": [
+   7.78,
+   6.5,
+   7.63
+  ]
+ },
+ "townhouse": {
+  "tris": 3268,
+  "shadow_tris": 44,
+  "materials": [
+   "fieldstone",
+   "brick",
+   "planks",
+   "timber",
+   "iron",
+   "M_Window_Dim",
+   "shingle",
+   "glass",
+   "plaster",
+   "moss",
+   "slate"
+  ],
+  "size": [
+   6.18,
+   8.39,
+   11.18
+  ]
+ },
+ "retaining": {
+  "tris": 24,
+  "shadow_tris": 12,
+  "materials": [
+   "fieldstone",
+   "cobble"
+  ],
+  "size": [
+   3.0,
+   0.86,
+   2.16
+  ]
+ },
+ "steps": {
+  "tris": 48,
+  "shadow_tris": 12,
+  "materials": [
+   "fieldstone",
+   "cobble"
+  ],
+  "size": [
+   1.6,
+   1.62,
+   2.0
+  ]
+ }
+}

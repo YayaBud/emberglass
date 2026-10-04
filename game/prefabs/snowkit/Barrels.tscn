@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_ferpg"]
+
+[node name="Barrels" type="Node3D" unique_id=496953292]
+script = ExtResource("1_ferpg")
+Kit = "snowkit"
+Kind = "Barrels"

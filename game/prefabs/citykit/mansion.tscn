@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_avyjs"]
+
+[node name="mansion" type="Node3D" unique_id=1533684845]
+script = ExtResource("1_avyjs")
+Kit = "citykit"
+Kind = "mansion"

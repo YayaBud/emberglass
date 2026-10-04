@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_5w44o"]
+
+[node name="apothecary" type="Node3D" unique_id=195018706]
+script = ExtResource("1_5w44o")
+Kit = "citykit"
+Kind = "apothecary"

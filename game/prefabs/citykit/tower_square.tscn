@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_t2tsi"]
+
+[node name="tower_square" type="Node3D" unique_id=2000636211]
+script = ExtResource("1_t2tsi")
+Kit = "citykit"
+Kind = "tower_square"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_pxmho"]
+
+[node name="hedge" type="Node3D" unique_id=1158816047]
+script = ExtResource("1_pxmho")
+Kit = "citykit"
+Kind = "hedge"

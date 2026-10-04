@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_tgxyr"]
+
+[node name="hen_white" type="Node3D" unique_id=412896982]
+script = ExtResource("1_tgxyr")
+Kit = "fauna"
+Kind = "hen_white"

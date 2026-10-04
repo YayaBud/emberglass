@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_v061t"]
+
+[node name="net_stack" type="Node3D" unique_id=255082808]
+script = ExtResource("1_v061t")
+Kit = "citykit"
+Kind = "net_stack"

@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_v2s8o"]
+
+[node name="Shrine" type="Node3D" unique_id=1173633016]
+script = ExtResource("1_v2s8o")
+Kit = "worldkit"
+Kind = "Shrine"

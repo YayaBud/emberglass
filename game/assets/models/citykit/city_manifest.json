@@ -1,0 +1,5422 @@
+{
+ "guildhouse": {
+  "cat": "building",
+  "tris": 33870,
+  "shadow_tris": 44,
+  "size": [
+   10.7,
+   10.65,
+   21.77
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "flagstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.2,
+    2.28,
+    5.2
+   ],
+   [
+    1.6,
+    2.28,
+    5.2
+   ]
+  ],
+  "smoke": [
+   [
+    2.8,
+    17.42,
+    -2.2
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    4.0,
+    -4.5,
+    4.5
+   ],
+   [
+    1,
+    3.7,
+    4.35,
+    -4.5,
+    4.5
+   ],
+   [
+    2,
+    6.6,
+    4.7,
+    -4.5,
+    4.5
+   ]
+  ]
+ },
+ "tavern": {
+  "cat": "building",
+  "tris": 25700,
+  "shadow_tris": 32,
+  "size": [
+   10.77,
+   10.79,
+   10.1
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.95,
+    2.6,
+    4.95
+   ],
+   [
+    3.55,
+    2.6,
+    4.95
+   ],
+   [
+    -4.3,
+    4.65,
+    6.38
+   ],
+   [
+    -2.9,
+    2.08,
+    4.4
+   ],
+   [
+    -0.7,
+    2.08,
+    4.4
+   ]
+  ],
+  "smoke": [
+   [
+    -3.4,
+    9.54,
+    -1.0
+   ],
+   [
+    3.2,
+    9.54,
+    -1.0
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -4.7,
+    4.7
+   ],
+   [
+    1,
+    3.1,
+    3.9,
+    -4.7,
+    4.7
+   ]
+  ]
+ },
+ "shop": {
+  "cat": "building",
+  "tris": 17062,
+  "shadow_tris": 32,
+  "size": [
+   7.47,
+   8.88,
+   10.02
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.25,
+    2.08,
+    4.2
+   ]
+  ],
+  "smoke": [
+   [
+    1.8,
+    9.45,
+    -1.8
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.3,
+    -2.9,
+    2.9
+   ],
+   [
+    1,
+    3.1,
+    3.7,
+    -2.9,
+    2.9
+   ]
+  ]
+ },
+ "church": {
+  "cat": "building",
+  "tris": 23014,
+  "shadow_tris": 38,
+  "size": [
+   10.4,
+   25.5,
+   34.1
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "planks",
+   "slate",
+   "slate_blue",
+   "stained_glass",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.4,
+    2.48,
+    12.9
+   ],
+   [
+    1.4,
+    2.48,
+    12.9
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "tenement": {
+  "cat": "building",
+  "tris": 24068,
+  "shadow_tris": 44,
+  "size": [
+   7.69,
+   8.41,
+   12.85
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -2.95,
+    2.03,
+    3.6
+   ],
+   [
+    -1.4,
+    2.18,
+    3.6
+   ]
+  ],
+  "smoke": [
+   [
+    -2.3,
+    12.35,
+    -1.1
+   ],
+   [
+    2.3,
+    12.35,
+    -1.1
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.1,
+    -3.3,
+    3.3
+   ],
+   [
+    1,
+    3.1,
+    3.4,
+    -3.3,
+    3.3
+   ],
+   [
+    2,
+    5.4,
+    3.7,
+    -3.3,
+    3.3
+   ]
+  ]
+ },
+ "blacksmith": {
+  "cat": "building",
+  "tris": 11694,
+  "shadow_tris": 20,
+  "size": [
+   10.95,
+   7.54,
+   7.91
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "bark",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "flagstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "shingle",
+   "slate",
+   "timber",
+   "water"
+  ],
+  "lamps": [
+   [
+    -2.85,
+    2.03,
+    3.5
+   ],
+   [
+    4.61,
+    1.02,
+    -1.3
+   ],
+   [
+    4.0,
+    1.02,
+    -1.3
+   ]
+  ],
+  "smoke": [
+   [
+    4.6,
+    7.45,
+    -1.3
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.0,
+    -3.5,
+    3.5
+   ]
+  ]
+ },
+ "warehouse": {
+  "cat": "building",
+  "tris": 25978,
+  "shadow_tris": 44,
+  "size": [
+   9.59,
+   12.05,
+   12.05
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "shingle",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.55,
+    2.03,
+    5.5
+   ]
+  ],
+  "smoke": [],
+  "front": [
+   [
+    0,
+    0.5,
+    5.0,
+    -4.0,
+    4.0
+   ],
+   [
+    1,
+    3.1,
+    5.0,
+    -4.0,
+    4.0
+   ],
+   [
+    2,
+    5.4,
+    5.0,
+    -4.0,
+    4.0
+   ]
+  ]
+ },
+ "stables": {
+  "cat": "building",
+  "tris": 15090,
+  "shadow_tris": 20,
+  "size": [
+   14.32,
+   8.27,
+   6.27
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "thatch",
+   "timber",
+   "water"
+  ],
+  "lamps": [
+   [
+    -5.55,
+    2.03,
+    3.5
+   ]
+  ],
+  "smoke": [],
+  "front": [
+   [
+    0,
+    0.5,
+    3.0,
+    -6.1,
+    6.1
+   ]
+  ]
+ },
+ "gatehouse": {
+  "cat": "building",
+  "tris": 6770,
+  "shadow_tris": 96,
+  "size": [
+   18.65,
+   7.88,
+   22.3
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "ashlar_big",
+   "cloth_red",
+   "cobble",
+   "flagstone",
+   "glass",
+   "iron",
+   "planks",
+   "slate",
+   "slate_blue"
+  ],
+  "lamps": [
+   [
+    -2.2,
+    3.28,
+    3.7
+   ],
+   [
+    2.2,
+    3.28,
+    3.7
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "tower_round": {
+  "cat": "building",
+  "tris": 3258,
+  "shadow_tris": 42,
+  "size": [
+   7.85,
+   7.85,
+   22.0
+  ],
+  "materials": [
+   "ashlar",
+   "ashlar_big",
+   "cloth_red",
+   "glass",
+   "iron",
+   "planks",
+   "slate",
+   "slate_blue"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "tower_square": {
+  "cat": "building",
+  "tris": 864,
+  "shadow_tris": 12,
+  "size": [
+   7.05,
+   7.0,
+   17.5
+  ],
+  "materials": [
+   "ashlar",
+   "ashlar_big",
+   "cloth_red",
+   "flagstone",
+   "glass",
+   "iron"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "watchtower": {
+  "cat": "building",
+  "tris": 1006,
+  "shadow_tris": 12,
+  "size": [
+   6.6,
+   6.6,
+   15.7
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "clay_tile",
+   "fieldstone",
+   "glass",
+   "iron",
+   "planks",
+   "shingle",
+   "timber"
+  ],
+  "lamps": [
+   [
+    0.0,
+    10.05,
+    -0.0
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "lighthouse": {
+  "cat": "building",
+  "tris": 7180,
+  "shadow_tris": 48,
+  "size": [
+   12.05,
+   10.95,
+   26.9
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "crops",
+   "fieldstone",
+   "flagstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_green",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    1.24,
+    22.0,
+    -0.51
+   ],
+   [
+    0.51,
+    22.0,
+    -1.24
+   ],
+   [
+    -0.51,
+    22.0,
+    -1.24
+   ],
+   [
+    -1.24,
+    22.0,
+    -0.51
+   ],
+   [
+    -1.24,
+    22.0,
+    0.51
+   ],
+   [
+    -0.51,
+    22.0,
+    1.24
+   ],
+   [
+    0.51,
+    22.0,
+    1.24
+   ],
+   [
+    1.24,
+    22.0,
+    0.51
+   ],
+   [
+    0.0,
+    20.9,
+    -0.0
+   ],
+   [
+    0.0,
+    23.1,
+    -0.0
+   ],
+   [
+    6.4,
+    3.53,
+    -0.65
+   ]
+  ],
+  "smoke": [
+   [
+    1.2,
+    5.68,
+    -0.6
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    1.7,
+    -2.0,
+    2.0
+   ]
+  ]
+ },
+ "water_gate": {
+  "cat": "building",
+  "tris": 4808,
+  "shadow_tris": 12,
+  "size": [
+   19.03,
+   6.7,
+   21.6
+  ],
+  "materials": [
+   "ashlar",
+   "ashlar_big",
+   "cloth_blue",
+   "flagstone",
+   "glass",
+   "iron",
+   "moss",
+   "planks",
+   "slate",
+   "slate_blue"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "manor_a": {
+  "cat": "building",
+  "tris": 16820,
+  "shadow_tris": 18,
+  "size": [
+   15.1,
+   15.72,
+   16.61
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "flagstone",
+   "glass",
+   "iron",
+   "moss",
+   "planks",
+   "plaster",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -3.0,
+    2.58,
+    5.5
+   ],
+   [
+    3.0,
+    2.58,
+    5.5
+   ]
+  ],
+  "smoke": [
+   [
+    -5.4,
+    16.11,
+    -1.0
+   ],
+   [
+    5.4,
+    16.11,
+    -1.0
+   ]
+  ],
+  "front": []
+ },
+ "manor_b": {
+  "cat": "building",
+  "tris": 41000,
+  "shadow_tris": 56,
+  "size": [
+   14.51,
+   11.27,
+   15.8
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -0.85,
+    2.03,
+    4.5
+   ]
+  ],
+  "smoke": [
+   [
+    -3.6,
+    13.3,
+    -1.2
+   ],
+   [
+    3.6,
+    13.3,
+    -1.2
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    4.0,
+    -5.5,
+    5.5
+   ],
+   [
+    1,
+    3.1,
+    4.35,
+    -5.5,
+    5.5
+   ],
+   [
+    2,
+    5.4,
+    4.7,
+    -5.5,
+    5.5
+   ]
+  ]
+ },
+ "chapel": {
+  "cat": "building",
+  "tris": 9808,
+  "shadow_tris": 20,
+  "size": [
+   7.87,
+   11.25,
+   13.63
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "fieldstone",
+   "iron",
+   "moss",
+   "planks",
+   "slate",
+   "slate_blue",
+   "stained_glass",
+   "timber"
+  ],
+  "lamps": [
+   [
+    1.1,
+    2.08,
+    5.5
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "keep": {
+  "cat": "building",
+  "tris": 15986,
+  "shadow_tris": 18,
+  "size": [
+   21.31,
+   21.31,
+   33.2
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "cloth_red",
+   "fieldstone",
+   "flagstone",
+   "glass",
+   "iron",
+   "planks",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.6,
+    5.28,
+    8.5
+   ],
+   [
+    1.3,
+    5.28,
+    8.5
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "barracks": {
+  "cat": "building",
+  "tris": 31106,
+  "shadow_tris": 32,
+  "size": [
+   17.09,
+   8.61,
+   10.16
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -0.95,
+    2.03,
+    4.0
+   ]
+  ],
+  "smoke": [
+   [
+    -5.2,
+    9.59,
+    -1.2
+   ],
+   [
+    0.0,
+    9.59,
+    -1.2
+   ],
+   [
+    5.2,
+    9.59,
+    -1.2
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -8.0,
+    8.0
+   ],
+   [
+    1,
+    3.1,
+    3.5,
+    -8.0,
+    8.0
+   ]
+  ]
+ },
+ "windmill": {
+  "cat": "building",
+  "tris": 1874,
+  "shadow_tris": 12,
+  "size": [
+   14.06,
+   7.6,
+   18.63
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "clay_tile",
+   "cloth_cream",
+   "fieldstone",
+   "planks",
+   "plaster",
+   "shingle",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "barn": {
+  "cat": "building",
+  "tris": 16944,
+  "shadow_tris": 20,
+  "size": [
+   11.28,
+   13.64,
+   7.7
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "shingle",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": [
+   [
+    0,
+    0.5,
+    6.0,
+    -4.3,
+    4.3
+   ]
+  ]
+ },
+ "townhouse_std": {
+  "cat": "variant",
+  "tris": 18270,
+  "shadow_tris": 32,
+  "size": [
+   7.56,
+   8.76,
+   9.51
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -2.1,
+    2.08,
+    4.0
+   ]
+  ],
+  "smoke": [
+   [
+    1.7,
+    8.99,
+    -1.6
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -2.6,
+    2.6
+   ],
+   [
+    1,
+    3.1,
+    3.9,
+    -2.6,
+    2.6
+   ]
+  ]
+ },
+ "townhouse_narrow": {
+  "cat": "variant",
+  "tris": 23824,
+  "shadow_tris": 44,
+  "size": [
+   5.64,
+   9.29,
+   11.89
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    1.2,
+    11.33,
+    -2.6
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.75,
+    -2.0,
+    2.0
+   ],
+   [
+    1,
+    3.1,
+    4.1,
+    -2.0,
+    2.0
+   ],
+   [
+    2,
+    5.4,
+    4.45,
+    -2.0,
+    2.0
+   ]
+  ]
+ },
+ "townhouse_corner": {
+  "cat": "variant",
+  "tris": 22940,
+  "shadow_tris": 44,
+  "size": [
+   8.31,
+   8.55,
+   12.5
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -2.55,
+    2.03,
+    3.7
+   ]
+  ],
+  "smoke": [
+   [
+    -2.2,
+    11.64,
+    -1.2
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.2,
+    -3.2,
+    3.2
+   ],
+   [
+    1,
+    3.1,
+    3.2,
+    -3.2,
+    3.2
+   ],
+   [
+    2,
+    5.4,
+    3.2,
+    -3.2,
+    3.2
+   ]
+  ]
+ },
+ "townhouse_stall": {
+  "cat": "variant",
+  "tris": 16400,
+  "shadow_tris": 32,
+  "size": [
+   7.08,
+   9.64,
+   9.58
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    1.5,
+    9.08,
+    -2.0
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -2.7,
+    2.7
+   ],
+   [
+    1,
+    3.1,
+    3.9,
+    -2.7,
+    2.7
+   ]
+  ]
+ },
+ "townhouse_damaged": {
+  "cat": "variant",
+  "tris": 13992,
+  "shadow_tris": 24,
+  "size": [
+   6.98,
+   10.55,
+   8.82
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -2.7,
+    2.7
+   ],
+   [
+    1,
+    3.1,
+    3.9,
+    -2.7,
+    2.7
+   ]
+  ]
+ },
+ "townhouse_ruin": {
+  "cat": "variant",
+  "tris": 848,
+  "shadow_tris": 0,
+  "size": [
+   5.72,
+   9.17,
+   8.6
+  ],
+  "materials": [
+   "brick",
+   "fieldstone",
+   "moss",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "cottage_tile": {
+  "cat": "variant",
+  "tris": 10610,
+  "shadow_tris": 20,
+  "size": [
+   7.77,
+   7.1,
+   6.76
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -0.85,
+    2.03,
+    3.1
+   ]
+  ],
+  "smoke": [
+   [
+    2.4,
+    6.24,
+    -0.9
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    2.6,
+    -3.3,
+    3.3
+   ]
+  ]
+ },
+ "cottage_l": {
+  "cat": "variant",
+  "tris": 17686,
+  "shadow_tris": 40,
+  "size": [
+   8.67,
+   9.96,
+   6.73
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    4.6,
+    2.03,
+    -2.55
+   ]
+  ],
+  "smoke": [
+   [
+    -2.6,
+    6.23,
+    -0.8
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    2.5,
+    -3.2,
+    3.2
+   ],
+   [
+    0,
+    0.5,
+    2.2,
+    -2.5,
+    2.5
+   ]
+  ]
+ },
+ "wall_run": {
+  "cat": "structure",
+  "tris": 1332,
+  "shadow_tris": 12,
+  "size": [
+   8.0,
+   3.4,
+   11.75
+  ],
+  "materials": [
+   "ashlar",
+   "ashlar_big",
+   "fieldstone",
+   "flagstone",
+   "glass",
+   "limestone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "wall_corner": {
+  "cat": "structure",
+  "tris": 1788,
+  "shadow_tris": 12,
+  "size": [
+   5.8,
+   5.8,
+   14.0
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "ashlar_big",
+   "fieldstone",
+   "flagstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss"
+  ],
+  "lamps": [
+   [
+    1.5,
+    12.8,
+    -1.5
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "retaining_6": {
+  "cat": "structure",
+  "tris": 876,
+  "shadow_tris": 12,
+  "size": [
+   6.0,
+   1.95,
+   6.7
+  ],
+  "materials": [
+   "ashlar",
+   "ashlar_big",
+   "fieldstone",
+   "flagstone",
+   "iron",
+   "limestone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "retaining_12": {
+  "cat": "structure",
+  "tris": 1740,
+  "shadow_tris": 12,
+  "size": [
+   6.0,
+   1.95,
+   12.7
+  ],
+  "materials": [
+   "ashlar",
+   "ashlar_big",
+   "fieldstone",
+   "flagstone",
+   "iron",
+   "limestone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "grand_stair": {
+  "cat": "structure",
+  "tris": 896,
+  "shadow_tris": 12,
+  "size": [
+   6.1,
+   11.65,
+   7.4
+  ],
+  "materials": [
+   "ashlar",
+   "flagstone",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "ramp": {
+  "cat": "structure",
+  "tris": 48,
+  "shadow_tris": 12,
+  "size": [
+   4.4,
+   12.02,
+   4.0
+  ],
+  "materials": [
+   "ashlar",
+   "cobble"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "bridge_arch": {
+  "cat": "structure",
+  "tris": 3020,
+  "shadow_tris": 12,
+  "size": [
+   20.0,
+   5.1,
+   11.15
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "cobble",
+   "flagstone",
+   "iron",
+   "moss"
+  ],
+  "lamps": [
+   [
+    -8.5,
+    7.9,
+    2.07
+   ],
+   [
+    8.5,
+    7.9,
+    2.07
+   ],
+   [
+    -8.5,
+    7.9,
+    -2.07
+   ],
+   [
+    8.5,
+    7.9,
+    -2.07
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "bridge_long": {
+  "cat": "structure",
+  "tris": 5212,
+  "shadow_tris": 12,
+  "size": [
+   37.4,
+   7.8,
+   10.55
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "cobble",
+   "flagstone",
+   "iron",
+   "moss"
+  ],
+  "lamps": [
+   [
+    -17.2,
+    7.3,
+    2.32
+   ],
+   [
+    17.2,
+    7.3,
+    2.32
+   ],
+   [
+    -17.2,
+    7.3,
+    -2.32
+   ],
+   [
+    17.2,
+    7.3,
+    -2.32
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "quay_wall": {
+  "cat": "structure",
+  "tris": 1182,
+  "shadow_tris": 12,
+  "size": [
+   8.16,
+   5.1,
+   7.42
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "ashlar_big",
+   "cloth_cream",
+   "fieldstone",
+   "flagstone",
+   "iron",
+   "limestone",
+   "moss",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    3.6,
+    4.48,
+    -1.1
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "pier": {
+  "cat": "structure",
+  "tris": 1394,
+  "shadow_tris": 12,
+  "size": [
+   3.28,
+   12.11,
+   6.32
+  ],
+  "materials": [
+   "M_Lamp",
+   "bark",
+   "cloth_cream",
+   "cloth_red",
+   "iron",
+   "moss",
+   "planks",
+   "timber"
+  ],
+  "lamps": [
+   [
+    0.8,
+    3.38,
+    10.8
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "harbour_arm": {
+  "cat": "structure",
+  "tris": 692,
+  "shadow_tris": 12,
+  "size": [
+   12.14,
+   9.63,
+   8.09
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "ashlar_big",
+   "fieldstone",
+   "flagstone",
+   "iron",
+   "moss",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    5.2,
+    5.25,
+    -0.8
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "chain_boom": {
+  "cat": "structure",
+  "tris": 808,
+  "shadow_tris": 12,
+  "size": [
+   13.3,
+   1.24,
+   4.84
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "iron",
+   "moss"
+  ],
+  "lamps": [
+   [
+    -6.0,
+    4.1,
+    -0.0
+   ],
+   [
+    6.0,
+    4.1,
+    -0.0
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "waterfall": {
+  "cat": "structure",
+  "tris": 1176,
+  "shadow_tris": 12,
+  "size": [
+   11.34,
+   7.58,
+   11.59
+  ],
+  "materials": [
+   "fieldstone",
+   "foam",
+   "moss",
+   "water"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "market_stall_a": {
+  "cat": "prop",
+  "tris": 732,
+  "shadow_tris": 0,
+  "size": [
+   3.01,
+   1.75,
+   2.79
+  ],
+  "materials": [
+   "M_Lamp",
+   "clay_tile",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "iron",
+   "moss",
+   "planks",
+   "timber"
+  ],
+  "lamps": [
+   [
+    1.1,
+    1.82,
+    0.6
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "market_stall_b": {
+  "cat": "prop",
+  "tris": 460,
+  "shadow_tris": 0,
+  "size": [
+   3.17,
+   1.62,
+   3.0
+  ],
+  "materials": [
+   "M_Lamp",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "iron",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    0.0,
+    2.02,
+    0.7
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "awning": {
+  "cat": "prop",
+  "tris": 252,
+  "shadow_tris": 0,
+  "size": [
+   2.98,
+   1.44,
+   0.9
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_cream",
+   "iron"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "sacks": {
+  "cat": "prop",
+  "tris": 180,
+  "shadow_tris": 0,
+  "size": [
+   1.44,
+   0.85,
+   1.14
+  ],
+  "materials": [
+   "cloth_cream",
+   "thatch"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "goods_crates": {
+  "cat": "prop",
+  "tris": 492,
+  "shadow_tris": 0,
+  "size": [
+   2.5,
+   0.91,
+   1.1
+  ],
+  "materials": [
+   "clay_tile",
+   "crops",
+   "iron",
+   "moss",
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "fountain": {
+  "cat": "prop",
+  "tris": 3712,
+  "shadow_tris": 0,
+  "size": [
+   12.93,
+   12.93,
+   11.92
+  ],
+  "materials": [
+   "M_Lamp",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "flagstone",
+   "iron",
+   "limestone",
+   "moss",
+   "planks",
+   "royal",
+   "timber",
+   "water"
+  ],
+  "lamps": [
+   [
+    -1.12,
+    11.27,
+    -0.38
+   ],
+   [
+    1.24,
+    4.82,
+    -1.24
+   ],
+   [
+    -1.24,
+    4.82,
+    -1.24
+   ],
+   [
+    -1.24,
+    4.82,
+    1.24
+   ],
+   [
+    1.24,
+    4.82,
+    1.24
+   ],
+   [
+    5.82,
+    2.5,
+    -2.41
+   ],
+   [
+    2.41,
+    2.5,
+    -5.82
+   ],
+   [
+    -2.41,
+    2.5,
+    -5.82
+   ],
+   [
+    -5.82,
+    2.5,
+    -2.41
+   ],
+   [
+    -5.82,
+    2.5,
+    2.41
+   ],
+   [
+    -2.41,
+    2.5,
+    5.82
+   ],
+   [
+    2.41,
+    2.5,
+    5.82
+   ],
+   [
+    5.82,
+    2.5,
+    2.41
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "planter": {
+  "cat": "prop",
+  "tris": 308,
+  "shadow_tris": 0,
+  "size": [
+   1.24,
+   1.2,
+   2.2
+  ],
+  "materials": [
+   "ashlar",
+   "bark",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "dirt",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "notice_board": {
+  "cat": "prop",
+  "tris": 132,
+  "shadow_tris": 0,
+  "size": [
+   2.0,
+   0.67,
+   2.63
+  ],
+  "materials": [
+   "cloth_cream",
+   "planks",
+   "shingle",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "street_lamp": {
+  "cat": "prop",
+  "tris": 434,
+  "shadow_tris": 0,
+  "size": [
+   1.27,
+   0.6,
+   4.35
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "iron",
+   "moss",
+   "planks"
+  ],
+  "lamps": [
+   [
+    0.0,
+    3.55,
+    -0.0
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "wall_lantern": {
+  "cat": "prop",
+  "tris": 114,
+  "shadow_tris": 0,
+  "size": [
+   0.31,
+   0.74,
+   0.69
+  ],
+  "materials": [
+   "M_Lamp",
+   "iron",
+   "planks"
+  ],
+  "lamps": [
+   [
+    0.0,
+    2.18,
+    0.5
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "hanging_lantern": {
+  "cat": "prop",
+  "tris": 150,
+  "shadow_tris": 0,
+  "size": [
+   0.34,
+   0.34,
+   1.08
+  ],
+  "materials": [
+   "M_Lamp",
+   "iron",
+   "planks"
+  ],
+  "lamps": [
+   [
+    0.0,
+    2.2,
+    -0.0
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "hanging_sign": {
+  "cat": "prop",
+  "tris": 60,
+  "shadow_tris": 0,
+  "size": [
+   0.2,
+   1.2,
+   0.92
+  ],
+  "materials": [
+   "cloth_red",
+   "iron",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "banner": {
+  "cat": "prop",
+  "tris": 56,
+  "shadow_tris": 0,
+  "size": [
+   1.3,
+   0.3,
+   3.66
+  ],
+  "materials": [
+   "ashlar",
+   "cloth_blue",
+   "crops",
+   "iron"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "flag": {
+  "cat": "prop",
+  "tris": 116,
+  "shadow_tris": 0,
+  "size": [
+   2.18,
+   0.6,
+   6.15
+  ],
+  "materials": [
+   "ashlar",
+   "cloth_red",
+   "iron",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "balcony": {
+  "cat": "prop",
+  "tris": 252,
+  "shadow_tris": 0,
+  "size": [
+   2.4,
+   1.29,
+   1.99
+  ],
+  "materials": [
+   "moss",
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "clothesline": {
+  "cat": "prop",
+  "tris": 84,
+  "shadow_tris": 0,
+  "size": [
+   4.12,
+   0.12,
+   2.6
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "ladder": {
+  "cat": "prop",
+  "tris": 132,
+  "shadow_tris": 0,
+  "size": [
+   0.57,
+   0.87,
+   3.22
+  ],
+  "materials": [
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "railing": {
+  "cat": "prop",
+  "tris": 108,
+  "shadow_tris": 0,
+  "size": [
+   3.1,
+   0.1,
+   1.13
+  ],
+  "materials": [
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "post_chain": {
+  "cat": "prop",
+  "tris": 240,
+  "shadow_tris": 0,
+  "size": [
+   3.32,
+   0.32,
+   0.95
+  ],
+  "materials": [
+   "ashlar",
+   "iron",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "anvil": {
+  "cat": "prop",
+  "tris": 196,
+  "shadow_tris": 0,
+  "size": [
+   1.17,
+   0.89,
+   1.01
+  ],
+  "materials": [
+   "bark",
+   "iron",
+   "planks",
+   "timber",
+   "water"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "grindstone": {
+  "cat": "prop",
+  "tris": 160,
+  "shadow_tris": 0,
+  "size": [
+   1.07,
+   0.84,
+   1.23
+  ],
+  "materials": [
+   "fieldstone",
+   "iron",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "trough": {
+  "cat": "prop",
+  "tris": 140,
+  "shadow_tris": 0,
+  "size": [
+   2.25,
+   0.89,
+   0.65
+  ],
+  "materials": [
+   "ashlar",
+   "iron",
+   "moss",
+   "planks",
+   "water"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "wagon": {
+  "cat": "prop",
+  "tris": 700,
+  "shadow_tris": 0,
+  "size": [
+   4.88,
+   1.84,
+   2.23
+  ],
+  "materials": [
+   "M_Lamp",
+   "cloth_cream",
+   "iron",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    1.85,
+    1.98,
+    -0.0
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "hay_stack": {
+  "cat": "prop",
+  "tris": 246,
+  "shadow_tris": 0,
+  "size": [
+   3.55,
+   3.3,
+   3.41
+  ],
+  "materials": [
+   "iron",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "crane": {
+  "cat": "prop",
+  "tris": 772,
+  "shadow_tris": 0,
+  "size": [
+   3.35,
+   5.92,
+   6.5
+  ],
+  "materials": [
+   "ashlar",
+   "iron",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "bollard": {
+  "cat": "prop",
+  "tris": 176,
+  "shadow_tris": 0,
+  "size": [
+   0.68,
+   0.68,
+   0.72
+  ],
+  "materials": [
+   "iron",
+   "thatch"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "fish_barrels": {
+  "cat": "prop",
+  "tris": 904,
+  "shadow_tris": 0,
+  "size": [
+   2.04,
+   1.28,
+   0.97
+  ],
+  "materials": [
+   "ice",
+   "iron",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "net_stack": {
+  "cat": "prop",
+  "tris": 132,
+  "shadow_tris": 0,
+  "size": [
+   1.77,
+   1.69,
+   0.74
+  ],
+  "materials": [
+   "bark",
+   "cloth_red"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "rope_coil": {
+  "cat": "prop",
+  "tris": 432,
+  "shadow_tris": 0,
+  "size": [
+   1.0,
+   1.0,
+   0.3
+  ],
+  "materials": [
+   "thatch"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "statue_knight": {
+  "cat": "prop",
+  "tris": 598,
+  "shadow_tris": 0,
+  "size": [
+   1.91,
+   1.89,
+   3.94
+  ],
+  "materials": [
+   "ashlar",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "flagstone",
+   "glass",
+   "moss",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "hedge": {
+  "cat": "prop",
+  "tris": 84,
+  "shadow_tris": 0,
+  "size": [
+   3.12,
+   0.89,
+   1.16
+  ],
+  "materials": [
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "iron_fence": {
+  "cat": "prop",
+  "tris": 270,
+  "shadow_tris": 0,
+  "size": [
+   3.0,
+   0.4,
+   1.74
+  ],
+  "materials": [
+   "ashlar",
+   "flagstone",
+   "iron",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "gate_small": {
+  "cat": "prop",
+  "tris": 320,
+  "shadow_tris": 0,
+  "size": [
+   3.22,
+   0.62,
+   2.6
+  ],
+  "materials": [
+   "ashlar",
+   "flagstone",
+   "iron"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "weapon_rack": {
+  "cat": "prop",
+  "tris": 250,
+  "shadow_tris": 0,
+  "size": [
+   1.9,
+   0.35,
+   2.32
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_red",
+   "iron",
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "chest": {
+  "cat": "prop",
+  "tris": 132,
+  "shadow_tris": 0,
+  "size": [
+   0.97,
+   0.6,
+   0.66
+  ],
+  "materials": [
+   "iron",
+   "planks",
+   "thatch"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "training_target": {
+  "cat": "prop",
+  "tris": 220,
+  "shadow_tris": 0,
+  "size": [
+   2.93,
+   0.56,
+   2.2
+  ],
+  "materials": [
+   "cloth_cream",
+   "cloth_red",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "crop_field": {
+  "cat": "prop",
+  "tris": 204,
+  "shadow_tris": 0,
+  "size": [
+   8.0,
+   8.0,
+   0.45
+  ],
+  "materials": [
+   "crops",
+   "dirt"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "scarecrow": {
+  "cat": "prop",
+  "tris": 158,
+  "shadow_tris": 0,
+  "size": [
+   1.8,
+   0.76,
+   2.66
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_cream",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "well": {
+  "cat": "prop",
+  "tris": 684,
+  "shadow_tris": 0,
+  "size": [
+   2.68,
+   1.93,
+   3.08
+  ],
+  "materials": [
+   "ashlar",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "iron",
+   "moss",
+   "planks",
+   "shingle",
+   "thatch",
+   "timber",
+   "water"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "ivy": {
+  "cat": "prop",
+  "tris": 360,
+  "shadow_tris": 0,
+  "size": [
+   2.85,
+   0.08,
+   3.47
+  ],
+  "materials": [
+   "bark",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "flower_bed": {
+  "cat": "prop",
+  "tris": 348,
+  "shadow_tris": 0,
+  "size": [
+   2.6,
+   1.1,
+   0.49
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "dirt",
+   "fieldstone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "garden_bed": {
+  "cat": "prop",
+  "tris": 348,
+  "shadow_tris": 0,
+  "size": [
+   3.0,
+   1.6,
+   0.44
+  ],
+  "materials": [
+   "crops",
+   "dirt",
+   "moss",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "bunting_s": {
+  "cat": "prop",
+  "tris": 352,
+  "shadow_tris": 0,
+  "size": [
+   8.6,
+   0.17,
+   5.4
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "iron",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "bunting_m": {
+  "cat": "prop",
+  "tris": 492,
+  "shadow_tris": 0,
+  "size": [
+   12.8,
+   0.17,
+   5.4
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "iron",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "tree_broad": {
+  "cat": "prop",
+  "tris": 2832,
+  "shadow_tris": 24,
+  "size": [
+   6.53,
+   5.4,
+   6.52
+  ],
+  "materials": [
+   "bark",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "tree_slim": {
+  "cat": "prop",
+  "tris": 1012,
+  "shadow_tris": 24,
+  "size": [
+   3.58,
+   3.42,
+   6.4
+  ],
+  "materials": [
+   "bark",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "ship_merchant": {
+  "cat": "ship",
+  "tris": 2880,
+  "shadow_tris": 24,
+  "size": [
+   24.77,
+   8.3,
+   19.04
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "iron",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -10.1,
+    4.32,
+    -0.9
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "ship_fishing": {
+  "cat": "ship",
+  "tris": 1388,
+  "shadow_tris": 12,
+  "size": [
+   10.14,
+   4.2,
+   8.62
+  ],
+  "materials": [
+   "M_Lamp",
+   "bark",
+   "cloth_cream",
+   "cloth_red",
+   "iron",
+   "planks",
+   "shingle",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -4.5,
+    2.5,
+    -0.9
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "rowboat": {
+  "cat": "ship",
+  "tris": 548,
+  "shadow_tris": 0,
+  "size": [
+   4.29,
+   1.62,
+   1.17
+  ],
+  "materials": [
+   "bark",
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "inn": {
+  "cat": "building",
+  "tris": 37368,
+  "shadow_tris": 44,
+  "size": [
+   12.36,
+   12.05,
+   13.19
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber",
+   "water"
+  ],
+  "lamps": [
+   [
+    -5.1,
+    4.65,
+    7.13
+   ],
+   [
+    -1.35,
+    2.08,
+    5.2
+   ],
+   [
+    1.15,
+    2.08,
+    5.2
+   ]
+  ],
+  "smoke": [
+   [
+    -4.2,
+    12.6,
+    -1.8
+   ],
+   [
+    4.0,
+    12.6,
+    -1.8
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    4.0,
+    -5.5,
+    5.5
+   ],
+   [
+    1,
+    3.1,
+    4.35,
+    -5.5,
+    5.5
+   ],
+   [
+    2,
+    5.4,
+    4.7,
+    -5.5,
+    5.5
+   ]
+  ]
+ },
+ "apothecary": {
+  "cat": "building",
+  "tris": 17250,
+  "shadow_tris": 32,
+  "size": [
+   6.8,
+   9.56,
+   9.71
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -2.3,
+    4.5,
+    5.58
+   ],
+   [
+    -1.4,
+    2.08,
+    4.15
+   ]
+  ],
+  "smoke": [
+   [
+    1.6,
+    9.16,
+    -1.8
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.3,
+    -2.6,
+    2.6
+   ],
+   [
+    1,
+    3.1,
+    3.65,
+    -2.6,
+    2.6
+   ]
+  ]
+ },
+ "cathedral": {
+  "cat": "building",
+  "tris": 50222,
+  "shadow_tris": 56,
+  "size": [
+   17.1,
+   36.85,
+   35.1
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "cloth_blue",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_green",
+   "planks",
+   "slate",
+   "slate_blue",
+   "stained_glass",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -2.1,
+    2.88,
+    13.5
+   ],
+   [
+    2.1,
+    2.88,
+    13.5
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "granary": {
+  "cat": "building",
+  "tris": 8472,
+  "shadow_tris": 20,
+  "size": [
+   7.09,
+   7.13,
+   6.81
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "planks",
+   "shingle",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": [
+   [
+    0,
+    0.5,
+    2.3,
+    -3.0,
+    3.0
+   ]
+  ]
+ },
+ "market_hall": {
+  "cat": "building",
+  "tris": 22426,
+  "shadow_tris": 20,
+  "size": [
+   13.09,
+   8.61,
+   13.7
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -4.2,
+    2.5,
+    3.1
+   ],
+   [
+    -1.4,
+    2.5,
+    3.1
+   ],
+   [
+    1.4,
+    2.5,
+    3.1
+   ],
+   [
+    4.2,
+    2.5,
+    3.1
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "library": {
+  "cat": "building",
+  "tris": 26300,
+  "shadow_tris": 44,
+  "size": [
+   11.99,
+   10.4,
+   10.82
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -4.6,
+    3.6,
+    5.48
+   ],
+   [
+    1.5,
+    2.08,
+    4.5
+   ]
+  ],
+  "smoke": [
+   [
+    -3.8,
+    10.25,
+    -2.2
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    4.0,
+    -5.0,
+    5.0
+   ],
+   [
+    1,
+    3.1,
+    4.0,
+    -5.0,
+    5.0
+   ]
+  ]
+ },
+ "town_hall": {
+  "cat": "building",
+  "tris": 43450,
+  "shadow_tris": 44,
+  "size": [
+   13.09,
+   11.96,
+   22.32
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -0.3,
+    2.28,
+    5.6
+   ],
+   [
+    1.5,
+    2.28,
+    5.6
+   ]
+  ],
+  "smoke": [
+   [
+    -4.8,
+    15.87,
+    -2.6
+   ],
+   [
+    4.8,
+    15.87,
+    -2.6
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    4.5,
+    -6.0,
+    6.0
+   ],
+   [
+    1,
+    3.5,
+    4.8,
+    -6.0,
+    6.0
+   ],
+   [
+    2,
+    6.2,
+    5.1,
+    -6.0,
+    6.0
+   ]
+  ]
+ },
+ "mansion": {
+  "cat": "building",
+  "tris": 48332,
+  "shadow_tris": 68,
+  "size": [
+   17.67,
+   13.64,
+   14.03
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.0,
+    2.08,
+    5.5
+   ],
+   [
+    1.0,
+    2.08,
+    5.5
+   ]
+  ],
+  "smoke": [
+   [
+    -5.5,
+    13.45,
+    -2.8
+   ],
+   [
+    5.5,
+    13.45,
+    -2.8
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    5.0,
+    -7.0,
+    7.0
+   ],
+   [
+    1,
+    3.1,
+    5.0,
+    -7.0,
+    7.0
+   ],
+   [
+    2,
+    5.4,
+    5.0,
+    -7.0,
+    7.0
+   ]
+  ]
+ },
+ "small_keep": {
+  "cat": "building",
+  "tris": 6642,
+  "shadow_tris": 12,
+  "size": [
+   10.32,
+   10.46,
+   18.5
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "cloth_blue",
+   "fieldstone",
+   "flagstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "planks",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.4,
+    2.28,
+    4.5
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "mill_house": {
+  "cat": "building",
+  "tris": 18754,
+  "shadow_tris": 32,
+  "size": [
+   9.46,
+   8.88,
+   9.58
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber",
+   "water"
+  ],
+  "lamps": [
+   [
+    -2.7,
+    2.08,
+    3.5
+   ]
+  ],
+  "smoke": [
+   [
+    2.4,
+    8.99,
+    -1.4
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.0,
+    -3.5,
+    3.5
+   ],
+   [
+    1,
+    3.1,
+    3.0,
+    -3.5,
+    3.5
+   ]
+  ]
+ },
+ "stable_yard": {
+  "cat": "building",
+  "tris": 15810,
+  "shadow_tris": 20,
+  "size": [
+   13.09,
+   9.73,
+   6.4
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "thatch",
+   "timber",
+   "water"
+  ],
+  "lamps": [
+   [
+    -3.6,
+    1.98,
+    3.25
+   ]
+  ],
+  "smoke": [],
+  "front": [
+   [
+    0,
+    0.5,
+    2.75,
+    -6.0,
+    6.0
+   ]
+  ]
+ },
+ "dockhouse": {
+  "cat": "building",
+  "tris": 18798,
+  "shadow_tris": 32,
+  "size": [
+   10.58,
+   9.53,
+   10.95
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "shingle",
+   "slate",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -3.9,
+    2.08,
+    4.0
+   ]
+  ],
+  "smoke": [
+   [
+    3.0,
+    10.43,
+    -2.0
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -4.5,
+    4.5
+   ],
+   [
+    1,
+    3.1,
+    3.5,
+    -4.5,
+    4.5
+   ]
+  ]
+ },
+ "fisher_house": {
+  "cat": "building",
+  "tris": 10444,
+  "shadow_tris": 20,
+  "size": [
+   9.41,
+   8.05,
+   6.72
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "bark",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "ice",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    2.2,
+    6.17,
+    -1.2
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    2.5,
+    -3.0,
+    3.0
+   ]
+  ]
+ },
+ "townhouse_arched": {
+  "cat": "variant",
+  "tris": 20818,
+  "shadow_tris": 44,
+  "size": [
+   7.2,
+   8.69,
+   12.22
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.65,
+    2.03,
+    4.0
+   ]
+  ],
+  "smoke": [
+   [
+    1.8,
+    11.65,
+    -1.8
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -2.8,
+    2.8
+   ],
+   [
+    1,
+    3.1,
+    3.8,
+    -2.8,
+    2.8
+   ],
+   [
+    2,
+    5.4,
+    4.1,
+    -2.8,
+    2.8
+   ]
+  ]
+ },
+ "townhouse_wooden": {
+  "cat": "variant",
+  "tris": 13424,
+  "shadow_tris": 32,
+  "size": [
+   7.0,
+   8.05,
+   9.42
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    1.7,
+    8.92,
+    -1.6
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.4,
+    -2.7,
+    2.7
+   ],
+   [
+    1,
+    3.1,
+    3.4,
+    -2.7,
+    2.7
+   ]
+  ]
+ },
+ "townhouse_stone": {
+  "cat": "variant",
+  "tris": 14948,
+  "shadow_tris": 32,
+  "size": [
+   7.19,
+   8.32,
+   9.74
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_teal",
+   "planks",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    1.8,
+    9.17,
+    -1.6
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -2.8,
+    2.8
+   ],
+   [
+    1,
+    3.1,
+    3.5,
+    -2.8,
+    2.8
+   ]
+  ]
+ },
+ "cottage_thatch": {
+  "cat": "variant",
+  "tris": 9756,
+  "shadow_tris": 20,
+  "size": [
+   7.49,
+   7.28,
+   6.8
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    2.3,
+    6.3,
+    -1.2
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    2.5,
+    -3.2,
+    3.2
+   ]
+  ]
+ },
+ "merchant_house": {
+  "cat": "variant",
+  "tris": 25458,
+  "shadow_tris": 44,
+  "size": [
+   8.69,
+   9.59,
+   12.92
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -3.35,
+    2.03,
+    4.0
+   ]
+  ],
+  "smoke": [
+   [
+    -2.8,
+    12.42,
+    -1.8
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -3.8,
+    3.8
+   ],
+   [
+    1,
+    3.1,
+    3.85,
+    -3.8,
+    3.8
+   ],
+   [
+    2,
+    5.4,
+    4.2,
+    -3.8,
+    3.8
+   ]
+  ]
+ },
+ "alley_house": {
+  "cat": "variant",
+  "tris": 17944,
+  "shadow_tris": 44,
+  "size": [
+   5.29,
+   8.69,
+   11.45
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    1.0,
+    10.95,
+    -2.0
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.5,
+    -1.8,
+    1.8
+   ],
+   [
+    1,
+    3.1,
+    3.8,
+    -1.8,
+    1.8
+   ],
+   [
+    2,
+    5.4,
+    4.1,
+    -1.8,
+    1.8
+   ]
+  ]
+ },
+ "city_house": {
+  "cat": "variant",
+  "tris": 23876,
+  "shadow_tris": 44,
+  "size": [
+   7.29,
+   9.38,
+   12.99
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    2.4,
+    12.46,
+    -2.0
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.6,
+    -3.1,
+    3.1
+   ],
+   [
+    1,
+    3.1,
+    3.9,
+    -3.1,
+    3.1
+   ],
+   [
+    2,
+    5.4,
+    4.2,
+    -3.1,
+    3.1
+   ]
+  ]
+ },
+ "river_house": {
+  "cat": "variant",
+  "tris": 16922,
+  "shadow_tris": 32,
+  "size": [
+   7.09,
+   9.62,
+   10.93
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "bark",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -1.35,
+    2.03,
+    3.5
+   ]
+  ],
+  "smoke": [
+   [
+    -2.2,
+    9.34,
+    -1.6
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    3.0,
+    -3.0,
+    3.0
+   ],
+   [
+    1,
+    3.1,
+    3.4,
+    -3.0,
+    3.0
+   ]
+  ]
+ },
+ "tower_house": {
+  "cat": "variant",
+  "tris": 21662,
+  "shadow_tris": 56,
+  "size": [
+   6.43,
+   6.32,
+   16.95
+  ],
+  "materials": [
+   "M_Window_Dim",
+   "ashlar",
+   "brick",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "limestone",
+   "moss",
+   "paint_blue",
+   "paint_green",
+   "paint_oxblood",
+   "paint_teal",
+   "planks",
+   "plaster",
+   "shingle",
+   "slate",
+   "slate_blue",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [
+   [
+    1.4,
+    16.38,
+    -1.4
+   ]
+  ],
+  "front": [
+   [
+    0,
+    0.5,
+    2.4,
+    -2.3,
+    2.3
+   ],
+   [
+    1,
+    3.3,
+    2.4,
+    -2.3,
+    2.3
+   ],
+   [
+    2,
+    5.8,
+    2.4,
+    -2.3,
+    2.3
+   ],
+   [
+    3,
+    8.3,
+    2.4,
+    -2.3,
+    2.3
+   ]
+  ]
+ },
+ "retaining_4": {
+  "cat": "structure",
+  "tris": 648,
+  "shadow_tris": 12,
+  "size": [
+   6.0,
+   1.95,
+   4.7
+  ],
+  "materials": [
+   "ashlar",
+   "ashlar_big",
+   "fieldstone",
+   "flagstone",
+   "iron",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "retaining_8": {
+  "cat": "structure",
+  "tris": 1188,
+  "shadow_tris": 12,
+  "size": [
+   6.0,
+   1.95,
+   8.7
+  ],
+  "materials": [
+   "ashlar",
+   "ashlar_big",
+   "fieldstone",
+   "flagstone",
+   "iron",
+   "limestone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "bridge_covered": {
+  "cat": "structure",
+  "tris": 7536,
+  "shadow_tris": 20,
+  "size": [
+   15.91,
+   4.8,
+   8.7
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "clay_tile",
+   "iron",
+   "moss",
+   "planks",
+   "shingle",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -7.8,
+    4.88,
+    1.6
+   ],
+   [
+    7.8,
+    4.88,
+    1.6
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "dock_platform": {
+  "cat": "structure",
+  "tris": 1126,
+  "shadow_tris": 12,
+  "size": [
+   8.0,
+   6.11,
+   6.52
+  ],
+  "materials": [
+   "M_Lamp",
+   "bark",
+   "cloth_cream",
+   "iron",
+   "moss",
+   "planks",
+   "timber"
+  ],
+  "lamps": [
+   [
+    3.2,
+    3.58,
+    0.5
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "sluice_gate": {
+  "cat": "structure",
+  "tris": 316,
+  "shadow_tris": 12,
+  "size": [
+   5.8,
+   6.02,
+   5.73
+  ],
+  "materials": [
+   "ashlar",
+   "flagstone",
+   "iron",
+   "moss",
+   "planks",
+   "timber",
+   "water"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "riverbank": {
+  "cat": "structure",
+  "tris": 1196,
+  "shadow_tris": 0,
+  "size": [
+   8.0,
+   5.0,
+   2.1
+  ],
+  "materials": [
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "dirt",
+   "fieldstone",
+   "moss",
+   "thatch",
+   "water"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "stone_stairs": {
+  "cat": "structure",
+  "tris": 572,
+  "shadow_tris": 12,
+  "size": [
+   4.31,
+   4.52,
+   5.83
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "flagstone",
+   "iron",
+   "moss"
+  ],
+  "lamps": [
+   [
+    1.75,
+    5.6,
+    -4.12
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "archway": {
+  "cat": "structure",
+  "tris": 1440,
+  "shadow_tris": 12,
+  "size": [
+   8.3,
+   2.37,
+   7.9
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "cloth_blue",
+   "iron",
+   "limestone",
+   "moss",
+   "planks"
+  ],
+  "lamps": [
+   [
+    -3.0,
+    2.88,
+    1.3
+   ],
+   [
+    3.0,
+    2.88,
+    1.3
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "stall_c": {
+  "cat": "prop",
+  "tris": 528,
+  "shadow_tris": 0,
+  "size": [
+   2.61,
+   1.93,
+   2.74
+  ],
+  "materials": [
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "moss",
+   "paint_green",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "large_stall": {
+  "cat": "prop",
+  "tris": 2148,
+  "shadow_tris": 0,
+  "size": [
+   4.79,
+   2.96,
+   3.51
+  ],
+  "materials": [
+   "M_Lamp",
+   "clay_tile",
+   "cloth_cream",
+   "crops",
+   "iron",
+   "moss",
+   "planks",
+   "shingle",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    0.0,
+    1.92,
+    0.9
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "crate_pile": {
+  "cat": "prop",
+  "tris": 372,
+  "shadow_tris": 0,
+  "size": [
+   2.24,
+   0.83,
+   2.02
+  ],
+  "materials": [
+   "moss",
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "barrel_stack": {
+  "cat": "prop",
+  "tris": 888,
+  "shadow_tris": 0,
+  "size": [
+   2.2,
+   1.1,
+   1.8
+  ],
+  "materials": [
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "fountain_small": {
+  "cat": "prop",
+  "tris": 944,
+  "shadow_tris": 0,
+  "size": [
+   3.08,
+   3.07,
+   2.7
+  ],
+  "materials": [
+   "ashlar",
+   "limestone",
+   "moss",
+   "water"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "tree_planter": {
+  "cat": "prop",
+  "tris": 1392,
+  "shadow_tris": 0,
+  "size": [
+   2.16,
+   2.01,
+   3.22
+  ],
+  "materials": [
+   "ashlar",
+   "bark",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "dirt",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "laundry_line": {
+  "cat": "prop",
+  "tris": 108,
+  "shadow_tris": 0,
+  "size": [
+   4.5,
+   0.1,
+   2.3
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "forge": {
+  "cat": "prop",
+  "tris": 234,
+  "shadow_tris": 0,
+  "size": [
+   2.88,
+   2.8,
+   4.2
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "bark",
+   "brick",
+   "cloth_red",
+   "fieldstone",
+   "iron",
+   "planks",
+   "timber"
+  ],
+  "lamps": [
+   [
+    0.02,
+    0.94,
+    -0.1
+   ],
+   [
+    -0.5,
+    0.94,
+    -0.1
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "statue_saint": {
+  "cat": "prop",
+  "tris": 432,
+  "shadow_tris": 0,
+  "size": [
+   1.8,
+   1.86,
+   3.6
+  ],
+  "materials": [
+   "ashlar",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "flagstone",
+   "moss",
+   "planks",
+   "plaster"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "monument": {
+  "cat": "prop",
+  "tris": 258,
+  "shadow_tris": 0,
+  "size": [
+   2.4,
+   2.94,
+   5.7
+  ],
+  "materials": [
+   "ashlar",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "cloth_red",
+   "crops",
+   "limestone",
+   "moss",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "table_set": {
+  "cat": "prop",
+  "tris": 144,
+  "shadow_tris": 0,
+  "size": [
+   1.5,
+   1.52,
+   0.93
+  ],
+  "materials": [
+   "clay_tile",
+   "crops",
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "training_dummy": {
+  "cat": "prop",
+  "tris": 140,
+  "shadow_tris": 0,
+  "size": [
+   1.36,
+   0.63,
+   2.07
+  ],
+  "materials": [
+   "cloth_cream",
+   "cloth_red",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "drying_rack": {
+  "cat": "prop",
+  "tris": 180,
+  "shadow_tris": 0,
+  "size": [
+   2.6,
+   0.88,
+   1.92
+  ],
+  "materials": [
+   "cloth_cream",
+   "crops",
+   "moss",
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "bunting_pennant": {
+  "cat": "prop",
+  "tris": 232,
+  "shadow_tris": 0,
+  "size": [
+   6.1,
+   0.12,
+   4.6
+  ],
+  "materials": [
+   "cloth_blue",
+   "cloth_cream",
+   "crops",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "pergola": {
+  "cat": "prop",
+  "tris": 1188,
+  "shadow_tris": 0,
+  "size": [
+   4.28,
+   3.06,
+   3.09
+  ],
+  "materials": [
+   "cloth_cream",
+   "cloth_red",
+   "moss",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "mooring_post": {
+  "cat": "prop",
+  "tris": 284,
+  "shadow_tris": 0,
+  "size": [
+   1.66,
+   0.87,
+   1.28
+  ],
+  "materials": [
+   "bark",
+   "iron",
+   "thatch"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "fishing_nets": {
+  "cat": "prop",
+  "tris": 180,
+  "shadow_tris": 0,
+  "size": [
+   3.4,
+   0.94,
+   2.2
+  ],
+  "materials": [
+   "bark",
+   "cloth_cream",
+   "cloth_red",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "harbour_hut": {
+  "cat": "prop",
+  "tris": 4866,
+  "shadow_tris": 20,
+  "size": [
+   5.09,
+   5.05,
+   5.07
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "ashlar",
+   "bark",
+   "clay_tile",
+   "cloth_blue",
+   "cloth_cream",
+   "crops",
+   "fieldstone",
+   "glass",
+   "iron",
+   "moss",
+   "paint_green",
+   "paint_teal",
+   "planks",
+   "shingle",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -0.2,
+    1.98,
+    2.2
+   ]
+  ],
+  "smoke": [],
+  "front": [
+   [
+    0,
+    0.5,
+    1.7,
+    -2.0,
+    2.0
+   ]
+  ]
+ },
+ "shed": {
+  "cat": "prop",
+  "tris": 208,
+  "shadow_tris": 0,
+  "size": [
+   3.4,
+   2.51,
+   2.81
+  ],
+  "materials": [
+   "cloth_cream",
+   "iron",
+   "planks",
+   "shingle",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "laundry_span": {
+  "cat": "prop",
+  "tris": 304,
+  "shadow_tris": 0,
+  "size": [
+   7.72,
+   0.14,
+   4.6
+  ],
+  "materials": [
+   "cloth_cream",
+   "cloth_red",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "ship_cargo": {
+  "cat": "ship",
+  "tris": 2292,
+  "shadow_tris": 12,
+  "size": [
+   17.75,
+   6.8,
+   13.51
+  ],
+  "materials": [
+   "M_Lamp",
+   "M_Window_Dim",
+   "cloth_cream",
+   "cloth_red",
+   "iron",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [
+   [
+    -7.1,
+    3.51,
+    -0.9
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "sailboat": {
+  "cat": "ship",
+  "tris": 564,
+  "shadow_tris": 0,
+  "size": [
+   6.09,
+   2.12,
+   6.42
+  ],
+  "materials": [
+   "cloth_cream",
+   "cloth_red",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "dock_barge": {
+  "cat": "ship",
+  "tris": 1104,
+  "shadow_tris": 0,
+  "size": [
+   11.9,
+   3.94,
+   1.7
+  ],
+  "materials": [
+   "cloth_cream",
+   "iron",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "fence": {
+  "cat": "reused",
+  "tris": 84,
+  "shadow_tris": 0,
+  "size": [
+   2.36,
+   0.42,
+   1.36
+  ],
+  "materials": [
+   "moss",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "signpost": {
+  "cat": "reused",
+  "tris": 60,
+  "shadow_tris": 0,
+  "size": [
+   1.44,
+   0.25,
+   2.2
+  ],
+  "materials": [
+   "moss",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "bench": {
+  "cat": "reused",
+  "tris": 108,
+  "shadow_tris": 0,
+  "size": [
+   1.6,
+   0.53,
+   0.88
+  ],
+  "materials": [
+   "moss",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "cart": {
+  "cat": "reused",
+  "tris": 400,
+  "shadow_tris": 0,
+  "size": [
+   2.78,
+   1.34,
+   1.64
+  ],
+  "materials": [
+   "cloth_cream",
+   "iron",
+   "moss",
+   "planks",
+   "thatch",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "broken_cart": {
+  "cat": "reused",
+  "tris": 260,
+  "shadow_tris": 0,
+  "size": [
+   2.81,
+   1.74,
+   1.49
+  ],
+  "materials": [
+   "cloth_cream",
+   "crops",
+   "iron",
+   "moss",
+   "planks"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "barrels": {
+  "cat": "reused",
+  "tris": 388,
+  "shadow_tris": 0,
+  "size": [
+   1.36,
+   0.66,
+   0.96
+  ],
+  "materials": [
+   "iron",
+   "moss",
+   "planks",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "log_pile": {
+  "cat": "reused",
+  "tris": 440,
+  "shadow_tris": 0,
+  "size": [
+   1.68,
+   1.4,
+   1.15
+  ],
+  "materials": [
+   "bark",
+   "moss",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "stump": {
+  "cat": "reused",
+  "tris": 136,
+  "shadow_tris": 0,
+  "size": [
+   1.14,
+   1.2,
+   0.95
+  ],
+  "materials": [
+   "bark",
+   "cloth_blue",
+   "moss",
+   "timber"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "stone_wall": {
+  "cat": "reused",
+  "tris": 300,
+  "shadow_tris": 0,
+  "size": [
+   2.63,
+   0.61,
+   1.01
+  ],
+  "materials": [
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "lantern_post": {
+  "cat": "reused",
+  "tris": 144,
+  "shadow_tris": 0,
+  "size": [
+   0.44,
+   1.1,
+   3.1
+  ],
+  "materials": [
+   "M_Lamp",
+   "iron",
+   "moss",
+   "planks"
+  ],
+  "lamps": [
+   [
+    0.0,
+    2.45,
+    0.78
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ },
+ "ruin_arch": {
+  "cat": "reused",
+  "tris": 648,
+  "shadow_tris": 0,
+  "size": [
+   4.48,
+   1.93,
+   5.34
+  ],
+  "materials": [
+   "crops",
+   "fieldstone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "ruin_pillar": {
+  "cat": "reused",
+  "tris": 292,
+  "shadow_tris": 0,
+  "size": [
+   3.04,
+   1.66,
+   2.68
+  ],
+  "materials": [
+   "fieldstone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "ruin_wall": {
+  "cat": "reused",
+  "tris": 840,
+  "shadow_tris": 0,
+  "size": [
+   4.97,
+   0.94,
+   3.83
+  ],
+  "materials": [
+   "cloth_red",
+   "crops",
+   "fieldstone",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "pots": {
+  "cat": "reused",
+  "tris": 600,
+  "shadow_tris": 0,
+  "size": [
+   1.58,
+   1.3,
+   0.84
+  ],
+  "materials": [
+   "clay_tile"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "urn": {
+  "cat": "reused",
+  "tris": 300,
+  "shadow_tris": 0,
+  "size": [
+   0.7,
+   0.7,
+   1.6
+  ],
+  "materials": [
+   "ashlar",
+   "clay_tile",
+   "cloth_cream",
+   "moss"
+  ],
+  "lamps": [],
+  "smoke": [],
+  "front": []
+ },
+ "brazier": {
+  "cat": "reused",
+  "tris": 238,
+  "shadow_tris": 0,
+  "size": [
+   1.1,
+   1.1,
+   1.8
+  ],
+  "materials": [
+   "M_Lamp",
+   "ashlar",
+   "iron"
+  ],
+  "lamps": [
+   [
+    -0.03,
+    1.25,
+    0.01
+   ]
+  ],
+  "smoke": [],
+  "front": []
+ }
+}

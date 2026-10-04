@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_qadl1"]
+
+[node name="crop_field" type="Node3D" unique_id=880872500]
+script = ExtResource("1_qadl1")
+Kit = "citykit"
+Kind = "crop_field"

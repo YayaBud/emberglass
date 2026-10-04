@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_tvfsk"]
+
+[node name="Minecart" type="Node3D" unique_id=331609096]
+script = ExtResource("1_tvfsk")
+Kit = "worldkit"
+Kind = "Minecart"

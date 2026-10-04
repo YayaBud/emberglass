@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_afwm2"]
+
+[node name="pergola" type="Node3D" unique_id=583581415]
+script = ExtResource("1_afwm2")
+Kit = "citykit"
+Kind = "pergola"

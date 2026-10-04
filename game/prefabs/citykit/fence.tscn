@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_0rvgn"]
+
+[node name="fence" type="Node3D" unique_id=942704436]
+script = ExtResource("1_0rvgn")
+Kit = "citykit"
+Kind = "fence"

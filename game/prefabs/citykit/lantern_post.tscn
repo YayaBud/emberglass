@@ -1,0 +1,8 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/Piece.cs" id="1_oktg3"]
+
+[node name="lantern_post" type="Node3D" unique_id=799232697]
+script = ExtResource("1_oktg3")
+Kit = "citykit"
+Kind = "lantern_post"
